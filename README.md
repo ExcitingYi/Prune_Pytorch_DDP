@@ -105,7 +105,7 @@ For PatDNN, it is combined by connectivity pruning and pattern pruning.
 ![patDNN](./imgs/patdnn.png#pic_center)
 
 
-Note1. The code cannot achieve sota performance. This is because our pruning method simply uses the absolute values of weights as the criterion for pruning, witch is also called magnitude pruning. If you want to get higher prune ratio and performance, it is recommended to refer to the following [ADMM-NN](https://dl.acm.org/doi/abs/10.1145/3297858.3304076), [Movement Pruning](https://proceedings.neurips.cc/paper/2020/hash/eae15aabaa768ae4a5993a8a4f4fa6e4-Abstract.html), and other related works. 
+Note1. The code cannot achieve sota performance. This is because our pruning method simply uses the absolute values of weights as the criterion for pruning, witch is also called magnitude pruning. If you want to get higher prune ratio and performance, it is recommended to refer to [ADMM-NN](https://dl.acm.org/doi/abs/10.1145/3297858.3304076), [Movement Pruning](https://proceedings.neurips.cc/paper/2020/hash/eae15aabaa768ae4a5993a8a4f4fa6e4-Abstract.html), and other related works. 
 
 Note2. The pruned model in this repo cannot be accelerated by GPU directly. If you want to accelerate the inference in Pytorch, you could use the stripe prune and filter prune and refer to this [repo](https://github.com/fxmeng/Pruning-Filter-in-Filter), which is also the source code of stripe pruning. Besides, set the prune ratio to "m4n2" in mn prune, the pruned model could be accelerated with Ampere arch GPUs (RTX30, A100...) using TensorRT. The NVIDIA official tutorial is in [here](https://developer.nvidia.com/blog/accelerating-inference-with-sparsity-using-ampere-and-tensorrt/). 
 
