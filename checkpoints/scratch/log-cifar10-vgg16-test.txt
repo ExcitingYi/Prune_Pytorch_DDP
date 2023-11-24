@@ -1,0 +1,1259 @@
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: data_root: data
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: model: vgg16
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: dataset: cifar10
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: seed: None
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: batch_size: 4096
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: epochs: 200
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: lr: 0.8
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: lr_decay_milestones: 120,150,180
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: resume: 
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: wd: 5e-05
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: print_freq: 10
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: pretrained: False
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: log_tag: -test
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: ip: 127.0.0.29
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: port: 23456
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: local_rank: 0
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: nprocs: 4
+[11/23 20:22:41] R0-cifar10-vgg16-test INFO: logger: <Logger R0-cifar10-vgg16-test (DEBUG)>
+[11/23 20:23:00] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [1024/50000]	Loss: 2.3066	LR: 0.800000
+[11/23 20:23:01] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [41984/50000]	Loss: 2.3466	LR: 0.800000
+[11/23 20:23:11] R0-cifar10-vgg16-test INFO: [Eval] Epoch=1 Acc@1=10.0000 Acc@5=50.0000 Loss=1655.2326
+[11/23 20:23:23] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [1024/50000]	Loss: 2.3166	LR: 0.800000
+[11/23 20:23:25] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [41984/50000]	Loss: 2.2934	LR: 0.800000
+[11/23 20:23:34] R0-cifar10-vgg16-test INFO: [Eval] Epoch=2 Acc@1=10.5400 Acc@5=62.4800 Loss=10.5841
+[11/23 20:23:46] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [1024/50000]	Loss: 2.2777	LR: 0.800000
+[11/23 20:23:48] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [41984/50000]	Loss: 2.2768	LR: 0.800000
+[11/23 20:23:57] R0-cifar10-vgg16-test INFO: [Eval] Epoch=3 Acc@1=15.4500 Acc@5=66.4300 Loss=2.4662
+[11/23 20:24:09] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [1024/50000]	Loss: 2.2684	LR: 0.800000
+[11/23 20:24:11] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [41984/50000]	Loss: 2.2489	LR: 0.800000
+[11/23 20:24:20] R0-cifar10-vgg16-test INFO: [Eval] Epoch=4 Acc@1=18.3200 Acc@5=62.6200 Loss=2.2646
+[11/23 20:24:33] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [1024/50000]	Loss: 2.2405	LR: 0.800000
+[11/23 20:24:34] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [41984/50000]	Loss: 2.1634	LR: 0.800000
+[11/23 20:24:43] R0-cifar10-vgg16-test INFO: [Eval] Epoch=5 Acc@1=16.1300 Acc@5=66.4400 Loss=2.2007
+[11/23 20:24:55] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [1024/50000]	Loss: 2.1208	LR: 0.800000
+[11/23 20:24:57] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [41984/50000]	Loss: 2.0949	LR: 0.800000
+[11/23 20:25:06] R0-cifar10-vgg16-test INFO: [Eval] Epoch=6 Acc@1=19.2200 Acc@5=74.1700 Loss=2.0948
+[11/23 20:25:18] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [1024/50000]	Loss: 2.0885	LR: 0.800000
+[11/23 20:25:20] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [41984/50000]	Loss: 2.0441	LR: 0.800000
+[11/23 20:25:29] R0-cifar10-vgg16-test INFO: [Eval] Epoch=7 Acc@1=18.6700 Acc@5=75.8500 Loss=2.0881
+[11/23 20:25:41] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [1024/50000]	Loss: 2.0634	LR: 0.800000
+[11/23 20:25:42] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [41984/50000]	Loss: 1.9779	LR: 0.800000
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: data_root: data
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: model: vgg16
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: dataset: cifar10
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: seed: None
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: batch_size: 1024
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: epochs: 200
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: lr: 0.2
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: lr_decay_milestones: 120,150,180
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: resume: 
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: wd: 5e-05
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: print_freq: 10
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: pretrained: False
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: log_tag: -test
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: ip: 127.0.0.29
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: port: 23456
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: local_rank: 0
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: nprocs: 4
+[11/23 20:26:14] R0-cifar10-vgg16-test INFO: logger: <Logger R0-cifar10-vgg16-test (DEBUG)>
+[11/23 20:26:27] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [256/50000]	Loss: 2.3082	LR: 0.200000
+[11/23 20:26:28] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [10496/50000]	Loss: 2.0216	LR: 0.200000
+[11/23 20:26:29] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [20736/50000]	Loss: 1.7677	LR: 0.200000
+[11/23 20:26:29] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [30976/50000]	Loss: 1.5604	LR: 0.200000
+[11/23 20:26:30] R0-cifar10-vgg16-test INFO: Training Epoch: 1 [41216/50000]	Loss: 1.5130	LR: 0.200000
+[11/23 20:26:40] R0-cifar10-vgg16-test INFO: [Eval] Epoch=1 Acc@1=29.2900 Acc@5=84.9800 Loss=3.0998
+[11/23 20:26:51] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [256/50000]	Loss: 1.3883	LR: 0.200000
+[11/23 20:26:52] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [10496/50000]	Loss: 1.2853	LR: 0.200000
+[11/23 20:26:52] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [20736/50000]	Loss: 1.1710	LR: 0.200000
+[11/23 20:26:53] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [30976/50000]	Loss: 1.1363	LR: 0.200000
+[11/23 20:26:53] R0-cifar10-vgg16-test INFO: Training Epoch: 2 [41216/50000]	Loss: 1.0611	LR: 0.200000
+[11/23 20:27:03] R0-cifar10-vgg16-test INFO: [Eval] Epoch=2 Acc@1=56.3000 Acc@5=95.8200 Loss=1.3538
+[11/23 20:27:14] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [256/50000]	Loss: 1.0106	LR: 0.200000
+[11/23 20:27:15] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [10496/50000]	Loss: 0.9444	LR: 0.200000
+[11/23 20:27:16] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [20736/50000]	Loss: 0.9626	LR: 0.200000
+[11/23 20:27:16] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [30976/50000]	Loss: 0.8673	LR: 0.200000
+[11/23 20:27:17] R0-cifar10-vgg16-test INFO: Training Epoch: 3 [41216/50000]	Loss: 0.7549	LR: 0.200000
+[11/23 20:27:26] R0-cifar10-vgg16-test INFO: [Eval] Epoch=3 Acc@1=68.8600 Acc@5=97.1700 Loss=0.9397
+[11/23 20:27:38] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [256/50000]	Loss: 0.7969	LR: 0.200000
+[11/23 20:27:39] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [10496/50000]	Loss: 0.7303	LR: 0.200000
+[11/23 20:27:39] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [20736/50000]	Loss: 0.7004	LR: 0.200000
+[11/23 20:27:40] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [30976/50000]	Loss: 0.6861	LR: 0.200000
+[11/23 20:27:40] R0-cifar10-vgg16-test INFO: Training Epoch: 4 [41216/50000]	Loss: 0.6990	LR: 0.200000
+[11/23 20:27:50] R0-cifar10-vgg16-test INFO: [Eval] Epoch=4 Acc@1=62.2700 Acc@5=96.8600 Loss=1.1666
+[11/23 20:28:02] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [256/50000]	Loss: 0.6156	LR: 0.200000
+[11/23 20:28:02] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [10496/50000]	Loss: 0.5752	LR: 0.200000
+[11/23 20:28:03] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [20736/50000]	Loss: 0.5857	LR: 0.200000
+[11/23 20:28:03] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [30976/50000]	Loss: 0.6271	LR: 0.200000
+[11/23 20:28:04] R0-cifar10-vgg16-test INFO: Training Epoch: 5 [41216/50000]	Loss: 0.5959	LR: 0.200000
+[11/23 20:28:14] R0-cifar10-vgg16-test INFO: [Eval] Epoch=5 Acc@1=75.1500 Acc@5=98.4100 Loss=0.7379
+[11/23 20:28:25] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [256/50000]	Loss: 0.5727	LR: 0.200000
+[11/23 20:28:26] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [10496/50000]	Loss: 0.6108	LR: 0.200000
+[11/23 20:28:26] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [20736/50000]	Loss: 0.5075	LR: 0.200000
+[11/23 20:28:27] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [30976/50000]	Loss: 0.5193	LR: 0.200000
+[11/23 20:28:27] R0-cifar10-vgg16-test INFO: Training Epoch: 6 [41216/50000]	Loss: 0.5062	LR: 0.200000
+[11/23 20:28:37] R0-cifar10-vgg16-test INFO: [Eval] Epoch=6 Acc@1=79.3000 Acc@5=99.0700 Loss=0.6072
+[11/23 20:28:48] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [256/50000]	Loss: 0.4660	LR: 0.200000
+[11/23 20:28:49] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [10496/50000]	Loss: 0.4547	LR: 0.200000
+[11/23 20:28:49] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [20736/50000]	Loss: 0.4489	LR: 0.200000
+[11/23 20:28:50] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [30976/50000]	Loss: 0.4632	LR: 0.200000
+[11/23 20:28:51] R0-cifar10-vgg16-test INFO: Training Epoch: 7 [41216/50000]	Loss: 0.4847	LR: 0.200000
+[11/23 20:29:00] R0-cifar10-vgg16-test INFO: [Eval] Epoch=7 Acc@1=76.5900 Acc@5=98.9000 Loss=0.7319
+[11/23 20:29:11] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [256/50000]	Loss: 0.4944	LR: 0.200000
+[11/23 20:29:12] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [10496/50000]	Loss: 0.4312	LR: 0.200000
+[11/23 20:29:12] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [20736/50000]	Loss: 0.4452	LR: 0.200000
+[11/23 20:29:13] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [30976/50000]	Loss: 0.4128	LR: 0.200000
+[11/23 20:29:14] R0-cifar10-vgg16-test INFO: Training Epoch: 8 [41216/50000]	Loss: 0.4549	LR: 0.200000
+[11/23 20:29:23] R0-cifar10-vgg16-test INFO: [Eval] Epoch=8 Acc@1=79.3300 Acc@5=98.8900 Loss=0.6327
+[11/23 20:29:35] R0-cifar10-vgg16-test INFO: Training Epoch: 9 [256/50000]	Loss: 0.4047	LR: 0.200000
+[11/23 20:29:35] R0-cifar10-vgg16-test INFO: Training Epoch: 9 [10496/50000]	Loss: 0.3970	LR: 0.200000
+[11/23 20:29:36] R0-cifar10-vgg16-test INFO: Training Epoch: 9 [20736/50000]	Loss: 0.4455	LR: 0.200000
+[11/23 20:29:36] R0-cifar10-vgg16-test INFO: Training Epoch: 9 [30976/50000]	Loss: 0.3992	LR: 0.200000
+[11/23 20:29:37] R0-cifar10-vgg16-test INFO: Training Epoch: 9 [41216/50000]	Loss: 0.3900	LR: 0.200000
+[11/23 20:29:46] R0-cifar10-vgg16-test INFO: [Eval] Epoch=9 Acc@1=79.3500 Acc@5=98.2100 Loss=0.6625
+[11/23 20:29:58] R0-cifar10-vgg16-test INFO: Training Epoch: 10 [256/50000]	Loss: 0.3326	LR: 0.200000
+[11/23 20:29:59] R0-cifar10-vgg16-test INFO: Training Epoch: 10 [10496/50000]	Loss: 0.3424	LR: 0.200000
+[11/23 20:29:59] R0-cifar10-vgg16-test INFO: Training Epoch: 10 [20736/50000]	Loss: 0.4414	LR: 0.200000
+[11/23 20:30:00] R0-cifar10-vgg16-test INFO: Training Epoch: 10 [30976/50000]	Loss: 0.3580	LR: 0.200000
+[11/23 20:30:00] R0-cifar10-vgg16-test INFO: Training Epoch: 10 [41216/50000]	Loss: 0.3694	LR: 0.200000
+[11/23 20:30:10] R0-cifar10-vgg16-test INFO: [Eval] Epoch=10 Acc@1=82.2400 Acc@5=99.1200 Loss=0.5369
+[11/23 20:30:21] R0-cifar10-vgg16-test INFO: Training Epoch: 11 [256/50000]	Loss: 0.3070	LR: 0.200000
+[11/23 20:30:22] R0-cifar10-vgg16-test INFO: Training Epoch: 11 [10496/50000]	Loss: 0.3282	LR: 0.200000
+[11/23 20:30:22] R0-cifar10-vgg16-test INFO: Training Epoch: 11 [20736/50000]	Loss: 0.3055	LR: 0.200000
+[11/23 20:30:23] R0-cifar10-vgg16-test INFO: Training Epoch: 11 [30976/50000]	Loss: 0.3417	LR: 0.200000
+[11/23 20:30:24] R0-cifar10-vgg16-test INFO: Training Epoch: 11 [41216/50000]	Loss: 0.3382	LR: 0.200000
+[11/23 20:30:33] R0-cifar10-vgg16-test INFO: [Eval] Epoch=11 Acc@1=81.8600 Acc@5=99.1900 Loss=0.5476
+[11/23 20:30:45] R0-cifar10-vgg16-test INFO: Training Epoch: 12 [256/50000]	Loss: 0.3013	LR: 0.200000
+[11/23 20:30:45] R0-cifar10-vgg16-test INFO: Training Epoch: 12 [10496/50000]	Loss: 0.2756	LR: 0.200000
+[11/23 20:30:46] R0-cifar10-vgg16-test INFO: Training Epoch: 12 [20736/50000]	Loss: 0.3069	LR: 0.200000
+[11/23 20:30:46] R0-cifar10-vgg16-test INFO: Training Epoch: 12 [30976/50000]	Loss: 0.2993	LR: 0.200000
+[11/23 20:30:47] R0-cifar10-vgg16-test INFO: Training Epoch: 12 [41216/50000]	Loss: 0.3390	LR: 0.200000
+[11/23 20:30:56] R0-cifar10-vgg16-test INFO: [Eval] Epoch=12 Acc@1=83.4000 Acc@5=99.2900 Loss=0.5256
+[11/23 20:31:08] R0-cifar10-vgg16-test INFO: Training Epoch: 13 [256/50000]	Loss: 0.2578	LR: 0.200000
+[11/23 20:31:08] R0-cifar10-vgg16-test INFO: Training Epoch: 13 [10496/50000]	Loss: 0.3016	LR: 0.200000
+[11/23 20:31:09] R0-cifar10-vgg16-test INFO: Training Epoch: 13 [20736/50000]	Loss: 0.3358	LR: 0.200000
+[11/23 20:31:09] R0-cifar10-vgg16-test INFO: Training Epoch: 13 [30976/50000]	Loss: 0.2876	LR: 0.200000
+[11/23 20:31:10] R0-cifar10-vgg16-test INFO: Training Epoch: 13 [41216/50000]	Loss: 0.3322	LR: 0.200000
+[11/23 20:31:20] R0-cifar10-vgg16-test INFO: [Eval] Epoch=13 Acc@1=82.1600 Acc@5=99.0200 Loss=0.5981
+[11/23 20:31:31] R0-cifar10-vgg16-test INFO: Training Epoch: 14 [256/50000]	Loss: 0.2675	LR: 0.200000
+[11/23 20:31:31] R0-cifar10-vgg16-test INFO: Training Epoch: 14 [10496/50000]	Loss: 0.2851	LR: 0.200000
+[11/23 20:31:32] R0-cifar10-vgg16-test INFO: Training Epoch: 14 [20736/50000]	Loss: 0.2646	LR: 0.200000
+[11/23 20:31:33] R0-cifar10-vgg16-test INFO: Training Epoch: 14 [30976/50000]	Loss: 0.2941	LR: 0.200000
+[11/23 20:31:33] R0-cifar10-vgg16-test INFO: Training Epoch: 14 [41216/50000]	Loss: 0.2560	LR: 0.200000
+[11/23 20:31:42] R0-cifar10-vgg16-test INFO: [Eval] Epoch=14 Acc@1=79.0300 Acc@5=98.6400 Loss=0.7220
+[11/23 20:31:54] R0-cifar10-vgg16-test INFO: Training Epoch: 15 [256/50000]	Loss: 0.2532	LR: 0.200000
+[11/23 20:31:54] R0-cifar10-vgg16-test INFO: Training Epoch: 15 [10496/50000]	Loss: 0.2850	LR: 0.200000
+[11/23 20:31:55] R0-cifar10-vgg16-test INFO: Training Epoch: 15 [20736/50000]	Loss: 0.2734	LR: 0.200000
+[11/23 20:31:55] R0-cifar10-vgg16-test INFO: Training Epoch: 15 [30976/50000]	Loss: 0.2631	LR: 0.200000
+[11/23 20:31:56] R0-cifar10-vgg16-test INFO: Training Epoch: 15 [41216/50000]	Loss: 0.2362	LR: 0.200000
+[11/23 20:32:05] R0-cifar10-vgg16-test INFO: [Eval] Epoch=15 Acc@1=84.1500 Acc@5=99.1400 Loss=0.4985
+[11/23 20:32:17] R0-cifar10-vgg16-test INFO: Training Epoch: 16 [256/50000]	Loss: 0.2691	LR: 0.200000
+[11/23 20:32:18] R0-cifar10-vgg16-test INFO: Training Epoch: 16 [10496/50000]	Loss: 0.2281	LR: 0.200000
+[11/23 20:32:18] R0-cifar10-vgg16-test INFO: Training Epoch: 16 [20736/50000]	Loss: 0.2704	LR: 0.200000
+[11/23 20:32:19] R0-cifar10-vgg16-test INFO: Training Epoch: 16 [30976/50000]	Loss: 0.2390	LR: 0.200000
+[11/23 20:32:19] R0-cifar10-vgg16-test INFO: Training Epoch: 16 [41216/50000]	Loss: 0.2834	LR: 0.200000
+[11/23 20:32:29] R0-cifar10-vgg16-test INFO: [Eval] Epoch=16 Acc@1=85.4000 Acc@5=99.4100 Loss=0.4682
+[11/23 20:32:40] R0-cifar10-vgg16-test INFO: Training Epoch: 17 [256/50000]	Loss: 0.2002	LR: 0.200000
+[11/23 20:32:41] R0-cifar10-vgg16-test INFO: Training Epoch: 17 [10496/50000]	Loss: 0.2328	LR: 0.200000
+[11/23 20:32:42] R0-cifar10-vgg16-test INFO: Training Epoch: 17 [20736/50000]	Loss: 0.2178	LR: 0.200000
+[11/23 20:32:42] R0-cifar10-vgg16-test INFO: Training Epoch: 17 [30976/50000]	Loss: 0.2161	LR: 0.200000
+[11/23 20:32:43] R0-cifar10-vgg16-test INFO: Training Epoch: 17 [41216/50000]	Loss: 0.2323	LR: 0.200000
+[11/23 20:32:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=17 Acc@1=84.8100 Acc@5=99.4000 Loss=0.4793
+[11/23 20:33:04] R0-cifar10-vgg16-test INFO: Training Epoch: 18 [256/50000]	Loss: 0.2216	LR: 0.200000
+[11/23 20:33:04] R0-cifar10-vgg16-test INFO: Training Epoch: 18 [10496/50000]	Loss: 0.2254	LR: 0.200000
+[11/23 20:33:05] R0-cifar10-vgg16-test INFO: Training Epoch: 18 [20736/50000]	Loss: 0.2594	LR: 0.200000
+[11/23 20:33:05] R0-cifar10-vgg16-test INFO: Training Epoch: 18 [30976/50000]	Loss: 0.2186	LR: 0.200000
+[11/23 20:33:06] R0-cifar10-vgg16-test INFO: Training Epoch: 18 [41216/50000]	Loss: 0.1771	LR: 0.200000
+[11/23 20:33:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=18 Acc@1=86.1700 Acc@5=99.3100 Loss=0.4399
+[11/23 20:33:27] R0-cifar10-vgg16-test INFO: Training Epoch: 19 [256/50000]	Loss: 0.1484	LR: 0.200000
+[11/23 20:33:27] R0-cifar10-vgg16-test INFO: Training Epoch: 19 [10496/50000]	Loss: 0.2138	LR: 0.200000
+[11/23 20:33:28] R0-cifar10-vgg16-test INFO: Training Epoch: 19 [20736/50000]	Loss: 0.1930	LR: 0.200000
+[11/23 20:33:29] R0-cifar10-vgg16-test INFO: Training Epoch: 19 [30976/50000]	Loss: 0.1957	LR: 0.200000
+[11/23 20:33:29] R0-cifar10-vgg16-test INFO: Training Epoch: 19 [41216/50000]	Loss: 0.2219	LR: 0.200000
+[11/23 20:33:39] R0-cifar10-vgg16-test INFO: [Eval] Epoch=19 Acc@1=85.4700 Acc@5=99.3400 Loss=0.4686
+[11/23 20:33:50] R0-cifar10-vgg16-test INFO: Training Epoch: 20 [256/50000]	Loss: 0.1800	LR: 0.200000
+[11/23 20:33:51] R0-cifar10-vgg16-test INFO: Training Epoch: 20 [10496/50000]	Loss: 0.1581	LR: 0.200000
+[11/23 20:33:51] R0-cifar10-vgg16-test INFO: Training Epoch: 20 [20736/50000]	Loss: 0.1925	LR: 0.200000
+[11/23 20:33:52] R0-cifar10-vgg16-test INFO: Training Epoch: 20 [30976/50000]	Loss: 0.2234	LR: 0.200000
+[11/23 20:33:52] R0-cifar10-vgg16-test INFO: Training Epoch: 20 [41216/50000]	Loss: 0.1796	LR: 0.200000
+[11/23 20:34:02] R0-cifar10-vgg16-test INFO: [Eval] Epoch=20 Acc@1=85.9000 Acc@5=99.4300 Loss=0.4868
+[11/23 20:34:13] R0-cifar10-vgg16-test INFO: Training Epoch: 21 [256/50000]	Loss: 0.1842	LR: 0.200000
+[11/23 20:34:14] R0-cifar10-vgg16-test INFO: Training Epoch: 21 [10496/50000]	Loss: 0.1834	LR: 0.200000
+[11/23 20:34:14] R0-cifar10-vgg16-test INFO: Training Epoch: 21 [20736/50000]	Loss: 0.1660	LR: 0.200000
+[11/23 20:34:15] R0-cifar10-vgg16-test INFO: Training Epoch: 21 [30976/50000]	Loss: 0.2226	LR: 0.200000
+[11/23 20:34:15] R0-cifar10-vgg16-test INFO: Training Epoch: 21 [41216/50000]	Loss: 0.1995	LR: 0.200000
+[11/23 20:34:25] R0-cifar10-vgg16-test INFO: [Eval] Epoch=21 Acc@1=86.7200 Acc@5=99.5300 Loss=0.4516
+[11/23 20:34:37] R0-cifar10-vgg16-test INFO: Training Epoch: 22 [256/50000]	Loss: 0.1607	LR: 0.200000
+[11/23 20:34:37] R0-cifar10-vgg16-test INFO: Training Epoch: 22 [10496/50000]	Loss: 0.1367	LR: 0.200000
+[11/23 20:34:38] R0-cifar10-vgg16-test INFO: Training Epoch: 22 [20736/50000]	Loss: 0.1872	LR: 0.200000
+[11/23 20:34:39] R0-cifar10-vgg16-test INFO: Training Epoch: 22 [30976/50000]	Loss: 0.1640	LR: 0.200000
+[11/23 20:34:39] R0-cifar10-vgg16-test INFO: Training Epoch: 22 [41216/50000]	Loss: 0.1849	LR: 0.200000
+[11/23 20:34:49] R0-cifar10-vgg16-test INFO: [Eval] Epoch=22 Acc@1=85.6600 Acc@5=99.3700 Loss=0.5003
+[11/23 20:35:00] R0-cifar10-vgg16-test INFO: Training Epoch: 23 [256/50000]	Loss: 0.1682	LR: 0.200000
+[11/23 20:35:00] R0-cifar10-vgg16-test INFO: Training Epoch: 23 [10496/50000]	Loss: 0.2081	LR: 0.200000
+[11/23 20:35:01] R0-cifar10-vgg16-test INFO: Training Epoch: 23 [20736/50000]	Loss: 0.1325	LR: 0.200000
+[11/23 20:35:01] R0-cifar10-vgg16-test INFO: Training Epoch: 23 [30976/50000]	Loss: 0.1456	LR: 0.200000
+[11/23 20:35:02] R0-cifar10-vgg16-test INFO: Training Epoch: 23 [41216/50000]	Loss: 0.1524	LR: 0.200000
+[11/23 20:35:11] R0-cifar10-vgg16-test INFO: [Eval] Epoch=23 Acc@1=86.3000 Acc@5=99.5400 Loss=0.4536
+[11/23 20:35:23] R0-cifar10-vgg16-test INFO: Training Epoch: 24 [256/50000]	Loss: 0.1202	LR: 0.200000
+[11/23 20:35:23] R0-cifar10-vgg16-test INFO: Training Epoch: 24 [10496/50000]	Loss: 0.1290	LR: 0.200000
+[11/23 20:35:24] R0-cifar10-vgg16-test INFO: Training Epoch: 24 [20736/50000]	Loss: 0.1290	LR: 0.200000
+[11/23 20:35:24] R0-cifar10-vgg16-test INFO: Training Epoch: 24 [30976/50000]	Loss: 0.1451	LR: 0.200000
+[11/23 20:35:25] R0-cifar10-vgg16-test INFO: Training Epoch: 24 [41216/50000]	Loss: 0.1413	LR: 0.200000
+[11/23 20:35:35] R0-cifar10-vgg16-test INFO: [Eval] Epoch=24 Acc@1=87.1600 Acc@5=99.4500 Loss=0.4545
+[11/23 20:35:47] R0-cifar10-vgg16-test INFO: Training Epoch: 25 [256/50000]	Loss: 0.1223	LR: 0.200000
+[11/23 20:35:47] R0-cifar10-vgg16-test INFO: Training Epoch: 25 [10496/50000]	Loss: 0.1103	LR: 0.200000
+[11/23 20:35:48] R0-cifar10-vgg16-test INFO: Training Epoch: 25 [20736/50000]	Loss: 0.1303	LR: 0.200000
+[11/23 20:35:48] R0-cifar10-vgg16-test INFO: Training Epoch: 25 [30976/50000]	Loss: 0.1360	LR: 0.200000
+[11/23 20:35:49] R0-cifar10-vgg16-test INFO: Training Epoch: 25 [41216/50000]	Loss: 0.1151	LR: 0.200000
+[11/23 20:35:58] R0-cifar10-vgg16-test INFO: [Eval] Epoch=25 Acc@1=87.5700 Acc@5=99.6200 Loss=0.4431
+[11/23 20:36:10] R0-cifar10-vgg16-test INFO: Training Epoch: 26 [256/50000]	Loss: 0.1123	LR: 0.200000
+[11/23 20:36:11] R0-cifar10-vgg16-test INFO: Training Epoch: 26 [10496/50000]	Loss: 0.1307	LR: 0.200000
+[11/23 20:36:11] R0-cifar10-vgg16-test INFO: Training Epoch: 26 [20736/50000]	Loss: 0.1287	LR: 0.200000
+[11/23 20:36:12] R0-cifar10-vgg16-test INFO: Training Epoch: 26 [30976/50000]	Loss: 0.1362	LR: 0.200000
+[11/23 20:36:12] R0-cifar10-vgg16-test INFO: Training Epoch: 26 [41216/50000]	Loss: 0.1528	LR: 0.200000
+[11/23 20:36:22] R0-cifar10-vgg16-test INFO: [Eval] Epoch=26 Acc@1=85.6300 Acc@5=99.3700 Loss=0.5335
+[11/23 20:36:33] R0-cifar10-vgg16-test INFO: Training Epoch: 27 [256/50000]	Loss: 0.1254	LR: 0.200000
+[11/23 20:36:34] R0-cifar10-vgg16-test INFO: Training Epoch: 27 [10496/50000]	Loss: 0.1059	LR: 0.200000
+[11/23 20:36:34] R0-cifar10-vgg16-test INFO: Training Epoch: 27 [20736/50000]	Loss: 0.1399	LR: 0.200000
+[11/23 20:36:35] R0-cifar10-vgg16-test INFO: Training Epoch: 27 [30976/50000]	Loss: 0.1399	LR: 0.200000
+[11/23 20:36:36] R0-cifar10-vgg16-test INFO: Training Epoch: 27 [41216/50000]	Loss: 0.1165	LR: 0.200000
+[11/23 20:36:45] R0-cifar10-vgg16-test INFO: [Eval] Epoch=27 Acc@1=86.0100 Acc@5=99.0400 Loss=0.5183
+[11/23 20:36:56] R0-cifar10-vgg16-test INFO: Training Epoch: 28 [256/50000]	Loss: 0.0928	LR: 0.200000
+[11/23 20:36:57] R0-cifar10-vgg16-test INFO: Training Epoch: 28 [10496/50000]	Loss: 0.1131	LR: 0.200000
+[11/23 20:36:58] R0-cifar10-vgg16-test INFO: Training Epoch: 28 [20736/50000]	Loss: 0.1299	LR: 0.200000
+[11/23 20:36:58] R0-cifar10-vgg16-test INFO: Training Epoch: 28 [30976/50000]	Loss: 0.0884	LR: 0.200000
+[11/23 20:36:59] R0-cifar10-vgg16-test INFO: Training Epoch: 28 [41216/50000]	Loss: 0.1266	LR: 0.200000
+[11/23 20:37:08] R0-cifar10-vgg16-test INFO: [Eval] Epoch=28 Acc@1=85.0300 Acc@5=99.1400 Loss=0.5900
+[11/23 20:37:19] R0-cifar10-vgg16-test INFO: Training Epoch: 29 [256/50000]	Loss: 0.1207	LR: 0.200000
+[11/23 20:37:20] R0-cifar10-vgg16-test INFO: Training Epoch: 29 [10496/50000]	Loss: 0.1071	LR: 0.200000
+[11/23 20:37:21] R0-cifar10-vgg16-test INFO: Training Epoch: 29 [20736/50000]	Loss: 0.1088	LR: 0.200000
+[11/23 20:37:21] R0-cifar10-vgg16-test INFO: Training Epoch: 29 [30976/50000]	Loss: 0.1435	LR: 0.200000
+[11/23 20:37:22] R0-cifar10-vgg16-test INFO: Training Epoch: 29 [41216/50000]	Loss: 0.0998	LR: 0.200000
+[11/23 20:37:31] R0-cifar10-vgg16-test INFO: [Eval] Epoch=29 Acc@1=87.6900 Acc@5=99.6100 Loss=0.4429
+[11/23 20:37:43] R0-cifar10-vgg16-test INFO: Training Epoch: 30 [256/50000]	Loss: 0.0952	LR: 0.200000
+[11/23 20:37:43] R0-cifar10-vgg16-test INFO: Training Epoch: 30 [10496/50000]	Loss: 0.1050	LR: 0.200000
+[11/23 20:37:44] R0-cifar10-vgg16-test INFO: Training Epoch: 30 [20736/50000]	Loss: 0.0890	LR: 0.200000
+[11/23 20:37:44] R0-cifar10-vgg16-test INFO: Training Epoch: 30 [30976/50000]	Loss: 0.0911	LR: 0.200000
+[11/23 20:37:45] R0-cifar10-vgg16-test INFO: Training Epoch: 30 [41216/50000]	Loss: 0.1287	LR: 0.200000
+[11/23 20:37:54] R0-cifar10-vgg16-test INFO: [Eval] Epoch=30 Acc@1=87.5200 Acc@5=99.6000 Loss=0.4597
+[11/23 20:38:06] R0-cifar10-vgg16-test INFO: Training Epoch: 31 [256/50000]	Loss: 0.1097	LR: 0.200000
+[11/23 20:38:06] R0-cifar10-vgg16-test INFO: Training Epoch: 31 [10496/50000]	Loss: 0.1027	LR: 0.200000
+[11/23 20:38:07] R0-cifar10-vgg16-test INFO: Training Epoch: 31 [20736/50000]	Loss: 0.0818	LR: 0.200000
+[11/23 20:38:07] R0-cifar10-vgg16-test INFO: Training Epoch: 31 [30976/50000]	Loss: 0.1225	LR: 0.200000
+[11/23 20:38:08] R0-cifar10-vgg16-test INFO: Training Epoch: 31 [41216/50000]	Loss: 0.1246	LR: 0.200000
+[11/23 20:38:17] R0-cifar10-vgg16-test INFO: [Eval] Epoch=31 Acc@1=86.3400 Acc@5=99.5400 Loss=0.5189
+[11/23 20:38:29] R0-cifar10-vgg16-test INFO: Training Epoch: 32 [256/50000]	Loss: 0.0599	LR: 0.200000
+[11/23 20:38:29] R0-cifar10-vgg16-test INFO: Training Epoch: 32 [10496/50000]	Loss: 0.1021	LR: 0.200000
+[11/23 20:38:30] R0-cifar10-vgg16-test INFO: Training Epoch: 32 [20736/50000]	Loss: 0.1065	LR: 0.200000
+[11/23 20:38:30] R0-cifar10-vgg16-test INFO: Training Epoch: 32 [30976/50000]	Loss: 0.0939	LR: 0.200000
+[11/23 20:38:31] R0-cifar10-vgg16-test INFO: Training Epoch: 32 [41216/50000]	Loss: 0.0992	LR: 0.200000
+[11/23 20:38:40] R0-cifar10-vgg16-test INFO: [Eval] Epoch=32 Acc@1=86.7500 Acc@5=99.4900 Loss=0.4834
+[11/23 20:38:52] R0-cifar10-vgg16-test INFO: Training Epoch: 33 [256/50000]	Loss: 0.0730	LR: 0.200000
+[11/23 20:38:52] R0-cifar10-vgg16-test INFO: Training Epoch: 33 [10496/50000]	Loss: 0.0771	LR: 0.200000
+[11/23 20:38:53] R0-cifar10-vgg16-test INFO: Training Epoch: 33 [20736/50000]	Loss: 0.0841	LR: 0.200000
+[11/23 20:38:53] R0-cifar10-vgg16-test INFO: Training Epoch: 33 [30976/50000]	Loss: 0.1152	LR: 0.200000
+[11/23 20:38:54] R0-cifar10-vgg16-test INFO: Training Epoch: 33 [41216/50000]	Loss: 0.0931	LR: 0.200000
+[11/23 20:39:03] R0-cifar10-vgg16-test INFO: [Eval] Epoch=33 Acc@1=86.9400 Acc@5=99.1800 Loss=0.5509
+[11/23 20:39:15] R0-cifar10-vgg16-test INFO: Training Epoch: 34 [256/50000]	Loss: 0.0696	LR: 0.200000
+[11/23 20:39:15] R0-cifar10-vgg16-test INFO: Training Epoch: 34 [10496/50000]	Loss: 0.0742	LR: 0.200000
+[11/23 20:39:16] R0-cifar10-vgg16-test INFO: Training Epoch: 34 [20736/50000]	Loss: 0.1069	LR: 0.200000
+[11/23 20:39:16] R0-cifar10-vgg16-test INFO: Training Epoch: 34 [30976/50000]	Loss: 0.0785	LR: 0.200000
+[11/23 20:39:17] R0-cifar10-vgg16-test INFO: Training Epoch: 34 [41216/50000]	Loss: 0.1056	LR: 0.200000
+[11/23 20:39:27] R0-cifar10-vgg16-test INFO: [Eval] Epoch=34 Acc@1=87.7500 Acc@5=99.5400 Loss=0.4788
+[11/23 20:39:38] R0-cifar10-vgg16-test INFO: Training Epoch: 35 [256/50000]	Loss: 0.0717	LR: 0.200000
+[11/23 20:39:39] R0-cifar10-vgg16-test INFO: Training Epoch: 35 [10496/50000]	Loss: 0.0933	LR: 0.200000
+[11/23 20:39:39] R0-cifar10-vgg16-test INFO: Training Epoch: 35 [20736/50000]	Loss: 0.0653	LR: 0.200000
+[11/23 20:39:40] R0-cifar10-vgg16-test INFO: Training Epoch: 35 [30976/50000]	Loss: 0.0913	LR: 0.200000
+[11/23 20:39:40] R0-cifar10-vgg16-test INFO: Training Epoch: 35 [41216/50000]	Loss: 0.0777	LR: 0.200000
+[11/23 20:39:50] R0-cifar10-vgg16-test INFO: [Eval] Epoch=35 Acc@1=87.8900 Acc@5=99.5200 Loss=0.4802
+[11/23 20:40:01] R0-cifar10-vgg16-test INFO: Training Epoch: 36 [256/50000]	Loss: 0.0766	LR: 0.200000
+[11/23 20:40:02] R0-cifar10-vgg16-test INFO: Training Epoch: 36 [10496/50000]	Loss: 0.0944	LR: 0.200000
+[11/23 20:40:03] R0-cifar10-vgg16-test INFO: Training Epoch: 36 [20736/50000]	Loss: 0.0903	LR: 0.200000
+[11/23 20:40:03] R0-cifar10-vgg16-test INFO: Training Epoch: 36 [30976/50000]	Loss: 0.0734	LR: 0.200000
+[11/23 20:40:04] R0-cifar10-vgg16-test INFO: Training Epoch: 36 [41216/50000]	Loss: 0.1063	LR: 0.200000
+[11/23 20:40:13] R0-cifar10-vgg16-test INFO: [Eval] Epoch=36 Acc@1=88.1600 Acc@5=99.5600 Loss=0.4601
+[11/23 20:40:25] R0-cifar10-vgg16-test INFO: Training Epoch: 37 [256/50000]	Loss: 0.0696	LR: 0.200000
+[11/23 20:40:25] R0-cifar10-vgg16-test INFO: Training Epoch: 37 [10496/50000]	Loss: 0.0808	LR: 0.200000
+[11/23 20:40:26] R0-cifar10-vgg16-test INFO: Training Epoch: 37 [20736/50000]	Loss: 0.0751	LR: 0.200000
+[11/23 20:40:26] R0-cifar10-vgg16-test INFO: Training Epoch: 37 [30976/50000]	Loss: 0.0709	LR: 0.200000
+[11/23 20:40:27] R0-cifar10-vgg16-test INFO: Training Epoch: 37 [41216/50000]	Loss: 0.0833	LR: 0.200000
+[11/23 20:40:37] R0-cifar10-vgg16-test INFO: [Eval] Epoch=37 Acc@1=86.5700 Acc@5=99.1400 Loss=0.5477
+[11/23 20:40:48] R0-cifar10-vgg16-test INFO: Training Epoch: 38 [256/50000]	Loss: 0.0804	LR: 0.200000
+[11/23 20:40:49] R0-cifar10-vgg16-test INFO: Training Epoch: 38 [10496/50000]	Loss: 0.0776	LR: 0.200000
+[11/23 20:40:49] R0-cifar10-vgg16-test INFO: Training Epoch: 38 [20736/50000]	Loss: 0.0733	LR: 0.200000
+[11/23 20:40:50] R0-cifar10-vgg16-test INFO: Training Epoch: 38 [30976/50000]	Loss: 0.0662	LR: 0.200000
+[11/23 20:40:50] R0-cifar10-vgg16-test INFO: Training Epoch: 38 [41216/50000]	Loss: 0.0593	LR: 0.200000
+[11/23 20:41:00] R0-cifar10-vgg16-test INFO: [Eval] Epoch=38 Acc@1=87.7700 Acc@5=99.5200 Loss=0.4876
+[11/23 20:41:11] R0-cifar10-vgg16-test INFO: Training Epoch: 39 [256/50000]	Loss: 0.0658	LR: 0.200000
+[11/23 20:41:12] R0-cifar10-vgg16-test INFO: Training Epoch: 39 [10496/50000]	Loss: 0.0470	LR: 0.200000
+[11/23 20:41:12] R0-cifar10-vgg16-test INFO: Training Epoch: 39 [20736/50000]	Loss: 0.0715	LR: 0.200000
+[11/23 20:41:13] R0-cifar10-vgg16-test INFO: Training Epoch: 39 [30976/50000]	Loss: 0.0610	LR: 0.200000
+[11/23 20:41:13] R0-cifar10-vgg16-test INFO: Training Epoch: 39 [41216/50000]	Loss: 0.0760	LR: 0.200000
+[11/23 20:41:23] R0-cifar10-vgg16-test INFO: [Eval] Epoch=39 Acc@1=88.4400 Acc@5=99.7000 Loss=0.4836
+[11/23 20:41:35] R0-cifar10-vgg16-test INFO: Training Epoch: 40 [256/50000]	Loss: 0.0702	LR: 0.200000
+[11/23 20:41:35] R0-cifar10-vgg16-test INFO: Training Epoch: 40 [10496/50000]	Loss: 0.0639	LR: 0.200000
+[11/23 20:41:36] R0-cifar10-vgg16-test INFO: Training Epoch: 40 [20736/50000]	Loss: 0.0567	LR: 0.200000
+[11/23 20:41:36] R0-cifar10-vgg16-test INFO: Training Epoch: 40 [30976/50000]	Loss: 0.0834	LR: 0.200000
+[11/23 20:41:37] R0-cifar10-vgg16-test INFO: Training Epoch: 40 [41216/50000]	Loss: 0.0667	LR: 0.200000
+[11/23 20:41:47] R0-cifar10-vgg16-test INFO: [Eval] Epoch=40 Acc@1=87.7000 Acc@5=99.4700 Loss=0.5136
+[11/23 20:41:58] R0-cifar10-vgg16-test INFO: Training Epoch: 41 [256/50000]	Loss: 0.0661	LR: 0.200000
+[11/23 20:41:58] R0-cifar10-vgg16-test INFO: Training Epoch: 41 [10496/50000]	Loss: 0.0718	LR: 0.200000
+[11/23 20:41:59] R0-cifar10-vgg16-test INFO: Training Epoch: 41 [20736/50000]	Loss: 0.0578	LR: 0.200000
+[11/23 20:42:00] R0-cifar10-vgg16-test INFO: Training Epoch: 41 [30976/50000]	Loss: 0.0625	LR: 0.200000
+[11/23 20:42:00] R0-cifar10-vgg16-test INFO: Training Epoch: 41 [41216/50000]	Loss: 0.0661	LR: 0.200000
+[11/23 20:42:10] R0-cifar10-vgg16-test INFO: [Eval] Epoch=41 Acc@1=89.0500 Acc@5=99.7000 Loss=0.4510
+[11/23 20:42:22] R0-cifar10-vgg16-test INFO: Training Epoch: 42 [256/50000]	Loss: 0.0594	LR: 0.200000
+[11/23 20:42:22] R0-cifar10-vgg16-test INFO: Training Epoch: 42 [10496/50000]	Loss: 0.0736	LR: 0.200000
+[11/23 20:42:23] R0-cifar10-vgg16-test INFO: Training Epoch: 42 [20736/50000]	Loss: 0.0790	LR: 0.200000
+[11/23 20:42:23] R0-cifar10-vgg16-test INFO: Training Epoch: 42 [30976/50000]	Loss: 0.0591	LR: 0.200000
+[11/23 20:42:24] R0-cifar10-vgg16-test INFO: Training Epoch: 42 [41216/50000]	Loss: 0.0617	LR: 0.200000
+[11/23 20:42:33] R0-cifar10-vgg16-test INFO: [Eval] Epoch=42 Acc@1=88.9600 Acc@5=99.5900 Loss=0.4405
+[11/23 20:42:45] R0-cifar10-vgg16-test INFO: Training Epoch: 43 [256/50000]	Loss: 0.0569	LR: 0.200000
+[11/23 20:42:45] R0-cifar10-vgg16-test INFO: Training Epoch: 43 [10496/50000]	Loss: 0.0619	LR: 0.200000
+[11/23 20:42:46] R0-cifar10-vgg16-test INFO: Training Epoch: 43 [20736/50000]	Loss: 0.0585	LR: 0.200000
+[11/23 20:42:46] R0-cifar10-vgg16-test INFO: Training Epoch: 43 [30976/50000]	Loss: 0.0560	LR: 0.200000
+[11/23 20:42:47] R0-cifar10-vgg16-test INFO: Training Epoch: 43 [41216/50000]	Loss: 0.0718	LR: 0.200000
+[11/23 20:42:56] R0-cifar10-vgg16-test INFO: [Eval] Epoch=43 Acc@1=88.5700 Acc@5=99.7200 Loss=0.4750
+[11/23 20:43:08] R0-cifar10-vgg16-test INFO: Training Epoch: 44 [256/50000]	Loss: 0.0549	LR: 0.200000
+[11/23 20:43:09] R0-cifar10-vgg16-test INFO: Training Epoch: 44 [10496/50000]	Loss: 0.0705	LR: 0.200000
+[11/23 20:43:09] R0-cifar10-vgg16-test INFO: Training Epoch: 44 [20736/50000]	Loss: 0.0440	LR: 0.200000
+[11/23 20:43:10] R0-cifar10-vgg16-test INFO: Training Epoch: 44 [30976/50000]	Loss: 0.0468	LR: 0.200000
+[11/23 20:43:10] R0-cifar10-vgg16-test INFO: Training Epoch: 44 [41216/50000]	Loss: 0.0563	LR: 0.200000
+[11/23 20:43:20] R0-cifar10-vgg16-test INFO: [Eval] Epoch=44 Acc@1=88.5700 Acc@5=99.6400 Loss=0.4482
+[11/23 20:43:31] R0-cifar10-vgg16-test INFO: Training Epoch: 45 [256/50000]	Loss: 0.0400	LR: 0.200000
+[11/23 20:43:32] R0-cifar10-vgg16-test INFO: Training Epoch: 45 [10496/50000]	Loss: 0.0407	LR: 0.200000
+[11/23 20:43:32] R0-cifar10-vgg16-test INFO: Training Epoch: 45 [20736/50000]	Loss: 0.0566	LR: 0.200000
+[11/23 20:43:33] R0-cifar10-vgg16-test INFO: Training Epoch: 45 [30976/50000]	Loss: 0.0441	LR: 0.200000
+[11/23 20:43:33] R0-cifar10-vgg16-test INFO: Training Epoch: 45 [41216/50000]	Loss: 0.0573	LR: 0.200000
+[11/23 20:43:43] R0-cifar10-vgg16-test INFO: [Eval] Epoch=45 Acc@1=88.6000 Acc@5=99.5600 Loss=0.4914
+[11/23 20:43:54] R0-cifar10-vgg16-test INFO: Training Epoch: 46 [256/50000]	Loss: 0.0634	LR: 0.200000
+[11/23 20:43:55] R0-cifar10-vgg16-test INFO: Training Epoch: 46 [10496/50000]	Loss: 0.0590	LR: 0.200000
+[11/23 20:43:55] R0-cifar10-vgg16-test INFO: Training Epoch: 46 [20736/50000]	Loss: 0.0473	LR: 0.200000
+[11/23 20:43:56] R0-cifar10-vgg16-test INFO: Training Epoch: 46 [30976/50000]	Loss: 0.0658	LR: 0.200000
+[11/23 20:43:57] R0-cifar10-vgg16-test INFO: Training Epoch: 46 [41216/50000]	Loss: 0.0416	LR: 0.200000
+[11/23 20:44:06] R0-cifar10-vgg16-test INFO: [Eval] Epoch=46 Acc@1=88.4100 Acc@5=99.6100 Loss=0.4881
+[11/23 20:44:17] R0-cifar10-vgg16-test INFO: Training Epoch: 47 [256/50000]	Loss: 0.0686	LR: 0.200000
+[11/23 20:44:18] R0-cifar10-vgg16-test INFO: Training Epoch: 47 [10496/50000]	Loss: 0.0739	LR: 0.200000
+[11/23 20:44:18] R0-cifar10-vgg16-test INFO: Training Epoch: 47 [20736/50000]	Loss: 0.0478	LR: 0.200000
+[11/23 20:44:19] R0-cifar10-vgg16-test INFO: Training Epoch: 47 [30976/50000]	Loss: 0.0490	LR: 0.200000
+[11/23 20:44:19] R0-cifar10-vgg16-test INFO: Training Epoch: 47 [41216/50000]	Loss: 0.0414	LR: 0.200000
+[11/23 20:44:29] R0-cifar10-vgg16-test INFO: [Eval] Epoch=47 Acc@1=89.0800 Acc@5=99.5800 Loss=0.4950
+[11/23 20:44:41] R0-cifar10-vgg16-test INFO: Training Epoch: 48 [256/50000]	Loss: 0.0523	LR: 0.200000
+[11/23 20:44:42] R0-cifar10-vgg16-test INFO: Training Epoch: 48 [10496/50000]	Loss: 0.0289	LR: 0.200000
+[11/23 20:44:42] R0-cifar10-vgg16-test INFO: Training Epoch: 48 [20736/50000]	Loss: 0.0464	LR: 0.200000
+[11/23 20:44:43] R0-cifar10-vgg16-test INFO: Training Epoch: 48 [30976/50000]	Loss: 0.0438	LR: 0.200000
+[11/23 20:44:43] R0-cifar10-vgg16-test INFO: Training Epoch: 48 [41216/50000]	Loss: 0.0597	LR: 0.200000
+[11/23 20:44:53] R0-cifar10-vgg16-test INFO: [Eval] Epoch=48 Acc@1=88.6800 Acc@5=99.5400 Loss=0.4917
+[11/23 20:45:04] R0-cifar10-vgg16-test INFO: Training Epoch: 49 [256/50000]	Loss: 0.0386	LR: 0.200000
+[11/23 20:45:05] R0-cifar10-vgg16-test INFO: Training Epoch: 49 [10496/50000]	Loss: 0.0513	LR: 0.200000
+[11/23 20:45:06] R0-cifar10-vgg16-test INFO: Training Epoch: 49 [20736/50000]	Loss: 0.0433	LR: 0.200000
+[11/23 20:45:06] R0-cifar10-vgg16-test INFO: Training Epoch: 49 [30976/50000]	Loss: 0.0423	LR: 0.200000
+[11/23 20:45:07] R0-cifar10-vgg16-test INFO: Training Epoch: 49 [41216/50000]	Loss: 0.0683	LR: 0.200000
+[11/23 20:45:16] R0-cifar10-vgg16-test INFO: [Eval] Epoch=49 Acc@1=88.3700 Acc@5=99.3500 Loss=0.5421
+[11/23 20:45:28] R0-cifar10-vgg16-test INFO: Training Epoch: 50 [256/50000]	Loss: 0.0306	LR: 0.200000
+[11/23 20:45:29] R0-cifar10-vgg16-test INFO: Training Epoch: 50 [10496/50000]	Loss: 0.0484	LR: 0.200000
+[11/23 20:45:29] R0-cifar10-vgg16-test INFO: Training Epoch: 50 [20736/50000]	Loss: 0.0287	LR: 0.200000
+[11/23 20:45:30] R0-cifar10-vgg16-test INFO: Training Epoch: 50 [30976/50000]	Loss: 0.0533	LR: 0.200000
+[11/23 20:45:30] R0-cifar10-vgg16-test INFO: Training Epoch: 50 [41216/50000]	Loss: 0.0562	LR: 0.200000
+[11/23 20:45:39] R0-cifar10-vgg16-test INFO: [Eval] Epoch=50 Acc@1=88.8600 Acc@5=99.7100 Loss=0.4938
+[11/23 20:45:51] R0-cifar10-vgg16-test INFO: Training Epoch: 51 [256/50000]	Loss: 0.0546	LR: 0.200000
+[11/23 20:45:52] R0-cifar10-vgg16-test INFO: Training Epoch: 51 [10496/50000]	Loss: 0.0417	LR: 0.200000
+[11/23 20:45:52] R0-cifar10-vgg16-test INFO: Training Epoch: 51 [20736/50000]	Loss: 0.0603	LR: 0.200000
+[11/23 20:45:53] R0-cifar10-vgg16-test INFO: Training Epoch: 51 [30976/50000]	Loss: 0.0401	LR: 0.200000
+[11/23 20:45:53] R0-cifar10-vgg16-test INFO: Training Epoch: 51 [41216/50000]	Loss: 0.0420	LR: 0.200000
+[11/23 20:46:03] R0-cifar10-vgg16-test INFO: [Eval] Epoch=51 Acc@1=89.5200 Acc@5=99.7000 Loss=0.4563
+[11/23 20:46:14] R0-cifar10-vgg16-test INFO: Training Epoch: 52 [256/50000]	Loss: 0.0332	LR: 0.200000
+[11/23 20:46:15] R0-cifar10-vgg16-test INFO: Training Epoch: 52 [10496/50000]	Loss: 0.0533	LR: 0.200000
+[11/23 20:46:15] R0-cifar10-vgg16-test INFO: Training Epoch: 52 [20736/50000]	Loss: 0.0444	LR: 0.200000
+[11/23 20:46:16] R0-cifar10-vgg16-test INFO: Training Epoch: 52 [30976/50000]	Loss: 0.0439	LR: 0.200000
+[11/23 20:46:16] R0-cifar10-vgg16-test INFO: Training Epoch: 52 [41216/50000]	Loss: 0.0435	LR: 0.200000
+[11/23 20:46:26] R0-cifar10-vgg16-test INFO: [Eval] Epoch=52 Acc@1=89.7900 Acc@5=99.6700 Loss=0.4471
+[11/23 20:46:38] R0-cifar10-vgg16-test INFO: Training Epoch: 53 [256/50000]	Loss: 0.0428	LR: 0.200000
+[11/23 20:46:38] R0-cifar10-vgg16-test INFO: Training Epoch: 53 [10496/50000]	Loss: 0.0419	LR: 0.200000
+[11/23 20:46:39] R0-cifar10-vgg16-test INFO: Training Epoch: 53 [20736/50000]	Loss: 0.0517	LR: 0.200000
+[11/23 20:46:39] R0-cifar10-vgg16-test INFO: Training Epoch: 53 [30976/50000]	Loss: 0.0678	LR: 0.200000
+[11/23 20:46:40] R0-cifar10-vgg16-test INFO: Training Epoch: 53 [41216/50000]	Loss: 0.0460	LR: 0.200000
+[11/23 20:46:49] R0-cifar10-vgg16-test INFO: [Eval] Epoch=53 Acc@1=89.4600 Acc@5=99.6900 Loss=0.4923
+[11/23 20:47:01] R0-cifar10-vgg16-test INFO: Training Epoch: 54 [256/50000]	Loss: 0.0547	LR: 0.200000
+[11/23 20:47:01] R0-cifar10-vgg16-test INFO: Training Epoch: 54 [10496/50000]	Loss: 0.0505	LR: 0.200000
+[11/23 20:47:02] R0-cifar10-vgg16-test INFO: Training Epoch: 54 [20736/50000]	Loss: 0.0456	LR: 0.200000
+[11/23 20:47:02] R0-cifar10-vgg16-test INFO: Training Epoch: 54 [30976/50000]	Loss: 0.0561	LR: 0.200000
+[11/23 20:47:03] R0-cifar10-vgg16-test INFO: Training Epoch: 54 [41216/50000]	Loss: 0.0619	LR: 0.200000
+[11/23 20:47:12] R0-cifar10-vgg16-test INFO: [Eval] Epoch=54 Acc@1=88.5800 Acc@5=99.5600 Loss=0.4942
+[11/23 20:47:24] R0-cifar10-vgg16-test INFO: Training Epoch: 55 [256/50000]	Loss: 0.0354	LR: 0.200000
+[11/23 20:47:24] R0-cifar10-vgg16-test INFO: Training Epoch: 55 [10496/50000]	Loss: 0.0466	LR: 0.200000
+[11/23 20:47:25] R0-cifar10-vgg16-test INFO: Training Epoch: 55 [20736/50000]	Loss: 0.0259	LR: 0.200000
+[11/23 20:47:25] R0-cifar10-vgg16-test INFO: Training Epoch: 55 [30976/50000]	Loss: 0.0466	LR: 0.200000
+[11/23 20:47:26] R0-cifar10-vgg16-test INFO: Training Epoch: 55 [41216/50000]	Loss: 0.0407	LR: 0.200000
+[11/23 20:47:35] R0-cifar10-vgg16-test INFO: [Eval] Epoch=55 Acc@1=89.1900 Acc@5=99.6500 Loss=0.4883
+[11/23 20:47:47] R0-cifar10-vgg16-test INFO: Training Epoch: 56 [256/50000]	Loss: 0.0317	LR: 0.200000
+[11/23 20:47:48] R0-cifar10-vgg16-test INFO: Training Epoch: 56 [10496/50000]	Loss: 0.0370	LR: 0.200000
+[11/23 20:47:48] R0-cifar10-vgg16-test INFO: Training Epoch: 56 [20736/50000]	Loss: 0.0684	LR: 0.200000
+[11/23 20:47:49] R0-cifar10-vgg16-test INFO: Training Epoch: 56 [30976/50000]	Loss: 0.0459	LR: 0.200000
+[11/23 20:47:49] R0-cifar10-vgg16-test INFO: Training Epoch: 56 [41216/50000]	Loss: 0.0419	LR: 0.200000
+[11/23 20:47:59] R0-cifar10-vgg16-test INFO: [Eval] Epoch=56 Acc@1=89.3600 Acc@5=99.7100 Loss=0.4683
+[11/23 20:48:10] R0-cifar10-vgg16-test INFO: Training Epoch: 57 [256/50000]	Loss: 0.0434	LR: 0.200000
+[11/23 20:48:10] R0-cifar10-vgg16-test INFO: Training Epoch: 57 [10496/50000]	Loss: 0.0429	LR: 0.200000
+[11/23 20:48:11] R0-cifar10-vgg16-test INFO: Training Epoch: 57 [20736/50000]	Loss: 0.0340	LR: 0.200000
+[11/23 20:48:11] R0-cifar10-vgg16-test INFO: Training Epoch: 57 [30976/50000]	Loss: 0.0420	LR: 0.200000
+[11/23 20:48:12] R0-cifar10-vgg16-test INFO: Training Epoch: 57 [41216/50000]	Loss: 0.0544	LR: 0.200000
+[11/23 20:48:22] R0-cifar10-vgg16-test INFO: [Eval] Epoch=57 Acc@1=89.5700 Acc@5=99.5500 Loss=0.4629
+[11/23 20:48:33] R0-cifar10-vgg16-test INFO: Training Epoch: 58 [256/50000]	Loss: 0.0389	LR: 0.200000
+[11/23 20:48:34] R0-cifar10-vgg16-test INFO: Training Epoch: 58 [10496/50000]	Loss: 0.0256	LR: 0.200000
+[11/23 20:48:34] R0-cifar10-vgg16-test INFO: Training Epoch: 58 [20736/50000]	Loss: 0.0391	LR: 0.200000
+[11/23 20:48:35] R0-cifar10-vgg16-test INFO: Training Epoch: 58 [30976/50000]	Loss: 0.0503	LR: 0.200000
+[11/23 20:48:35] R0-cifar10-vgg16-test INFO: Training Epoch: 58 [41216/50000]	Loss: 0.0317	LR: 0.200000
+[11/23 20:48:45] R0-cifar10-vgg16-test INFO: [Eval] Epoch=58 Acc@1=87.6500 Acc@5=99.3800 Loss=0.5926
+[11/23 20:48:56] R0-cifar10-vgg16-test INFO: Training Epoch: 59 [256/50000]	Loss: 0.0364	LR: 0.200000
+[11/23 20:48:57] R0-cifar10-vgg16-test INFO: Training Epoch: 59 [10496/50000]	Loss: 0.0439	LR: 0.200000
+[11/23 20:48:57] R0-cifar10-vgg16-test INFO: Training Epoch: 59 [20736/50000]	Loss: 0.0370	LR: 0.200000
+[11/23 20:48:58] R0-cifar10-vgg16-test INFO: Training Epoch: 59 [30976/50000]	Loss: 0.0416	LR: 0.200000
+[11/23 20:48:58] R0-cifar10-vgg16-test INFO: Training Epoch: 59 [41216/50000]	Loss: 0.0623	LR: 0.200000
+[11/23 20:49:08] R0-cifar10-vgg16-test INFO: [Eval] Epoch=59 Acc@1=89.3900 Acc@5=99.5100 Loss=0.4619
+[11/23 20:49:20] R0-cifar10-vgg16-test INFO: Training Epoch: 60 [256/50000]	Loss: 0.0212	LR: 0.200000
+[11/23 20:49:20] R0-cifar10-vgg16-test INFO: Training Epoch: 60 [10496/50000]	Loss: 0.0389	LR: 0.200000
+[11/23 20:49:21] R0-cifar10-vgg16-test INFO: Training Epoch: 60 [20736/50000]	Loss: 0.0309	LR: 0.200000
+[11/23 20:49:21] R0-cifar10-vgg16-test INFO: Training Epoch: 60 [30976/50000]	Loss: 0.0323	LR: 0.200000
+[11/23 20:49:22] R0-cifar10-vgg16-test INFO: Training Epoch: 60 [41216/50000]	Loss: 0.0474	LR: 0.200000
+[11/23 20:49:31] R0-cifar10-vgg16-test INFO: [Eval] Epoch=60 Acc@1=89.4600 Acc@5=99.6700 Loss=0.4559
+[11/23 20:49:43] R0-cifar10-vgg16-test INFO: Training Epoch: 61 [256/50000]	Loss: 0.0323	LR: 0.200000
+[11/23 20:49:43] R0-cifar10-vgg16-test INFO: Training Epoch: 61 [10496/50000]	Loss: 0.0322	LR: 0.200000
+[11/23 20:49:44] R0-cifar10-vgg16-test INFO: Training Epoch: 61 [20736/50000]	Loss: 0.0441	LR: 0.200000
+[11/23 20:49:44] R0-cifar10-vgg16-test INFO: Training Epoch: 61 [30976/50000]	Loss: 0.0357	LR: 0.200000
+[11/23 20:49:45] R0-cifar10-vgg16-test INFO: Training Epoch: 61 [41216/50000]	Loss: 0.0330	LR: 0.200000
+[11/23 20:49:55] R0-cifar10-vgg16-test INFO: [Eval] Epoch=61 Acc@1=88.9900 Acc@5=99.5500 Loss=0.4975
+[11/23 20:50:06] R0-cifar10-vgg16-test INFO: Training Epoch: 62 [256/50000]	Loss: 0.0300	LR: 0.200000
+[11/23 20:50:06] R0-cifar10-vgg16-test INFO: Training Epoch: 62 [10496/50000]	Loss: 0.0247	LR: 0.200000
+[11/23 20:50:07] R0-cifar10-vgg16-test INFO: Training Epoch: 62 [20736/50000]	Loss: 0.0448	LR: 0.200000
+[11/23 20:50:07] R0-cifar10-vgg16-test INFO: Training Epoch: 62 [30976/50000]	Loss: 0.0368	LR: 0.200000
+[11/23 20:50:08] R0-cifar10-vgg16-test INFO: Training Epoch: 62 [41216/50000]	Loss: 0.0276	LR: 0.200000
+[11/23 20:50:18] R0-cifar10-vgg16-test INFO: [Eval] Epoch=62 Acc@1=88.4200 Acc@5=99.6200 Loss=0.5046
+[11/23 20:50:29] R0-cifar10-vgg16-test INFO: Training Epoch: 63 [256/50000]	Loss: 0.0230	LR: 0.200000
+[11/23 20:50:30] R0-cifar10-vgg16-test INFO: Training Epoch: 63 [10496/50000]	Loss: 0.0354	LR: 0.200000
+[11/23 20:50:30] R0-cifar10-vgg16-test INFO: Training Epoch: 63 [20736/50000]	Loss: 0.0342	LR: 0.200000
+[11/23 20:50:31] R0-cifar10-vgg16-test INFO: Training Epoch: 63 [30976/50000]	Loss: 0.0470	LR: 0.200000
+[11/23 20:50:31] R0-cifar10-vgg16-test INFO: Training Epoch: 63 [41216/50000]	Loss: 0.0328	LR: 0.200000
+[11/23 20:50:41] R0-cifar10-vgg16-test INFO: [Eval] Epoch=63 Acc@1=89.7000 Acc@5=99.6300 Loss=0.4566
+[11/23 20:50:52] R0-cifar10-vgg16-test INFO: Training Epoch: 64 [256/50000]	Loss: 0.0444	LR: 0.200000
+[11/23 20:50:53] R0-cifar10-vgg16-test INFO: Training Epoch: 64 [10496/50000]	Loss: 0.0450	LR: 0.200000
+[11/23 20:50:54] R0-cifar10-vgg16-test INFO: Training Epoch: 64 [20736/50000]	Loss: 0.0213	LR: 0.200000
+[11/23 20:50:54] R0-cifar10-vgg16-test INFO: Training Epoch: 64 [30976/50000]	Loss: 0.0373	LR: 0.200000
+[11/23 20:50:55] R0-cifar10-vgg16-test INFO: Training Epoch: 64 [41216/50000]	Loss: 0.0213	LR: 0.200000
+[11/23 20:51:04] R0-cifar10-vgg16-test INFO: [Eval] Epoch=64 Acc@1=89.6400 Acc@5=99.4000 Loss=0.4827
+[11/23 20:51:16] R0-cifar10-vgg16-test INFO: Training Epoch: 65 [256/50000]	Loss: 0.0248	LR: 0.200000
+[11/23 20:51:17] R0-cifar10-vgg16-test INFO: Training Epoch: 65 [10496/50000]	Loss: 0.0293	LR: 0.200000
+[11/23 20:51:17] R0-cifar10-vgg16-test INFO: Training Epoch: 65 [20736/50000]	Loss: 0.0438	LR: 0.200000
+[11/23 20:51:18] R0-cifar10-vgg16-test INFO: Training Epoch: 65 [30976/50000]	Loss: 0.0362	LR: 0.200000
+[11/23 20:51:18] R0-cifar10-vgg16-test INFO: Training Epoch: 65 [41216/50000]	Loss: 0.0394	LR: 0.200000
+[11/23 20:51:28] R0-cifar10-vgg16-test INFO: [Eval] Epoch=65 Acc@1=90.0100 Acc@5=99.6800 Loss=0.4405
+[11/23 20:51:39] R0-cifar10-vgg16-test INFO: Training Epoch: 66 [256/50000]	Loss: 0.0281	LR: 0.200000
+[11/23 20:51:40] R0-cifar10-vgg16-test INFO: Training Epoch: 66 [10496/50000]	Loss: 0.0283	LR: 0.200000
+[11/23 20:51:41] R0-cifar10-vgg16-test INFO: Training Epoch: 66 [20736/50000]	Loss: 0.0295	LR: 0.200000
+[11/23 20:51:41] R0-cifar10-vgg16-test INFO: Training Epoch: 66 [30976/50000]	Loss: 0.0398	LR: 0.200000
+[11/23 20:51:42] R0-cifar10-vgg16-test INFO: Training Epoch: 66 [41216/50000]	Loss: 0.0368	LR: 0.200000
+[11/23 20:51:51] R0-cifar10-vgg16-test INFO: [Eval] Epoch=66 Acc@1=90.1900 Acc@5=99.5600 Loss=0.4876
+[11/23 20:52:03] R0-cifar10-vgg16-test INFO: Training Epoch: 67 [256/50000]	Loss: 0.0527	LR: 0.200000
+[11/23 20:52:03] R0-cifar10-vgg16-test INFO: Training Epoch: 67 [10496/50000]	Loss: 0.0324	LR: 0.200000
+[11/23 20:52:04] R0-cifar10-vgg16-test INFO: Training Epoch: 67 [20736/50000]	Loss: 0.0361	LR: 0.200000
+[11/23 20:52:04] R0-cifar10-vgg16-test INFO: Training Epoch: 67 [30976/50000]	Loss: 0.0301	LR: 0.200000
+[11/23 20:52:05] R0-cifar10-vgg16-test INFO: Training Epoch: 67 [41216/50000]	Loss: 0.0451	LR: 0.200000
+[11/23 20:52:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=67 Acc@1=89.5600 Acc@5=99.7200 Loss=0.4696
+[11/23 20:52:26] R0-cifar10-vgg16-test INFO: Training Epoch: 68 [256/50000]	Loss: 0.0316	LR: 0.200000
+[11/23 20:52:26] R0-cifar10-vgg16-test INFO: Training Epoch: 68 [10496/50000]	Loss: 0.0184	LR: 0.200000
+[11/23 20:52:27] R0-cifar10-vgg16-test INFO: Training Epoch: 68 [20736/50000]	Loss: 0.0343	LR: 0.200000
+[11/23 20:52:28] R0-cifar10-vgg16-test INFO: Training Epoch: 68 [30976/50000]	Loss: 0.0335	LR: 0.200000
+[11/23 20:52:28] R0-cifar10-vgg16-test INFO: Training Epoch: 68 [41216/50000]	Loss: 0.0362	LR: 0.200000
+[11/23 20:52:38] R0-cifar10-vgg16-test INFO: [Eval] Epoch=68 Acc@1=88.8200 Acc@5=99.6300 Loss=0.5042
+[11/23 20:52:49] R0-cifar10-vgg16-test INFO: Training Epoch: 69 [256/50000]	Loss: 0.0371	LR: 0.200000
+[11/23 20:52:50] R0-cifar10-vgg16-test INFO: Training Epoch: 69 [10496/50000]	Loss: 0.0160	LR: 0.200000
+[11/23 20:52:50] R0-cifar10-vgg16-test INFO: Training Epoch: 69 [20736/50000]	Loss: 0.0328	LR: 0.200000
+[11/23 20:52:51] R0-cifar10-vgg16-test INFO: Training Epoch: 69 [30976/50000]	Loss: 0.0269	LR: 0.200000
+[11/23 20:52:51] R0-cifar10-vgg16-test INFO: Training Epoch: 69 [41216/50000]	Loss: 0.0582	LR: 0.200000
+[11/23 20:53:01] R0-cifar10-vgg16-test INFO: [Eval] Epoch=69 Acc@1=89.8600 Acc@5=99.6600 Loss=0.4431
+[11/23 20:53:12] R0-cifar10-vgg16-test INFO: Training Epoch: 70 [256/50000]	Loss: 0.0296	LR: 0.200000
+[11/23 20:53:12] R0-cifar10-vgg16-test INFO: Training Epoch: 70 [10496/50000]	Loss: 0.0600	LR: 0.200000
+[11/23 20:53:13] R0-cifar10-vgg16-test INFO: Training Epoch: 70 [20736/50000]	Loss: 0.0332	LR: 0.200000
+[11/23 20:53:14] R0-cifar10-vgg16-test INFO: Training Epoch: 70 [30976/50000]	Loss: 0.0476	LR: 0.200000
+[11/23 20:53:14] R0-cifar10-vgg16-test INFO: Training Epoch: 70 [41216/50000]	Loss: 0.0321	LR: 0.200000
+[11/23 20:53:24] R0-cifar10-vgg16-test INFO: [Eval] Epoch=70 Acc@1=89.1700 Acc@5=99.6400 Loss=0.4908
+[11/23 20:53:35] R0-cifar10-vgg16-test INFO: Training Epoch: 71 [256/50000]	Loss: 0.0302	LR: 0.200000
+[11/23 20:53:36] R0-cifar10-vgg16-test INFO: Training Epoch: 71 [10496/50000]	Loss: 0.0322	LR: 0.200000
+[11/23 20:53:36] R0-cifar10-vgg16-test INFO: Training Epoch: 71 [20736/50000]	Loss: 0.0247	LR: 0.200000
+[11/23 20:53:37] R0-cifar10-vgg16-test INFO: Training Epoch: 71 [30976/50000]	Loss: 0.0221	LR: 0.200000
+[11/23 20:53:37] R0-cifar10-vgg16-test INFO: Training Epoch: 71 [41216/50000]	Loss: 0.0183	LR: 0.200000
+[11/23 20:53:47] R0-cifar10-vgg16-test INFO: [Eval] Epoch=71 Acc@1=89.1800 Acc@5=99.6100 Loss=0.4938
+[11/23 20:53:58] R0-cifar10-vgg16-test INFO: Training Epoch: 72 [256/50000]	Loss: 0.0300	LR: 0.200000
+[11/23 20:53:59] R0-cifar10-vgg16-test INFO: Training Epoch: 72 [10496/50000]	Loss: 0.0220	LR: 0.200000
+[11/23 20:53:59] R0-cifar10-vgg16-test INFO: Training Epoch: 72 [20736/50000]	Loss: 0.0468	LR: 0.200000
+[11/23 20:54:00] R0-cifar10-vgg16-test INFO: Training Epoch: 72 [30976/50000]	Loss: 0.0464	LR: 0.200000
+[11/23 20:54:00] R0-cifar10-vgg16-test INFO: Training Epoch: 72 [41216/50000]	Loss: 0.0405	LR: 0.200000
+[11/23 20:54:10] R0-cifar10-vgg16-test INFO: [Eval] Epoch=72 Acc@1=89.6300 Acc@5=99.5900 Loss=0.4880
+[11/23 20:54:22] R0-cifar10-vgg16-test INFO: Training Epoch: 73 [256/50000]	Loss: 0.0192	LR: 0.200000
+[11/23 20:54:22] R0-cifar10-vgg16-test INFO: Training Epoch: 73 [10496/50000]	Loss: 0.0250	LR: 0.200000
+[11/23 20:54:23] R0-cifar10-vgg16-test INFO: Training Epoch: 73 [20736/50000]	Loss: 0.0295	LR: 0.200000
+[11/23 20:54:23] R0-cifar10-vgg16-test INFO: Training Epoch: 73 [30976/50000]	Loss: 0.0204	LR: 0.200000
+[11/23 20:54:24] R0-cifar10-vgg16-test INFO: Training Epoch: 73 [41216/50000]	Loss: 0.0230	LR: 0.200000
+[11/23 20:54:34] R0-cifar10-vgg16-test INFO: [Eval] Epoch=73 Acc@1=89.6100 Acc@5=99.6900 Loss=0.4844
+[11/23 20:54:45] R0-cifar10-vgg16-test INFO: Training Epoch: 74 [256/50000]	Loss: 0.0200	LR: 0.200000
+[11/23 20:54:46] R0-cifar10-vgg16-test INFO: Training Epoch: 74 [10496/50000]	Loss: 0.0348	LR: 0.200000
+[11/23 20:54:46] R0-cifar10-vgg16-test INFO: Training Epoch: 74 [20736/50000]	Loss: 0.0420	LR: 0.200000
+[11/23 20:54:47] R0-cifar10-vgg16-test INFO: Training Epoch: 74 [30976/50000]	Loss: 0.0397	LR: 0.200000
+[11/23 20:54:48] R0-cifar10-vgg16-test INFO: Training Epoch: 74 [41216/50000]	Loss: 0.0356	LR: 0.200000
+[11/23 20:54:57] R0-cifar10-vgg16-test INFO: [Eval] Epoch=74 Acc@1=89.1800 Acc@5=99.7000 Loss=0.4958
+[11/23 20:55:09] R0-cifar10-vgg16-test INFO: Training Epoch: 75 [256/50000]	Loss: 0.0346	LR: 0.200000
+[11/23 20:55:09] R0-cifar10-vgg16-test INFO: Training Epoch: 75 [10496/50000]	Loss: 0.0282	LR: 0.200000
+[11/23 20:55:10] R0-cifar10-vgg16-test INFO: Training Epoch: 75 [20736/50000]	Loss: 0.0181	LR: 0.200000
+[11/23 20:55:10] R0-cifar10-vgg16-test INFO: Training Epoch: 75 [30976/50000]	Loss: 0.0295	LR: 0.200000
+[11/23 20:55:11] R0-cifar10-vgg16-test INFO: Training Epoch: 75 [41216/50000]	Loss: 0.0318	LR: 0.200000
+[11/23 20:55:20] R0-cifar10-vgg16-test INFO: [Eval] Epoch=75 Acc@1=89.5700 Acc@5=99.6800 Loss=0.4831
+[11/23 20:55:32] R0-cifar10-vgg16-test INFO: Training Epoch: 76 [256/50000]	Loss: 0.0134	LR: 0.200000
+[11/23 20:55:32] R0-cifar10-vgg16-test INFO: Training Epoch: 76 [10496/50000]	Loss: 0.0216	LR: 0.200000
+[11/23 20:55:33] R0-cifar10-vgg16-test INFO: Training Epoch: 76 [20736/50000]	Loss: 0.0343	LR: 0.200000
+[11/23 20:55:33] R0-cifar10-vgg16-test INFO: Training Epoch: 76 [30976/50000]	Loss: 0.0203	LR: 0.200000
+[11/23 20:55:34] R0-cifar10-vgg16-test INFO: Training Epoch: 76 [41216/50000]	Loss: 0.0202	LR: 0.200000
+[11/23 20:55:44] R0-cifar10-vgg16-test INFO: [Eval] Epoch=76 Acc@1=89.8900 Acc@5=99.4900 Loss=0.4759
+[11/23 20:55:55] R0-cifar10-vgg16-test INFO: Training Epoch: 77 [256/50000]	Loss: 0.0237	LR: 0.200000
+[11/23 20:55:56] R0-cifar10-vgg16-test INFO: Training Epoch: 77 [10496/50000]	Loss: 0.0203	LR: 0.200000
+[11/23 20:55:56] R0-cifar10-vgg16-test INFO: Training Epoch: 77 [20736/50000]	Loss: 0.0325	LR: 0.200000
+[11/23 20:55:57] R0-cifar10-vgg16-test INFO: Training Epoch: 77 [30976/50000]	Loss: 0.0236	LR: 0.200000
+[11/23 20:55:57] R0-cifar10-vgg16-test INFO: Training Epoch: 77 [41216/50000]	Loss: 0.0186	LR: 0.200000
+[11/23 20:56:07] R0-cifar10-vgg16-test INFO: [Eval] Epoch=77 Acc@1=89.7400 Acc@5=99.6400 Loss=0.5009
+[11/23 20:56:18] R0-cifar10-vgg16-test INFO: Training Epoch: 78 [256/50000]	Loss: 0.0199	LR: 0.200000
+[11/23 20:56:19] R0-cifar10-vgg16-test INFO: Training Epoch: 78 [10496/50000]	Loss: 0.0259	LR: 0.200000
+[11/23 20:56:19] R0-cifar10-vgg16-test INFO: Training Epoch: 78 [20736/50000]	Loss: 0.0202	LR: 0.200000
+[11/23 20:56:20] R0-cifar10-vgg16-test INFO: Training Epoch: 78 [30976/50000]	Loss: 0.0277	LR: 0.200000
+[11/23 20:56:20] R0-cifar10-vgg16-test INFO: Training Epoch: 78 [41216/50000]	Loss: 0.0210	LR: 0.200000
+[11/23 20:56:30] R0-cifar10-vgg16-test INFO: [Eval] Epoch=78 Acc@1=89.1100 Acc@5=99.5900 Loss=0.4785
+[11/23 20:56:42] R0-cifar10-vgg16-test INFO: Training Epoch: 79 [256/50000]	Loss: 0.0276	LR: 0.200000
+[11/23 20:56:42] R0-cifar10-vgg16-test INFO: Training Epoch: 79 [10496/50000]	Loss: 0.0205	LR: 0.200000
+[11/23 20:56:43] R0-cifar10-vgg16-test INFO: Training Epoch: 79 [20736/50000]	Loss: 0.0380	LR: 0.200000
+[11/23 20:56:43] R0-cifar10-vgg16-test INFO: Training Epoch: 79 [30976/50000]	Loss: 0.0201	LR: 0.200000
+[11/23 20:56:44] R0-cifar10-vgg16-test INFO: Training Epoch: 79 [41216/50000]	Loss: 0.0345	LR: 0.200000
+[11/23 20:56:54] R0-cifar10-vgg16-test INFO: [Eval] Epoch=79 Acc@1=89.9600 Acc@5=99.5400 Loss=0.4678
+[11/23 20:57:05] R0-cifar10-vgg16-test INFO: Training Epoch: 80 [256/50000]	Loss: 0.0226	LR: 0.200000
+[11/23 20:57:06] R0-cifar10-vgg16-test INFO: Training Epoch: 80 [10496/50000]	Loss: 0.0524	LR: 0.200000
+[11/23 20:57:06] R0-cifar10-vgg16-test INFO: Training Epoch: 80 [20736/50000]	Loss: 0.0255	LR: 0.200000
+[11/23 20:57:07] R0-cifar10-vgg16-test INFO: Training Epoch: 80 [30976/50000]	Loss: 0.0289	LR: 0.200000
+[11/23 20:57:07] R0-cifar10-vgg16-test INFO: Training Epoch: 80 [41216/50000]	Loss: 0.0312	LR: 0.200000
+[11/23 20:57:17] R0-cifar10-vgg16-test INFO: [Eval] Epoch=80 Acc@1=89.4300 Acc@5=99.6800 Loss=0.4671
+[11/23 20:57:29] R0-cifar10-vgg16-test INFO: Training Epoch: 81 [256/50000]	Loss: 0.0340	LR: 0.200000
+[11/23 20:57:29] R0-cifar10-vgg16-test INFO: Training Epoch: 81 [10496/50000]	Loss: 0.0310	LR: 0.200000
+[11/23 20:57:30] R0-cifar10-vgg16-test INFO: Training Epoch: 81 [20736/50000]	Loss: 0.0344	LR: 0.200000
+[11/23 20:57:30] R0-cifar10-vgg16-test INFO: Training Epoch: 81 [30976/50000]	Loss: 0.0231	LR: 0.200000
+[11/23 20:57:31] R0-cifar10-vgg16-test INFO: Training Epoch: 81 [41216/50000]	Loss: 0.0357	LR: 0.200000
+[11/23 20:57:40] R0-cifar10-vgg16-test INFO: [Eval] Epoch=81 Acc@1=88.7300 Acc@5=99.4800 Loss=0.5299
+[11/23 20:57:52] R0-cifar10-vgg16-test INFO: Training Epoch: 82 [256/50000]	Loss: 0.0280	LR: 0.200000
+[11/23 20:57:52] R0-cifar10-vgg16-test INFO: Training Epoch: 82 [10496/50000]	Loss: 0.0206	LR: 0.200000
+[11/23 20:57:53] R0-cifar10-vgg16-test INFO: Training Epoch: 82 [20736/50000]	Loss: 0.0251	LR: 0.200000
+[11/23 20:57:53] R0-cifar10-vgg16-test INFO: Training Epoch: 82 [30976/50000]	Loss: 0.0202	LR: 0.200000
+[11/23 20:57:54] R0-cifar10-vgg16-test INFO: Training Epoch: 82 [41216/50000]	Loss: 0.0246	LR: 0.200000
+[11/23 20:58:03] R0-cifar10-vgg16-test INFO: [Eval] Epoch=82 Acc@1=88.9400 Acc@5=99.4900 Loss=0.5518
+[11/23 20:58:15] R0-cifar10-vgg16-test INFO: Training Epoch: 83 [256/50000]	Loss: 0.0189	LR: 0.200000
+[11/23 20:58:15] R0-cifar10-vgg16-test INFO: Training Epoch: 83 [10496/50000]	Loss: 0.0263	LR: 0.200000
+[11/23 20:58:16] R0-cifar10-vgg16-test INFO: Training Epoch: 83 [20736/50000]	Loss: 0.0214	LR: 0.200000
+[11/23 20:58:16] R0-cifar10-vgg16-test INFO: Training Epoch: 83 [30976/50000]	Loss: 0.0358	LR: 0.200000
+[11/23 20:58:17] R0-cifar10-vgg16-test INFO: Training Epoch: 83 [41216/50000]	Loss: 0.0320	LR: 0.200000
+[11/23 20:58:27] R0-cifar10-vgg16-test INFO: [Eval] Epoch=83 Acc@1=90.2500 Acc@5=99.6800 Loss=0.4435
+[11/23 20:58:38] R0-cifar10-vgg16-test INFO: Training Epoch: 84 [256/50000]	Loss: 0.0314	LR: 0.200000
+[11/23 20:58:39] R0-cifar10-vgg16-test INFO: Training Epoch: 84 [10496/50000]	Loss: 0.0398	LR: 0.200000
+[11/23 20:58:39] R0-cifar10-vgg16-test INFO: Training Epoch: 84 [20736/50000]	Loss: 0.0163	LR: 0.200000
+[11/23 20:58:40] R0-cifar10-vgg16-test INFO: Training Epoch: 84 [30976/50000]	Loss: 0.0226	LR: 0.200000
+[11/23 20:58:40] R0-cifar10-vgg16-test INFO: Training Epoch: 84 [41216/50000]	Loss: 0.0391	LR: 0.200000
+[11/23 20:58:50] R0-cifar10-vgg16-test INFO: [Eval] Epoch=84 Acc@1=89.7000 Acc@5=99.6600 Loss=0.4544
+[11/23 20:59:01] R0-cifar10-vgg16-test INFO: Training Epoch: 85 [256/50000]	Loss: 0.0388	LR: 0.200000
+[11/23 20:59:02] R0-cifar10-vgg16-test INFO: Training Epoch: 85 [10496/50000]	Loss: 0.0265	LR: 0.200000
+[11/23 20:59:02] R0-cifar10-vgg16-test INFO: Training Epoch: 85 [20736/50000]	Loss: 0.0272	LR: 0.200000
+[11/23 20:59:03] R0-cifar10-vgg16-test INFO: Training Epoch: 85 [30976/50000]	Loss: 0.0229	LR: 0.200000
+[11/23 20:59:03] R0-cifar10-vgg16-test INFO: Training Epoch: 85 [41216/50000]	Loss: 0.0334	LR: 0.200000
+[11/23 20:59:13] R0-cifar10-vgg16-test INFO: [Eval] Epoch=85 Acc@1=89.4700 Acc@5=99.5700 Loss=0.4969
+[11/23 20:59:24] R0-cifar10-vgg16-test INFO: Training Epoch: 86 [256/50000]	Loss: 0.0277	LR: 0.200000
+[11/23 20:59:25] R0-cifar10-vgg16-test INFO: Training Epoch: 86 [10496/50000]	Loss: 0.0257	LR: 0.200000
+[11/23 20:59:25] R0-cifar10-vgg16-test INFO: Training Epoch: 86 [20736/50000]	Loss: 0.0314	LR: 0.200000
+[11/23 20:59:26] R0-cifar10-vgg16-test INFO: Training Epoch: 86 [30976/50000]	Loss: 0.0121	LR: 0.200000
+[11/23 20:59:27] R0-cifar10-vgg16-test INFO: Training Epoch: 86 [41216/50000]	Loss: 0.0330	LR: 0.200000
+[11/23 20:59:36] R0-cifar10-vgg16-test INFO: [Eval] Epoch=86 Acc@1=88.5700 Acc@5=99.5400 Loss=0.5793
+[11/23 20:59:47] R0-cifar10-vgg16-test INFO: Training Epoch: 87 [256/50000]	Loss: 0.0349	LR: 0.200000
+[11/23 20:59:48] R0-cifar10-vgg16-test INFO: Training Epoch: 87 [10496/50000]	Loss: 0.0147	LR: 0.200000
+[11/23 20:59:49] R0-cifar10-vgg16-test INFO: Training Epoch: 87 [20736/50000]	Loss: 0.0183	LR: 0.200000
+[11/23 20:59:49] R0-cifar10-vgg16-test INFO: Training Epoch: 87 [30976/50000]	Loss: 0.0269	LR: 0.200000
+[11/23 20:59:50] R0-cifar10-vgg16-test INFO: Training Epoch: 87 [41216/50000]	Loss: 0.0374	LR: 0.200000
+[11/23 20:59:59] R0-cifar10-vgg16-test INFO: [Eval] Epoch=87 Acc@1=89.8100 Acc@5=99.7100 Loss=0.4798
+[11/23 21:00:11] R0-cifar10-vgg16-test INFO: Training Epoch: 88 [256/50000]	Loss: 0.0193	LR: 0.200000
+[11/23 21:00:11] R0-cifar10-vgg16-test INFO: Training Epoch: 88 [10496/50000]	Loss: 0.0257	LR: 0.200000
+[11/23 21:00:12] R0-cifar10-vgg16-test INFO: Training Epoch: 88 [20736/50000]	Loss: 0.0325	LR: 0.200000
+[11/23 21:00:12] R0-cifar10-vgg16-test INFO: Training Epoch: 88 [30976/50000]	Loss: 0.0502	LR: 0.200000
+[11/23 21:00:13] R0-cifar10-vgg16-test INFO: Training Epoch: 88 [41216/50000]	Loss: 0.0336	LR: 0.200000
+[11/23 21:00:22] R0-cifar10-vgg16-test INFO: [Eval] Epoch=88 Acc@1=90.4100 Acc@5=99.6100 Loss=0.4528
+[11/23 21:00:34] R0-cifar10-vgg16-test INFO: Training Epoch: 89 [256/50000]	Loss: 0.0273	LR: 0.200000
+[11/23 21:00:34] R0-cifar10-vgg16-test INFO: Training Epoch: 89 [10496/50000]	Loss: 0.0239	LR: 0.200000
+[11/23 21:00:35] R0-cifar10-vgg16-test INFO: Training Epoch: 89 [20736/50000]	Loss: 0.0214	LR: 0.200000
+[11/23 21:00:35] R0-cifar10-vgg16-test INFO: Training Epoch: 89 [30976/50000]	Loss: 0.0170	LR: 0.200000
+[11/23 21:00:36] R0-cifar10-vgg16-test INFO: Training Epoch: 89 [41216/50000]	Loss: 0.0276	LR: 0.200000
+[11/23 21:00:45] R0-cifar10-vgg16-test INFO: [Eval] Epoch=89 Acc@1=90.4000 Acc@5=99.6400 Loss=0.4665
+[11/23 21:00:57] R0-cifar10-vgg16-test INFO: Training Epoch: 90 [256/50000]	Loss: 0.0265	LR: 0.200000
+[11/23 21:00:57] R0-cifar10-vgg16-test INFO: Training Epoch: 90 [10496/50000]	Loss: 0.0127	LR: 0.200000
+[11/23 21:00:58] R0-cifar10-vgg16-test INFO: Training Epoch: 90 [20736/50000]	Loss: 0.0132	LR: 0.200000
+[11/23 21:00:58] R0-cifar10-vgg16-test INFO: Training Epoch: 90 [30976/50000]	Loss: 0.0231	LR: 0.200000
+[11/23 21:00:59] R0-cifar10-vgg16-test INFO: Training Epoch: 90 [41216/50000]	Loss: 0.0190	LR: 0.200000
+[11/23 21:01:08] R0-cifar10-vgg16-test INFO: [Eval] Epoch=90 Acc@1=90.9100 Acc@5=99.6600 Loss=0.4215
+[11/23 21:01:20] R0-cifar10-vgg16-test INFO: Training Epoch: 91 [256/50000]	Loss: 0.0155	LR: 0.200000
+[11/23 21:01:21] R0-cifar10-vgg16-test INFO: Training Epoch: 91 [10496/50000]	Loss: 0.0194	LR: 0.200000
+[11/23 21:01:21] R0-cifar10-vgg16-test INFO: Training Epoch: 91 [20736/50000]	Loss: 0.0128	LR: 0.200000
+[11/23 21:01:22] R0-cifar10-vgg16-test INFO: Training Epoch: 91 [30976/50000]	Loss: 0.0134	LR: 0.200000
+[11/23 21:01:22] R0-cifar10-vgg16-test INFO: Training Epoch: 91 [41216/50000]	Loss: 0.0238	LR: 0.200000
+[11/23 21:01:32] R0-cifar10-vgg16-test INFO: [Eval] Epoch=91 Acc@1=89.9200 Acc@5=99.6100 Loss=0.4865
+[11/23 21:01:43] R0-cifar10-vgg16-test INFO: Training Epoch: 92 [256/50000]	Loss: 0.0128	LR: 0.200000
+[11/23 21:01:44] R0-cifar10-vgg16-test INFO: Training Epoch: 92 [10496/50000]	Loss: 0.0179	LR: 0.200000
+[11/23 21:01:44] R0-cifar10-vgg16-test INFO: Training Epoch: 92 [20736/50000]	Loss: 0.0199	LR: 0.200000
+[11/23 21:01:45] R0-cifar10-vgg16-test INFO: Training Epoch: 92 [30976/50000]	Loss: 0.0430	LR: 0.200000
+[11/23 21:01:46] R0-cifar10-vgg16-test INFO: Training Epoch: 92 [41216/50000]	Loss: 0.0240	LR: 0.200000
+[11/23 21:01:55] R0-cifar10-vgg16-test INFO: [Eval] Epoch=92 Acc@1=90.2500 Acc@5=99.5700 Loss=0.4864
+[11/23 21:02:06] R0-cifar10-vgg16-test INFO: Training Epoch: 93 [256/50000]	Loss: 0.0245	LR: 0.200000
+[11/23 21:02:07] R0-cifar10-vgg16-test INFO: Training Epoch: 93 [10496/50000]	Loss: 0.0242	LR: 0.200000
+[11/23 21:02:07] R0-cifar10-vgg16-test INFO: Training Epoch: 93 [20736/50000]	Loss: 0.0236	LR: 0.200000
+[11/23 21:02:08] R0-cifar10-vgg16-test INFO: Training Epoch: 93 [30976/50000]	Loss: 0.0209	LR: 0.200000
+[11/23 21:02:09] R0-cifar10-vgg16-test INFO: Training Epoch: 93 [41216/50000]	Loss: 0.0471	LR: 0.200000
+[11/23 21:02:18] R0-cifar10-vgg16-test INFO: [Eval] Epoch=93 Acc@1=90.2500 Acc@5=99.6900 Loss=0.4504
+[11/23 21:02:29] R0-cifar10-vgg16-test INFO: Training Epoch: 94 [256/50000]	Loss: 0.0216	LR: 0.200000
+[11/23 21:02:30] R0-cifar10-vgg16-test INFO: Training Epoch: 94 [10496/50000]	Loss: 0.0211	LR: 0.200000
+[11/23 21:02:30] R0-cifar10-vgg16-test INFO: Training Epoch: 94 [20736/50000]	Loss: 0.0419	LR: 0.200000
+[11/23 21:02:31] R0-cifar10-vgg16-test INFO: Training Epoch: 94 [30976/50000]	Loss: 0.0157	LR: 0.200000
+[11/23 21:02:31] R0-cifar10-vgg16-test INFO: Training Epoch: 94 [41216/50000]	Loss: 0.0212	LR: 0.200000
+[11/23 21:02:41] R0-cifar10-vgg16-test INFO: [Eval] Epoch=94 Acc@1=90.4700 Acc@5=99.6700 Loss=0.4659
+[11/23 21:02:52] R0-cifar10-vgg16-test INFO: Training Epoch: 95 [256/50000]	Loss: 0.0169	LR: 0.200000
+[11/23 21:02:53] R0-cifar10-vgg16-test INFO: Training Epoch: 95 [10496/50000]	Loss: 0.0195	LR: 0.200000
+[11/23 21:02:53] R0-cifar10-vgg16-test INFO: Training Epoch: 95 [20736/50000]	Loss: 0.0257	LR: 0.200000
+[11/23 21:02:54] R0-cifar10-vgg16-test INFO: Training Epoch: 95 [30976/50000]	Loss: 0.0310	LR: 0.200000
+[11/23 21:02:54] R0-cifar10-vgg16-test INFO: Training Epoch: 95 [41216/50000]	Loss: 0.0171	LR: 0.200000
+[11/23 21:03:04] R0-cifar10-vgg16-test INFO: [Eval] Epoch=95 Acc@1=89.0300 Acc@5=99.5300 Loss=0.5525
+[11/23 21:03:15] R0-cifar10-vgg16-test INFO: Training Epoch: 96 [256/50000]	Loss: 0.0196	LR: 0.200000
+[11/23 21:03:16] R0-cifar10-vgg16-test INFO: Training Epoch: 96 [10496/50000]	Loss: 0.0172	LR: 0.200000
+[11/23 21:03:16] R0-cifar10-vgg16-test INFO: Training Epoch: 96 [20736/50000]	Loss: 0.0134	LR: 0.200000
+[11/23 21:03:17] R0-cifar10-vgg16-test INFO: Training Epoch: 96 [30976/50000]	Loss: 0.0210	LR: 0.200000
+[11/23 21:03:18] R0-cifar10-vgg16-test INFO: Training Epoch: 96 [41216/50000]	Loss: 0.0213	LR: 0.200000
+[11/23 21:03:27] R0-cifar10-vgg16-test INFO: [Eval] Epoch=96 Acc@1=89.9100 Acc@5=99.4800 Loss=0.4909
+[11/23 21:03:39] R0-cifar10-vgg16-test INFO: Training Epoch: 97 [256/50000]	Loss: 0.0156	LR: 0.200000
+[11/23 21:03:40] R0-cifar10-vgg16-test INFO: Training Epoch: 97 [10496/50000]	Loss: 0.0314	LR: 0.200000
+[11/23 21:03:40] R0-cifar10-vgg16-test INFO: Training Epoch: 97 [20736/50000]	Loss: 0.0231	LR: 0.200000
+[11/23 21:03:41] R0-cifar10-vgg16-test INFO: Training Epoch: 97 [30976/50000]	Loss: 0.0191	LR: 0.200000
+[11/23 21:03:41] R0-cifar10-vgg16-test INFO: Training Epoch: 97 [41216/50000]	Loss: 0.0291	LR: 0.200000
+[11/23 21:03:51] R0-cifar10-vgg16-test INFO: [Eval] Epoch=97 Acc@1=89.6700 Acc@5=99.6100 Loss=0.4808
+[11/23 21:04:02] R0-cifar10-vgg16-test INFO: Training Epoch: 98 [256/50000]	Loss: 0.0153	LR: 0.200000
+[11/23 21:04:03] R0-cifar10-vgg16-test INFO: Training Epoch: 98 [10496/50000]	Loss: 0.0241	LR: 0.200000
+[11/23 21:04:03] R0-cifar10-vgg16-test INFO: Training Epoch: 98 [20736/50000]	Loss: 0.0183	LR: 0.200000
+[11/23 21:04:04] R0-cifar10-vgg16-test INFO: Training Epoch: 98 [30976/50000]	Loss: 0.0275	LR: 0.200000
+[11/23 21:04:04] R0-cifar10-vgg16-test INFO: Training Epoch: 98 [41216/50000]	Loss: 0.0294	LR: 0.200000
+[11/23 21:04:14] R0-cifar10-vgg16-test INFO: [Eval] Epoch=98 Acc@1=90.1300 Acc@5=99.6100 Loss=0.4700
+[11/23 21:04:25] R0-cifar10-vgg16-test INFO: Training Epoch: 99 [256/50000]	Loss: 0.0167	LR: 0.200000
+[11/23 21:04:26] R0-cifar10-vgg16-test INFO: Training Epoch: 99 [10496/50000]	Loss: 0.0393	LR: 0.200000
+[11/23 21:04:26] R0-cifar10-vgg16-test INFO: Training Epoch: 99 [20736/50000]	Loss: 0.0394	LR: 0.200000
+[11/23 21:04:27] R0-cifar10-vgg16-test INFO: Training Epoch: 99 [30976/50000]	Loss: 0.0205	LR: 0.200000
+[11/23 21:04:27] R0-cifar10-vgg16-test INFO: Training Epoch: 99 [41216/50000]	Loss: 0.0246	LR: 0.200000
+[11/23 21:04:37] R0-cifar10-vgg16-test INFO: [Eval] Epoch=99 Acc@1=90.9200 Acc@5=99.6600 Loss=0.4296
+[11/23 21:04:48] R0-cifar10-vgg16-test INFO: Training Epoch: 100 [256/50000]	Loss: 0.0151	LR: 0.200000
+[11/23 21:04:49] R0-cifar10-vgg16-test INFO: Training Epoch: 100 [10496/50000]	Loss: 0.0161	LR: 0.200000
+[11/23 21:04:49] R0-cifar10-vgg16-test INFO: Training Epoch: 100 [20736/50000]	Loss: 0.0168	LR: 0.200000
+[11/23 21:04:50] R0-cifar10-vgg16-test INFO: Training Epoch: 100 [30976/50000]	Loss: 0.0162	LR: 0.200000
+[11/23 21:04:50] R0-cifar10-vgg16-test INFO: Training Epoch: 100 [41216/50000]	Loss: 0.0167	LR: 0.200000
+[11/23 21:05:00] R0-cifar10-vgg16-test INFO: [Eval] Epoch=100 Acc@1=89.9000 Acc@5=99.6700 Loss=0.4866
+[11/23 21:05:11] R0-cifar10-vgg16-test INFO: Training Epoch: 101 [256/50000]	Loss: 0.0218	LR: 0.200000
+[11/23 21:05:12] R0-cifar10-vgg16-test INFO: Training Epoch: 101 [10496/50000]	Loss: 0.0269	LR: 0.200000
+[11/23 21:05:12] R0-cifar10-vgg16-test INFO: Training Epoch: 101 [20736/50000]	Loss: 0.0148	LR: 0.200000
+[11/23 21:05:13] R0-cifar10-vgg16-test INFO: Training Epoch: 101 [30976/50000]	Loss: 0.0289	LR: 0.200000
+[11/23 21:05:14] R0-cifar10-vgg16-test INFO: Training Epoch: 101 [41216/50000]	Loss: 0.0276	LR: 0.200000
+[11/23 21:05:23] R0-cifar10-vgg16-test INFO: [Eval] Epoch=101 Acc@1=89.3700 Acc@5=99.6000 Loss=0.5067
+[11/23 21:05:35] R0-cifar10-vgg16-test INFO: Training Epoch: 102 [256/50000]	Loss: 0.0147	LR: 0.200000
+[11/23 21:05:35] R0-cifar10-vgg16-test INFO: Training Epoch: 102 [10496/50000]	Loss: 0.0407	LR: 0.200000
+[11/23 21:05:36] R0-cifar10-vgg16-test INFO: Training Epoch: 102 [20736/50000]	Loss: 0.0211	LR: 0.200000
+[11/23 21:05:36] R0-cifar10-vgg16-test INFO: Training Epoch: 102 [30976/50000]	Loss: 0.0194	LR: 0.200000
+[11/23 21:05:37] R0-cifar10-vgg16-test INFO: Training Epoch: 102 [41216/50000]	Loss: 0.0322	LR: 0.200000
+[11/23 21:05:47] R0-cifar10-vgg16-test INFO: [Eval] Epoch=102 Acc@1=88.8600 Acc@5=99.6600 Loss=0.5316
+[11/23 21:05:58] R0-cifar10-vgg16-test INFO: Training Epoch: 103 [256/50000]	Loss: 0.0164	LR: 0.200000
+[11/23 21:05:59] R0-cifar10-vgg16-test INFO: Training Epoch: 103 [10496/50000]	Loss: 0.0231	LR: 0.200000
+[11/23 21:05:59] R0-cifar10-vgg16-test INFO: Training Epoch: 103 [20736/50000]	Loss: 0.0233	LR: 0.200000
+[11/23 21:06:00] R0-cifar10-vgg16-test INFO: Training Epoch: 103 [30976/50000]	Loss: 0.0275	LR: 0.200000
+[11/23 21:06:00] R0-cifar10-vgg16-test INFO: Training Epoch: 103 [41216/50000]	Loss: 0.0116	LR: 0.200000
+[11/23 21:06:10] R0-cifar10-vgg16-test INFO: [Eval] Epoch=103 Acc@1=89.3800 Acc@5=99.6600 Loss=0.5056
+[11/23 21:06:21] R0-cifar10-vgg16-test INFO: Training Epoch: 104 [256/50000]	Loss: 0.0260	LR: 0.200000
+[11/23 21:06:21] R0-cifar10-vgg16-test INFO: Training Epoch: 104 [10496/50000]	Loss: 0.0125	LR: 0.200000
+[11/23 21:06:22] R0-cifar10-vgg16-test INFO: Training Epoch: 104 [20736/50000]	Loss: 0.0123	LR: 0.200000
+[11/23 21:06:23] R0-cifar10-vgg16-test INFO: Training Epoch: 104 [30976/50000]	Loss: 0.0120	LR: 0.200000
+[11/23 21:06:23] R0-cifar10-vgg16-test INFO: Training Epoch: 104 [41216/50000]	Loss: 0.0187	LR: 0.200000
+[11/23 21:06:33] R0-cifar10-vgg16-test INFO: [Eval] Epoch=104 Acc@1=89.7300 Acc@5=99.5500 Loss=0.5067
+[11/23 21:06:44] R0-cifar10-vgg16-test INFO: Training Epoch: 105 [256/50000]	Loss: 0.0230	LR: 0.200000
+[11/23 21:06:45] R0-cifar10-vgg16-test INFO: Training Epoch: 105 [10496/50000]	Loss: 0.0132	LR: 0.200000
+[11/23 21:06:45] R0-cifar10-vgg16-test INFO: Training Epoch: 105 [20736/50000]	Loss: 0.0136	LR: 0.200000
+[11/23 21:06:46] R0-cifar10-vgg16-test INFO: Training Epoch: 105 [30976/50000]	Loss: 0.0190	LR: 0.200000
+[11/23 21:06:46] R0-cifar10-vgg16-test INFO: Training Epoch: 105 [41216/50000]	Loss: 0.0192	LR: 0.200000
+[11/23 21:06:56] R0-cifar10-vgg16-test INFO: [Eval] Epoch=105 Acc@1=90.1200 Acc@5=99.5900 Loss=0.4999
+[11/23 21:07:07] R0-cifar10-vgg16-test INFO: Training Epoch: 106 [256/50000]	Loss: 0.0186	LR: 0.200000
+[11/23 21:07:08] R0-cifar10-vgg16-test INFO: Training Epoch: 106 [10496/50000]	Loss: 0.0205	LR: 0.200000
+[11/23 21:07:09] R0-cifar10-vgg16-test INFO: Training Epoch: 106 [20736/50000]	Loss: 0.0282	LR: 0.200000
+[11/23 21:07:09] R0-cifar10-vgg16-test INFO: Training Epoch: 106 [30976/50000]	Loss: 0.0137	LR: 0.200000
+[11/23 21:07:10] R0-cifar10-vgg16-test INFO: Training Epoch: 106 [41216/50000]	Loss: 0.0205	LR: 0.200000
+[11/23 21:07:19] R0-cifar10-vgg16-test INFO: [Eval] Epoch=106 Acc@1=89.7800 Acc@5=99.8100 Loss=0.4849
+[11/23 21:07:31] R0-cifar10-vgg16-test INFO: Training Epoch: 107 [256/50000]	Loss: 0.0289	LR: 0.200000
+[11/23 21:07:31] R0-cifar10-vgg16-test INFO: Training Epoch: 107 [10496/50000]	Loss: 0.0153	LR: 0.200000
+[11/23 21:07:32] R0-cifar10-vgg16-test INFO: Training Epoch: 107 [20736/50000]	Loss: 0.0182	LR: 0.200000
+[11/23 21:07:32] R0-cifar10-vgg16-test INFO: Training Epoch: 107 [30976/50000]	Loss: 0.0151	LR: 0.200000
+[11/23 21:07:33] R0-cifar10-vgg16-test INFO: Training Epoch: 107 [41216/50000]	Loss: 0.0134	LR: 0.200000
+[11/23 21:07:42] R0-cifar10-vgg16-test INFO: [Eval] Epoch=107 Acc@1=90.1500 Acc@5=99.5200 Loss=0.4963
+[11/23 21:07:54] R0-cifar10-vgg16-test INFO: Training Epoch: 108 [256/50000]	Loss: 0.0161	LR: 0.200000
+[11/23 21:07:54] R0-cifar10-vgg16-test INFO: Training Epoch: 108 [10496/50000]	Loss: 0.0141	LR: 0.200000
+[11/23 21:07:55] R0-cifar10-vgg16-test INFO: Training Epoch: 108 [20736/50000]	Loss: 0.0130	LR: 0.200000
+[11/23 21:07:55] R0-cifar10-vgg16-test INFO: Training Epoch: 108 [30976/50000]	Loss: 0.0232	LR: 0.200000
+[11/23 21:07:56] R0-cifar10-vgg16-test INFO: Training Epoch: 108 [41216/50000]	Loss: 0.0171	LR: 0.200000
+[11/23 21:08:05] R0-cifar10-vgg16-test INFO: [Eval] Epoch=108 Acc@1=90.0400 Acc@5=99.6400 Loss=0.4664
+[11/23 21:08:17] R0-cifar10-vgg16-test INFO: Training Epoch: 109 [256/50000]	Loss: 0.0185	LR: 0.200000
+[11/23 21:08:18] R0-cifar10-vgg16-test INFO: Training Epoch: 109 [10496/50000]	Loss: 0.0344	LR: 0.200000
+[11/23 21:08:18] R0-cifar10-vgg16-test INFO: Training Epoch: 109 [20736/50000]	Loss: 0.0324	LR: 0.200000
+[11/23 21:08:19] R0-cifar10-vgg16-test INFO: Training Epoch: 109 [30976/50000]	Loss: 0.0420	LR: 0.200000
+[11/23 21:08:19] R0-cifar10-vgg16-test INFO: Training Epoch: 109 [41216/50000]	Loss: 0.0182	LR: 0.200000
+[11/23 21:08:29] R0-cifar10-vgg16-test INFO: [Eval] Epoch=109 Acc@1=89.2600 Acc@5=99.4500 Loss=0.5439
+[11/23 21:08:40] R0-cifar10-vgg16-test INFO: Training Epoch: 110 [256/50000]	Loss: 0.0148	LR: 0.200000
+[11/23 21:08:41] R0-cifar10-vgg16-test INFO: Training Epoch: 110 [10496/50000]	Loss: 0.0240	LR: 0.200000
+[11/23 21:08:42] R0-cifar10-vgg16-test INFO: Training Epoch: 110 [20736/50000]	Loss: 0.0218	LR: 0.200000
+[11/23 21:08:42] R0-cifar10-vgg16-test INFO: Training Epoch: 110 [30976/50000]	Loss: 0.0237	LR: 0.200000
+[11/23 21:08:43] R0-cifar10-vgg16-test INFO: Training Epoch: 110 [41216/50000]	Loss: 0.0294	LR: 0.200000
+[11/23 21:08:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=110 Acc@1=88.8800 Acc@5=99.3800 Loss=0.5706
+[11/23 21:09:04] R0-cifar10-vgg16-test INFO: Training Epoch: 111 [256/50000]	Loss: 0.0247	LR: 0.200000
+[11/23 21:09:04] R0-cifar10-vgg16-test INFO: Training Epoch: 111 [10496/50000]	Loss: 0.0280	LR: 0.200000
+[11/23 21:09:05] R0-cifar10-vgg16-test INFO: Training Epoch: 111 [20736/50000]	Loss: 0.0235	LR: 0.200000
+[11/23 21:09:05] R0-cifar10-vgg16-test INFO: Training Epoch: 111 [30976/50000]	Loss: 0.0240	LR: 0.200000
+[11/23 21:09:06] R0-cifar10-vgg16-test INFO: Training Epoch: 111 [41216/50000]	Loss: 0.0166	LR: 0.200000
+[11/23 21:09:16] R0-cifar10-vgg16-test INFO: [Eval] Epoch=111 Acc@1=90.4200 Acc@5=99.7300 Loss=0.4508
+[11/23 21:09:27] R0-cifar10-vgg16-test INFO: Training Epoch: 112 [256/50000]	Loss: 0.0147	LR: 0.200000
+[11/23 21:09:27] R0-cifar10-vgg16-test INFO: Training Epoch: 112 [10496/50000]	Loss: 0.0174	LR: 0.200000
+[11/23 21:09:28] R0-cifar10-vgg16-test INFO: Training Epoch: 112 [20736/50000]	Loss: 0.0239	LR: 0.200000
+[11/23 21:09:28] R0-cifar10-vgg16-test INFO: Training Epoch: 112 [30976/50000]	Loss: 0.0274	LR: 0.200000
+[11/23 21:09:29] R0-cifar10-vgg16-test INFO: Training Epoch: 112 [41216/50000]	Loss: 0.0158	LR: 0.200000
+[11/23 21:09:39] R0-cifar10-vgg16-test INFO: [Eval] Epoch=112 Acc@1=89.8100 Acc@5=99.7300 Loss=0.4776
+[11/23 21:09:50] R0-cifar10-vgg16-test INFO: Training Epoch: 113 [256/50000]	Loss: 0.0112	LR: 0.200000
+[11/23 21:09:51] R0-cifar10-vgg16-test INFO: Training Epoch: 113 [10496/50000]	Loss: 0.0198	LR: 0.200000
+[11/23 21:09:51] R0-cifar10-vgg16-test INFO: Training Epoch: 113 [20736/50000]	Loss: 0.0249	LR: 0.200000
+[11/23 21:09:52] R0-cifar10-vgg16-test INFO: Training Epoch: 113 [30976/50000]	Loss: 0.0189	LR: 0.200000
+[11/23 21:09:52] R0-cifar10-vgg16-test INFO: Training Epoch: 113 [41216/50000]	Loss: 0.0188	LR: 0.200000
+[11/23 21:10:02] R0-cifar10-vgg16-test INFO: [Eval] Epoch=113 Acc@1=90.4500 Acc@5=99.6300 Loss=0.4759
+[11/23 21:10:13] R0-cifar10-vgg16-test INFO: Training Epoch: 114 [256/50000]	Loss: 0.0199	LR: 0.200000
+[11/23 21:10:14] R0-cifar10-vgg16-test INFO: Training Epoch: 114 [10496/50000]	Loss: 0.0166	LR: 0.200000
+[11/23 21:10:14] R0-cifar10-vgg16-test INFO: Training Epoch: 114 [20736/50000]	Loss: 0.0155	LR: 0.200000
+[11/23 21:10:15] R0-cifar10-vgg16-test INFO: Training Epoch: 114 [30976/50000]	Loss: 0.0123	LR: 0.200000
+[11/23 21:10:15] R0-cifar10-vgg16-test INFO: Training Epoch: 114 [41216/50000]	Loss: 0.0196	LR: 0.200000
+[11/23 21:10:25] R0-cifar10-vgg16-test INFO: [Eval] Epoch=114 Acc@1=89.7500 Acc@5=99.6100 Loss=0.5096
+[11/23 21:10:36] R0-cifar10-vgg16-test INFO: Training Epoch: 115 [256/50000]	Loss: 0.0272	LR: 0.200000
+[11/23 21:10:37] R0-cifar10-vgg16-test INFO: Training Epoch: 115 [10496/50000]	Loss: 0.0270	LR: 0.200000
+[11/23 21:10:37] R0-cifar10-vgg16-test INFO: Training Epoch: 115 [20736/50000]	Loss: 0.0281	LR: 0.200000
+[11/23 21:10:38] R0-cifar10-vgg16-test INFO: Training Epoch: 115 [30976/50000]	Loss: 0.0214	LR: 0.200000
+[11/23 21:10:39] R0-cifar10-vgg16-test INFO: Training Epoch: 115 [41216/50000]	Loss: 0.0152	LR: 0.200000
+[11/23 21:10:48] R0-cifar10-vgg16-test INFO: [Eval] Epoch=115 Acc@1=90.5200 Acc@5=99.7300 Loss=0.4379
+[11/23 21:11:00] R0-cifar10-vgg16-test INFO: Training Epoch: 116 [256/50000]	Loss: 0.0318	LR: 0.200000
+[11/23 21:11:00] R0-cifar10-vgg16-test INFO: Training Epoch: 116 [10496/50000]	Loss: 0.0218	LR: 0.200000
+[11/23 21:11:01] R0-cifar10-vgg16-test INFO: Training Epoch: 116 [20736/50000]	Loss: 0.0223	LR: 0.200000
+[11/23 21:11:01] R0-cifar10-vgg16-test INFO: Training Epoch: 116 [30976/50000]	Loss: 0.0170	LR: 0.200000
+[11/23 21:11:02] R0-cifar10-vgg16-test INFO: Training Epoch: 116 [41216/50000]	Loss: 0.0159	LR: 0.200000
+[11/23 21:11:11] R0-cifar10-vgg16-test INFO: [Eval] Epoch=116 Acc@1=89.8600 Acc@5=99.6800 Loss=0.4823
+[11/23 21:11:23] R0-cifar10-vgg16-test INFO: Training Epoch: 117 [256/50000]	Loss: 0.0214	LR: 0.200000
+[11/23 21:11:23] R0-cifar10-vgg16-test INFO: Training Epoch: 117 [10496/50000]	Loss: 0.0119	LR: 0.200000
+[11/23 21:11:24] R0-cifar10-vgg16-test INFO: Training Epoch: 117 [20736/50000]	Loss: 0.0259	LR: 0.200000
+[11/23 21:11:24] R0-cifar10-vgg16-test INFO: Training Epoch: 117 [30976/50000]	Loss: 0.0285	LR: 0.200000
+[11/23 21:11:25] R0-cifar10-vgg16-test INFO: Training Epoch: 117 [41216/50000]	Loss: 0.0360	LR: 0.200000
+[11/23 21:11:34] R0-cifar10-vgg16-test INFO: [Eval] Epoch=117 Acc@1=89.8400 Acc@5=99.5600 Loss=0.5143
+[11/23 21:11:46] R0-cifar10-vgg16-test INFO: Training Epoch: 118 [256/50000]	Loss: 0.0129	LR: 0.200000
+[11/23 21:11:46] R0-cifar10-vgg16-test INFO: Training Epoch: 118 [10496/50000]	Loss: 0.0229	LR: 0.200000
+[11/23 21:11:47] R0-cifar10-vgg16-test INFO: Training Epoch: 118 [20736/50000]	Loss: 0.0253	LR: 0.200000
+[11/23 21:11:47] R0-cifar10-vgg16-test INFO: Training Epoch: 118 [30976/50000]	Loss: 0.0270	LR: 0.200000
+[11/23 21:11:48] R0-cifar10-vgg16-test INFO: Training Epoch: 118 [41216/50000]	Loss: 0.0179	LR: 0.200000
+[11/23 21:11:57] R0-cifar10-vgg16-test INFO: [Eval] Epoch=118 Acc@1=89.7700 Acc@5=99.7900 Loss=0.4709
+[11/23 21:12:09] R0-cifar10-vgg16-test INFO: Training Epoch: 119 [256/50000]	Loss: 0.0208	LR: 0.200000
+[11/23 21:12:09] R0-cifar10-vgg16-test INFO: Training Epoch: 119 [10496/50000]	Loss: 0.0182	LR: 0.200000
+[11/23 21:12:10] R0-cifar10-vgg16-test INFO: Training Epoch: 119 [20736/50000]	Loss: 0.0315	LR: 0.200000
+[11/23 21:12:10] R0-cifar10-vgg16-test INFO: Training Epoch: 119 [30976/50000]	Loss: 0.0239	LR: 0.200000
+[11/23 21:12:11] R0-cifar10-vgg16-test INFO: Training Epoch: 119 [41216/50000]	Loss: 0.0219	LR: 0.200000
+[11/23 21:12:21] R0-cifar10-vgg16-test INFO: [Eval] Epoch=119 Acc@1=89.8500 Acc@5=99.5100 Loss=0.4953
+[11/23 21:12:32] R0-cifar10-vgg16-test INFO: Training Epoch: 120 [256/50000]	Loss: 0.0341	LR: 0.200000
+[11/23 21:12:33] R0-cifar10-vgg16-test INFO: Training Epoch: 120 [10496/50000]	Loss: 0.0244	LR: 0.200000
+[11/23 21:12:33] R0-cifar10-vgg16-test INFO: Training Epoch: 120 [20736/50000]	Loss: 0.0148	LR: 0.200000
+[11/23 21:12:34] R0-cifar10-vgg16-test INFO: Training Epoch: 120 [30976/50000]	Loss: 0.0162	LR: 0.200000
+[11/23 21:12:34] R0-cifar10-vgg16-test INFO: Training Epoch: 120 [41216/50000]	Loss: 0.0123	LR: 0.200000
+[11/23 21:12:44] R0-cifar10-vgg16-test INFO: [Eval] Epoch=120 Acc@1=90.4700 Acc@5=99.6500 Loss=0.4413
+[11/23 21:12:56] R0-cifar10-vgg16-test INFO: Training Epoch: 121 [256/50000]	Loss: 0.0136	LR: 0.200000
+[11/23 21:12:56] R0-cifar10-vgg16-test INFO: Training Epoch: 121 [10496/50000]	Loss: 0.0174	LR: 0.200000
+[11/23 21:12:57] R0-cifar10-vgg16-test INFO: Training Epoch: 121 [20736/50000]	Loss: 0.0085	LR: 0.200000
+[11/23 21:12:57] R0-cifar10-vgg16-test INFO: Training Epoch: 121 [30976/50000]	Loss: 0.0150	LR: 0.200000
+[11/23 21:12:58] R0-cifar10-vgg16-test INFO: Training Epoch: 121 [41216/50000]	Loss: 0.0264	LR: 0.200000
+[11/23 21:13:07] R0-cifar10-vgg16-test INFO: [Eval] Epoch=121 Acc@1=90.1100 Acc@5=99.5100 Loss=0.4792
+[11/23 21:13:19] R0-cifar10-vgg16-test INFO: Training Epoch: 122 [256/50000]	Loss: 0.0081	LR: 0.020000
+[11/23 21:13:20] R0-cifar10-vgg16-test INFO: Training Epoch: 122 [10496/50000]	Loss: 0.0181	LR: 0.020000
+[11/23 21:13:20] R0-cifar10-vgg16-test INFO: Training Epoch: 122 [20736/50000]	Loss: 0.0092	LR: 0.020000
+[11/23 21:13:21] R0-cifar10-vgg16-test INFO: Training Epoch: 122 [30976/50000]	Loss: 0.0046	LR: 0.020000
+[11/23 21:13:21] R0-cifar10-vgg16-test INFO: Training Epoch: 122 [41216/50000]	Loss: 0.0115	LR: 0.020000
+[11/23 21:13:31] R0-cifar10-vgg16-test INFO: [Eval] Epoch=122 Acc@1=91.8000 Acc@5=99.7400 Loss=0.3741
+[11/23 21:13:43] R0-cifar10-vgg16-test INFO: Training Epoch: 123 [256/50000]	Loss: 0.0096	LR: 0.020000
+[11/23 21:13:43] R0-cifar10-vgg16-test INFO: Training Epoch: 123 [10496/50000]	Loss: 0.0091	LR: 0.020000
+[11/23 21:13:44] R0-cifar10-vgg16-test INFO: Training Epoch: 123 [20736/50000]	Loss: 0.0082	LR: 0.020000
+[11/23 21:13:44] R0-cifar10-vgg16-test INFO: Training Epoch: 123 [30976/50000]	Loss: 0.0030	LR: 0.020000
+[11/23 21:13:45] R0-cifar10-vgg16-test INFO: Training Epoch: 123 [41216/50000]	Loss: 0.0048	LR: 0.020000
+[11/23 21:13:54] R0-cifar10-vgg16-test INFO: [Eval] Epoch=123 Acc@1=91.9600 Acc@5=99.7600 Loss=0.3676
+[11/23 21:14:06] R0-cifar10-vgg16-test INFO: Training Epoch: 124 [256/50000]	Loss: 0.0036	LR: 0.020000
+[11/23 21:14:07] R0-cifar10-vgg16-test INFO: Training Epoch: 124 [10496/50000]	Loss: 0.0073	LR: 0.020000
+[11/23 21:14:07] R0-cifar10-vgg16-test INFO: Training Epoch: 124 [20736/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:14:08] R0-cifar10-vgg16-test INFO: Training Epoch: 124 [30976/50000]	Loss: 0.0068	LR: 0.020000
+[11/23 21:14:08] R0-cifar10-vgg16-test INFO: Training Epoch: 124 [41216/50000]	Loss: 0.0073	LR: 0.020000
+[11/23 21:14:18] R0-cifar10-vgg16-test INFO: [Eval] Epoch=124 Acc@1=91.9900 Acc@5=99.7400 Loss=0.3668
+[11/23 21:14:30] R0-cifar10-vgg16-test INFO: Training Epoch: 125 [256/50000]	Loss: 0.0071	LR: 0.020000
+[11/23 21:14:30] R0-cifar10-vgg16-test INFO: Training Epoch: 125 [10496/50000]	Loss: 0.0061	LR: 0.020000
+[11/23 21:14:31] R0-cifar10-vgg16-test INFO: Training Epoch: 125 [20736/50000]	Loss: 0.0056	LR: 0.020000
+[11/23 21:14:31] R0-cifar10-vgg16-test INFO: Training Epoch: 125 [30976/50000]	Loss: 0.0024	LR: 0.020000
+[11/23 21:14:32] R0-cifar10-vgg16-test INFO: Training Epoch: 125 [41216/50000]	Loss: 0.0019	LR: 0.020000
+[11/23 21:14:42] R0-cifar10-vgg16-test INFO: [Eval] Epoch=125 Acc@1=91.9200 Acc@5=99.7400 Loss=0.3653
+[11/23 21:14:53] R0-cifar10-vgg16-test INFO: Training Epoch: 126 [256/50000]	Loss: 0.0028	LR: 0.020000
+[11/23 21:14:53] R0-cifar10-vgg16-test INFO: Training Epoch: 126 [10496/50000]	Loss: 0.0026	LR: 0.020000
+[11/23 21:14:54] R0-cifar10-vgg16-test INFO: Training Epoch: 126 [20736/50000]	Loss: 0.0015	LR: 0.020000
+[11/23 21:14:55] R0-cifar10-vgg16-test INFO: Training Epoch: 126 [30976/50000]	Loss: 0.0040	LR: 0.020000
+[11/23 21:14:55] R0-cifar10-vgg16-test INFO: Training Epoch: 126 [41216/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:15:05] R0-cifar10-vgg16-test INFO: [Eval] Epoch=126 Acc@1=92.0000 Acc@5=99.7400 Loss=0.3650
+[11/23 21:15:16] R0-cifar10-vgg16-test INFO: Training Epoch: 127 [256/50000]	Loss: 0.0031	LR: 0.020000
+[11/23 21:15:17] R0-cifar10-vgg16-test INFO: Training Epoch: 127 [10496/50000]	Loss: 0.0044	LR: 0.020000
+[11/23 21:15:17] R0-cifar10-vgg16-test INFO: Training Epoch: 127 [20736/50000]	Loss: 0.0032	LR: 0.020000
+[11/23 21:15:18] R0-cifar10-vgg16-test INFO: Training Epoch: 127 [30976/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:15:18] R0-cifar10-vgg16-test INFO: Training Epoch: 127 [41216/50000]	Loss: 0.0015	LR: 0.020000
+[11/23 21:15:28] R0-cifar10-vgg16-test INFO: [Eval] Epoch=127 Acc@1=92.1200 Acc@5=99.7400 Loss=0.3644
+[11/23 21:15:40] R0-cifar10-vgg16-test INFO: Training Epoch: 128 [256/50000]	Loss: 0.0011	LR: 0.020000
+[11/23 21:15:41] R0-cifar10-vgg16-test INFO: Training Epoch: 128 [10496/50000]	Loss: 0.0035	LR: 0.020000
+[11/23 21:15:41] R0-cifar10-vgg16-test INFO: Training Epoch: 128 [20736/50000]	Loss: 0.0024	LR: 0.020000
+[11/23 21:15:42] R0-cifar10-vgg16-test INFO: Training Epoch: 128 [30976/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:15:42] R0-cifar10-vgg16-test INFO: Training Epoch: 128 [41216/50000]	Loss: 0.0016	LR: 0.020000
+[11/23 21:15:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=128 Acc@1=91.9300 Acc@5=99.7600 Loss=0.3637
+[11/23 21:16:03] R0-cifar10-vgg16-test INFO: Training Epoch: 129 [256/50000]	Loss: 0.0023	LR: 0.020000
+[11/23 21:16:04] R0-cifar10-vgg16-test INFO: Training Epoch: 129 [10496/50000]	Loss: 0.0021	LR: 0.020000
+[11/23 21:16:05] R0-cifar10-vgg16-test INFO: Training Epoch: 129 [20736/50000]	Loss: 0.0035	LR: 0.020000
+[11/23 21:16:05] R0-cifar10-vgg16-test INFO: Training Epoch: 129 [30976/50000]	Loss: 0.0020	LR: 0.020000
+[11/23 21:16:06] R0-cifar10-vgg16-test INFO: Training Epoch: 129 [41216/50000]	Loss: 0.0060	LR: 0.020000
+[11/23 21:16:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=129 Acc@1=92.1300 Acc@5=99.7500 Loss=0.3640
+[11/23 21:16:27] R0-cifar10-vgg16-test INFO: Training Epoch: 130 [256/50000]	Loss: 0.0034	LR: 0.020000
+[11/23 21:16:28] R0-cifar10-vgg16-test INFO: Training Epoch: 130 [10496/50000]	Loss: 0.0029	LR: 0.020000
+[11/23 21:16:28] R0-cifar10-vgg16-test INFO: Training Epoch: 130 [20736/50000]	Loss: 0.0031	LR: 0.020000
+[11/23 21:16:29] R0-cifar10-vgg16-test INFO: Training Epoch: 130 [30976/50000]	Loss: 0.0047	LR: 0.020000
+[11/23 21:16:29] R0-cifar10-vgg16-test INFO: Training Epoch: 130 [41216/50000]	Loss: 0.0019	LR: 0.020000
+[11/23 21:16:39] R0-cifar10-vgg16-test INFO: [Eval] Epoch=130 Acc@1=92.1400 Acc@5=99.7600 Loss=0.3651
+[11/23 21:16:50] R0-cifar10-vgg16-test INFO: Training Epoch: 131 [256/50000]	Loss: 0.0044	LR: 0.020000
+[11/23 21:16:51] R0-cifar10-vgg16-test INFO: Training Epoch: 131 [10496/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:16:52] R0-cifar10-vgg16-test INFO: Training Epoch: 131 [20736/50000]	Loss: 0.0025	LR: 0.020000
+[11/23 21:16:52] R0-cifar10-vgg16-test INFO: Training Epoch: 131 [30976/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:16:53] R0-cifar10-vgg16-test INFO: Training Epoch: 131 [41216/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:17:02] R0-cifar10-vgg16-test INFO: [Eval] Epoch=131 Acc@1=92.2100 Acc@5=99.7500 Loss=0.3614
+[11/23 21:17:14] R0-cifar10-vgg16-test INFO: Training Epoch: 132 [256/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:17:15] R0-cifar10-vgg16-test INFO: Training Epoch: 132 [10496/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:17:15] R0-cifar10-vgg16-test INFO: Training Epoch: 132 [20736/50000]	Loss: 0.0024	LR: 0.020000
+[11/23 21:17:16] R0-cifar10-vgg16-test INFO: Training Epoch: 132 [30976/50000]	Loss: 0.0022	LR: 0.020000
+[11/23 21:17:16] R0-cifar10-vgg16-test INFO: Training Epoch: 132 [41216/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:17:26] R0-cifar10-vgg16-test INFO: [Eval] Epoch=132 Acc@1=92.1400 Acc@5=99.7300 Loss=0.3646
+[11/23 21:17:37] R0-cifar10-vgg16-test INFO: Training Epoch: 133 [256/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:17:38] R0-cifar10-vgg16-test INFO: Training Epoch: 133 [10496/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:17:39] R0-cifar10-vgg16-test INFO: Training Epoch: 133 [20736/50000]	Loss: 0.0018	LR: 0.020000
+[11/23 21:17:39] R0-cifar10-vgg16-test INFO: Training Epoch: 133 [30976/50000]	Loss: 0.0017	LR: 0.020000
+[11/23 21:17:40] R0-cifar10-vgg16-test INFO: Training Epoch: 133 [41216/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:17:49] R0-cifar10-vgg16-test INFO: [Eval] Epoch=133 Acc@1=92.1900 Acc@5=99.7100 Loss=0.3648
+[11/23 21:18:01] R0-cifar10-vgg16-test INFO: Training Epoch: 134 [256/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:18:01] R0-cifar10-vgg16-test INFO: Training Epoch: 134 [10496/50000]	Loss: 0.0027	LR: 0.020000
+[11/23 21:18:02] R0-cifar10-vgg16-test INFO: Training Epoch: 134 [20736/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:18:02] R0-cifar10-vgg16-test INFO: Training Epoch: 134 [30976/50000]	Loss: 0.0024	LR: 0.020000
+[11/23 21:18:03] R0-cifar10-vgg16-test INFO: Training Epoch: 134 [41216/50000]	Loss: 0.0016	LR: 0.020000
+[11/23 21:18:13] R0-cifar10-vgg16-test INFO: [Eval] Epoch=134 Acc@1=92.2100 Acc@5=99.7200 Loss=0.3652
+[11/23 21:18:24] R0-cifar10-vgg16-test INFO: Training Epoch: 135 [256/50000]	Loss: 0.0015	LR: 0.020000
+[11/23 21:18:25] R0-cifar10-vgg16-test INFO: Training Epoch: 135 [10496/50000]	Loss: 0.0019	LR: 0.020000
+[11/23 21:18:25] R0-cifar10-vgg16-test INFO: Training Epoch: 135 [20736/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:18:26] R0-cifar10-vgg16-test INFO: Training Epoch: 135 [30976/50000]	Loss: 0.0029	LR: 0.020000
+[11/23 21:18:26] R0-cifar10-vgg16-test INFO: Training Epoch: 135 [41216/50000]	Loss: 0.0020	LR: 0.020000
+[11/23 21:18:36] R0-cifar10-vgg16-test INFO: [Eval] Epoch=135 Acc@1=92.2500 Acc@5=99.7200 Loss=0.3651
+[11/23 21:18:47] R0-cifar10-vgg16-test INFO: Training Epoch: 136 [256/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:18:48] R0-cifar10-vgg16-test INFO: Training Epoch: 136 [10496/50000]	Loss: 0.0011	LR: 0.020000
+[11/23 21:18:48] R0-cifar10-vgg16-test INFO: Training Epoch: 136 [20736/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:18:49] R0-cifar10-vgg16-test INFO: Training Epoch: 136 [30976/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:18:49] R0-cifar10-vgg16-test INFO: Training Epoch: 136 [41216/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:18:59] R0-cifar10-vgg16-test INFO: [Eval] Epoch=136 Acc@1=92.2100 Acc@5=99.7100 Loss=0.3686
+[11/23 21:19:10] R0-cifar10-vgg16-test INFO: Training Epoch: 137 [256/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:19:11] R0-cifar10-vgg16-test INFO: Training Epoch: 137 [10496/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:19:11] R0-cifar10-vgg16-test INFO: Training Epoch: 137 [20736/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:19:12] R0-cifar10-vgg16-test INFO: Training Epoch: 137 [30976/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:19:12] R0-cifar10-vgg16-test INFO: Training Epoch: 137 [41216/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:19:22] R0-cifar10-vgg16-test INFO: [Eval] Epoch=137 Acc@1=92.2200 Acc@5=99.7200 Loss=0.3673
+[11/23 21:19:33] R0-cifar10-vgg16-test INFO: Training Epoch: 138 [256/50000]	Loss: 0.0021	LR: 0.020000
+[11/23 21:19:34] R0-cifar10-vgg16-test INFO: Training Epoch: 138 [10496/50000]	Loss: 0.0011	LR: 0.020000
+[11/23 21:19:34] R0-cifar10-vgg16-test INFO: Training Epoch: 138 [20736/50000]	Loss: 0.0031	LR: 0.020000
+[11/23 21:19:35] R0-cifar10-vgg16-test INFO: Training Epoch: 138 [30976/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:19:35] R0-cifar10-vgg16-test INFO: Training Epoch: 138 [41216/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:19:45] R0-cifar10-vgg16-test INFO: [Eval] Epoch=138 Acc@1=92.2100 Acc@5=99.7200 Loss=0.3680
+[11/23 21:19:56] R0-cifar10-vgg16-test INFO: Training Epoch: 139 [256/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:19:57] R0-cifar10-vgg16-test INFO: Training Epoch: 139 [10496/50000]	Loss: 0.0020	LR: 0.020000
+[11/23 21:19:57] R0-cifar10-vgg16-test INFO: Training Epoch: 139 [20736/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:19:58] R0-cifar10-vgg16-test INFO: Training Epoch: 139 [30976/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:19:58] R0-cifar10-vgg16-test INFO: Training Epoch: 139 [41216/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:20:08] R0-cifar10-vgg16-test INFO: [Eval] Epoch=139 Acc@1=92.3100 Acc@5=99.7300 Loss=0.3688
+[11/23 21:20:20] R0-cifar10-vgg16-test INFO: Training Epoch: 140 [256/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:20:20] R0-cifar10-vgg16-test INFO: Training Epoch: 140 [10496/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:20:21] R0-cifar10-vgg16-test INFO: Training Epoch: 140 [20736/50000]	Loss: 0.0011	LR: 0.020000
+[11/23 21:20:21] R0-cifar10-vgg16-test INFO: Training Epoch: 140 [30976/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:20:22] R0-cifar10-vgg16-test INFO: Training Epoch: 140 [41216/50000]	Loss: 0.0017	LR: 0.020000
+[11/23 21:20:31] R0-cifar10-vgg16-test INFO: [Eval] Epoch=140 Acc@1=92.3100 Acc@5=99.7300 Loss=0.3688
+[11/23 21:20:43] R0-cifar10-vgg16-test INFO: Training Epoch: 141 [256/50000]	Loss: 0.0019	LR: 0.020000
+[11/23 21:20:44] R0-cifar10-vgg16-test INFO: Training Epoch: 141 [10496/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:20:44] R0-cifar10-vgg16-test INFO: Training Epoch: 141 [20736/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:20:45] R0-cifar10-vgg16-test INFO: Training Epoch: 141 [30976/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:20:45] R0-cifar10-vgg16-test INFO: Training Epoch: 141 [41216/50000]	Loss: 0.0011	LR: 0.020000
+[11/23 21:20:55] R0-cifar10-vgg16-test INFO: [Eval] Epoch=141 Acc@1=92.1900 Acc@5=99.7100 Loss=0.3693
+[11/23 21:21:06] R0-cifar10-vgg16-test INFO: Training Epoch: 142 [256/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:21:07] R0-cifar10-vgg16-test INFO: Training Epoch: 142 [10496/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:21:07] R0-cifar10-vgg16-test INFO: Training Epoch: 142 [20736/50000]	Loss: 0.0021	LR: 0.020000
+[11/23 21:21:08] R0-cifar10-vgg16-test INFO: Training Epoch: 142 [30976/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:21:08] R0-cifar10-vgg16-test INFO: Training Epoch: 142 [41216/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:21:18] R0-cifar10-vgg16-test INFO: [Eval] Epoch=142 Acc@1=92.2300 Acc@5=99.7500 Loss=0.3686
+[11/23 21:21:30] R0-cifar10-vgg16-test INFO: Training Epoch: 143 [256/50000]	Loss: 0.0004	LR: 0.020000
+[11/23 21:21:30] R0-cifar10-vgg16-test INFO: Training Epoch: 143 [10496/50000]	Loss: 0.0024	LR: 0.020000
+[11/23 21:21:31] R0-cifar10-vgg16-test INFO: Training Epoch: 143 [20736/50000]	Loss: 0.0003	LR: 0.020000
+[11/23 21:21:31] R0-cifar10-vgg16-test INFO: Training Epoch: 143 [30976/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:21:32] R0-cifar10-vgg16-test INFO: Training Epoch: 143 [41216/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:21:41] R0-cifar10-vgg16-test INFO: [Eval] Epoch=143 Acc@1=92.1200 Acc@5=99.7600 Loss=0.3700
+[11/23 21:21:53] R0-cifar10-vgg16-test INFO: Training Epoch: 144 [256/50000]	Loss: 0.0004	LR: 0.020000
+[11/23 21:21:53] R0-cifar10-vgg16-test INFO: Training Epoch: 144 [10496/50000]	Loss: 0.0026	LR: 0.020000
+[11/23 21:21:54] R0-cifar10-vgg16-test INFO: Training Epoch: 144 [20736/50000]	Loss: 0.0023	LR: 0.020000
+[11/23 21:21:54] R0-cifar10-vgg16-test INFO: Training Epoch: 144 [30976/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:21:55] R0-cifar10-vgg16-test INFO: Training Epoch: 144 [41216/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:22:04] R0-cifar10-vgg16-test INFO: [Eval] Epoch=144 Acc@1=92.2500 Acc@5=99.7700 Loss=0.3681
+[11/23 21:22:16] R0-cifar10-vgg16-test INFO: Training Epoch: 145 [256/50000]	Loss: 0.0010	LR: 0.020000
+[11/23 21:22:16] R0-cifar10-vgg16-test INFO: Training Epoch: 145 [10496/50000]	Loss: 0.0010	LR: 0.020000
+[11/23 21:22:17] R0-cifar10-vgg16-test INFO: Training Epoch: 145 [20736/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:22:17] R0-cifar10-vgg16-test INFO: Training Epoch: 145 [30976/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:22:18] R0-cifar10-vgg16-test INFO: Training Epoch: 145 [41216/50000]	Loss: 0.0004	LR: 0.020000
+[11/23 21:22:28] R0-cifar10-vgg16-test INFO: [Eval] Epoch=145 Acc@1=92.3300 Acc@5=99.7500 Loss=0.3671
+[11/23 21:22:40] R0-cifar10-vgg16-test INFO: Training Epoch: 146 [256/50000]	Loss: 0.0006	LR: 0.020000
+[11/23 21:22:40] R0-cifar10-vgg16-test INFO: Training Epoch: 146 [10496/50000]	Loss: 0.0021	LR: 0.020000
+[11/23 21:22:41] R0-cifar10-vgg16-test INFO: Training Epoch: 146 [20736/50000]	Loss: 0.0010	LR: 0.020000
+[11/23 21:22:41] R0-cifar10-vgg16-test INFO: Training Epoch: 146 [30976/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:22:42] R0-cifar10-vgg16-test INFO: Training Epoch: 146 [41216/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:22:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=146 Acc@1=92.3000 Acc@5=99.7500 Loss=0.3702
+[11/23 21:23:03] R0-cifar10-vgg16-test INFO: Training Epoch: 147 [256/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:23:04] R0-cifar10-vgg16-test INFO: Training Epoch: 147 [10496/50000]	Loss: 0.0016	LR: 0.020000
+[11/23 21:23:04] R0-cifar10-vgg16-test INFO: Training Epoch: 147 [20736/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:23:05] R0-cifar10-vgg16-test INFO: Training Epoch: 147 [30976/50000]	Loss: 0.0010	LR: 0.020000
+[11/23 21:23:05] R0-cifar10-vgg16-test INFO: Training Epoch: 147 [41216/50000]	Loss: 0.0022	LR: 0.020000
+[11/23 21:23:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=147 Acc@1=92.2000 Acc@5=99.7400 Loss=0.3675
+[11/23 21:23:26] R0-cifar10-vgg16-test INFO: Training Epoch: 148 [256/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:23:27] R0-cifar10-vgg16-test INFO: Training Epoch: 148 [10496/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:23:27] R0-cifar10-vgg16-test INFO: Training Epoch: 148 [20736/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:23:28] R0-cifar10-vgg16-test INFO: Training Epoch: 148 [30976/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:23:28] R0-cifar10-vgg16-test INFO: Training Epoch: 148 [41216/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:23:38] R0-cifar10-vgg16-test INFO: [Eval] Epoch=148 Acc@1=92.3200 Acc@5=99.7500 Loss=0.3695
+[11/23 21:23:49] R0-cifar10-vgg16-test INFO: Training Epoch: 149 [256/50000]	Loss: 0.0014	LR: 0.020000
+[11/23 21:23:50] R0-cifar10-vgg16-test INFO: Training Epoch: 149 [10496/50000]	Loss: 0.0008	LR: 0.020000
+[11/23 21:23:50] R0-cifar10-vgg16-test INFO: Training Epoch: 149 [20736/50000]	Loss: 0.0013	LR: 0.020000
+[11/23 21:23:51] R0-cifar10-vgg16-test INFO: Training Epoch: 149 [30976/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:23:51] R0-cifar10-vgg16-test INFO: Training Epoch: 149 [41216/50000]	Loss: 0.0004	LR: 0.020000
+[11/23 21:24:01] R0-cifar10-vgg16-test INFO: [Eval] Epoch=149 Acc@1=92.2800 Acc@5=99.7400 Loss=0.3705
+[11/23 21:24:12] R0-cifar10-vgg16-test INFO: Training Epoch: 150 [256/50000]	Loss: 0.0009	LR: 0.020000
+[11/23 21:24:13] R0-cifar10-vgg16-test INFO: Training Epoch: 150 [10496/50000]	Loss: 0.0003	LR: 0.020000
+[11/23 21:24:14] R0-cifar10-vgg16-test INFO: Training Epoch: 150 [20736/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:24:14] R0-cifar10-vgg16-test INFO: Training Epoch: 150 [30976/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:24:15] R0-cifar10-vgg16-test INFO: Training Epoch: 150 [41216/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:24:24] R0-cifar10-vgg16-test INFO: [Eval] Epoch=150 Acc@1=92.3100 Acc@5=99.7700 Loss=0.3701
+[11/23 21:24:36] R0-cifar10-vgg16-test INFO: Training Epoch: 151 [256/50000]	Loss: 0.0010	LR: 0.020000
+[11/23 21:24:36] R0-cifar10-vgg16-test INFO: Training Epoch: 151 [10496/50000]	Loss: 0.0019	LR: 0.020000
+[11/23 21:24:37] R0-cifar10-vgg16-test INFO: Training Epoch: 151 [20736/50000]	Loss: 0.0005	LR: 0.020000
+[11/23 21:24:37] R0-cifar10-vgg16-test INFO: Training Epoch: 151 [30976/50000]	Loss: 0.0007	LR: 0.020000
+[11/23 21:24:38] R0-cifar10-vgg16-test INFO: Training Epoch: 151 [41216/50000]	Loss: 0.0012	LR: 0.020000
+[11/23 21:24:48] R0-cifar10-vgg16-test INFO: [Eval] Epoch=151 Acc@1=92.3400 Acc@5=99.7700 Loss=0.3714
+[11/23 21:24:59] R0-cifar10-vgg16-test INFO: Training Epoch: 152 [256/50000]	Loss: 0.0015	LR: 0.002000
+[11/23 21:25:00] R0-cifar10-vgg16-test INFO: Training Epoch: 152 [10496/50000]	Loss: 0.0045	LR: 0.002000
+[11/23 21:25:00] R0-cifar10-vgg16-test INFO: Training Epoch: 152 [20736/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:25:01] R0-cifar10-vgg16-test INFO: Training Epoch: 152 [30976/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:25:01] R0-cifar10-vgg16-test INFO: Training Epoch: 152 [41216/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:25:11] R0-cifar10-vgg16-test INFO: [Eval] Epoch=152 Acc@1=92.3500 Acc@5=99.7500 Loss=0.3717
+[11/23 21:25:23] R0-cifar10-vgg16-test INFO: Training Epoch: 153 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:25:24] R0-cifar10-vgg16-test INFO: Training Epoch: 153 [10496/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:25:24] R0-cifar10-vgg16-test INFO: Training Epoch: 153 [20736/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:25:25] R0-cifar10-vgg16-test INFO: Training Epoch: 153 [30976/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:25:25] R0-cifar10-vgg16-test INFO: Training Epoch: 153 [41216/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:25:35] R0-cifar10-vgg16-test INFO: [Eval] Epoch=153 Acc@1=92.2900 Acc@5=99.7600 Loss=0.3717
+[11/23 21:25:47] R0-cifar10-vgg16-test INFO: Training Epoch: 154 [256/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:25:48] R0-cifar10-vgg16-test INFO: Training Epoch: 154 [10496/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:25:48] R0-cifar10-vgg16-test INFO: Training Epoch: 154 [20736/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:25:49] R0-cifar10-vgg16-test INFO: Training Epoch: 154 [30976/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:25:49] R0-cifar10-vgg16-test INFO: Training Epoch: 154 [41216/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:25:59] R0-cifar10-vgg16-test INFO: [Eval] Epoch=154 Acc@1=92.3300 Acc@5=99.7800 Loss=0.3731
+[11/23 21:26:10] R0-cifar10-vgg16-test INFO: Training Epoch: 155 [256/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:26:11] R0-cifar10-vgg16-test INFO: Training Epoch: 155 [10496/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:26:11] R0-cifar10-vgg16-test INFO: Training Epoch: 155 [20736/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:26:12] R0-cifar10-vgg16-test INFO: Training Epoch: 155 [30976/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:26:12] R0-cifar10-vgg16-test INFO: Training Epoch: 155 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:26:22] R0-cifar10-vgg16-test INFO: [Eval] Epoch=155 Acc@1=92.3100 Acc@5=99.7600 Loss=0.3715
+[11/23 21:26:34] R0-cifar10-vgg16-test INFO: Training Epoch: 156 [256/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:26:34] R0-cifar10-vgg16-test INFO: Training Epoch: 156 [10496/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:26:35] R0-cifar10-vgg16-test INFO: Training Epoch: 156 [20736/50000]	Loss: 0.0032	LR: 0.002000
+[11/23 21:26:35] R0-cifar10-vgg16-test INFO: Training Epoch: 156 [30976/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:26:36] R0-cifar10-vgg16-test INFO: Training Epoch: 156 [41216/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:26:45] R0-cifar10-vgg16-test INFO: [Eval] Epoch=156 Acc@1=92.3200 Acc@5=99.7800 Loss=0.3719
+[11/23 21:26:57] R0-cifar10-vgg16-test INFO: Training Epoch: 157 [256/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:26:57] R0-cifar10-vgg16-test INFO: Training Epoch: 157 [10496/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:26:58] R0-cifar10-vgg16-test INFO: Training Epoch: 157 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:26:58] R0-cifar10-vgg16-test INFO: Training Epoch: 157 [30976/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:26:59] R0-cifar10-vgg16-test INFO: Training Epoch: 157 [41216/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:27:09] R0-cifar10-vgg16-test INFO: [Eval] Epoch=157 Acc@1=92.3400 Acc@5=99.7900 Loss=0.3713
+[11/23 21:27:20] R0-cifar10-vgg16-test INFO: Training Epoch: 158 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:27:21] R0-cifar10-vgg16-test INFO: Training Epoch: 158 [10496/50000]	Loss: 0.0013	LR: 0.002000
+[11/23 21:27:21] R0-cifar10-vgg16-test INFO: Training Epoch: 158 [20736/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:27:22] R0-cifar10-vgg16-test INFO: Training Epoch: 158 [30976/50000]	Loss: 0.0011	LR: 0.002000
+[11/23 21:27:22] R0-cifar10-vgg16-test INFO: Training Epoch: 158 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:27:32] R0-cifar10-vgg16-test INFO: [Eval] Epoch=158 Acc@1=92.2800 Acc@5=99.7700 Loss=0.3714
+[11/23 21:27:44] R0-cifar10-vgg16-test INFO: Training Epoch: 159 [256/50000]	Loss: 0.0011	LR: 0.002000
+[11/23 21:27:44] R0-cifar10-vgg16-test INFO: Training Epoch: 159 [10496/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:27:45] R0-cifar10-vgg16-test INFO: Training Epoch: 159 [20736/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:27:45] R0-cifar10-vgg16-test INFO: Training Epoch: 159 [30976/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:27:46] R0-cifar10-vgg16-test INFO: Training Epoch: 159 [41216/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:27:55] R0-cifar10-vgg16-test INFO: [Eval] Epoch=159 Acc@1=92.3800 Acc@5=99.7700 Loss=0.3721
+[11/23 21:28:07] R0-cifar10-vgg16-test INFO: Training Epoch: 160 [256/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:28:08] R0-cifar10-vgg16-test INFO: Training Epoch: 160 [10496/50000]	Loss: 0.0011	LR: 0.002000
+[11/23 21:28:08] R0-cifar10-vgg16-test INFO: Training Epoch: 160 [20736/50000]	Loss: 0.0013	LR: 0.002000
+[11/23 21:28:09] R0-cifar10-vgg16-test INFO: Training Epoch: 160 [30976/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:28:09] R0-cifar10-vgg16-test INFO: Training Epoch: 160 [41216/50000]	Loss: 0.0016	LR: 0.002000
+[11/23 21:28:19] R0-cifar10-vgg16-test INFO: [Eval] Epoch=160 Acc@1=92.4000 Acc@5=99.7700 Loss=0.3711
+[11/23 21:28:31] R0-cifar10-vgg16-test INFO: Training Epoch: 161 [256/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:28:31] R0-cifar10-vgg16-test INFO: Training Epoch: 161 [10496/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:28:32] R0-cifar10-vgg16-test INFO: Training Epoch: 161 [20736/50000]	Loss: 0.0011	LR: 0.002000
+[11/23 21:28:32] R0-cifar10-vgg16-test INFO: Training Epoch: 161 [30976/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:28:33] R0-cifar10-vgg16-test INFO: Training Epoch: 161 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:28:42] R0-cifar10-vgg16-test INFO: [Eval] Epoch=161 Acc@1=92.4300 Acc@5=99.7700 Loss=0.3711
+[11/23 21:28:54] R0-cifar10-vgg16-test INFO: Training Epoch: 162 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:28:55] R0-cifar10-vgg16-test INFO: Training Epoch: 162 [10496/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:28:55] R0-cifar10-vgg16-test INFO: Training Epoch: 162 [20736/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:28:56] R0-cifar10-vgg16-test INFO: Training Epoch: 162 [30976/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:28:56] R0-cifar10-vgg16-test INFO: Training Epoch: 162 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:29:06] R0-cifar10-vgg16-test INFO: [Eval] Epoch=162 Acc@1=92.3200 Acc@5=99.7600 Loss=0.3717
+[11/23 21:29:17] R0-cifar10-vgg16-test INFO: Training Epoch: 163 [256/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:29:18] R0-cifar10-vgg16-test INFO: Training Epoch: 163 [10496/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:29:18] R0-cifar10-vgg16-test INFO: Training Epoch: 163 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:29:19] R0-cifar10-vgg16-test INFO: Training Epoch: 163 [30976/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:29:19] R0-cifar10-vgg16-test INFO: Training Epoch: 163 [41216/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:29:29] R0-cifar10-vgg16-test INFO: [Eval] Epoch=163 Acc@1=92.4000 Acc@5=99.7600 Loss=0.3708
+[11/23 21:29:40] R0-cifar10-vgg16-test INFO: Training Epoch: 164 [256/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:29:41] R0-cifar10-vgg16-test INFO: Training Epoch: 164 [10496/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:29:42] R0-cifar10-vgg16-test INFO: Training Epoch: 164 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:29:42] R0-cifar10-vgg16-test INFO: Training Epoch: 164 [30976/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:29:43] R0-cifar10-vgg16-test INFO: Training Epoch: 164 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:29:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=164 Acc@1=92.3600 Acc@5=99.7500 Loss=0.3715
+[11/23 21:30:04] R0-cifar10-vgg16-test INFO: Training Epoch: 165 [256/50000]	Loss: 0.0021	LR: 0.002000
+[11/23 21:30:04] R0-cifar10-vgg16-test INFO: Training Epoch: 165 [10496/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:30:05] R0-cifar10-vgg16-test INFO: Training Epoch: 165 [20736/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:30:05] R0-cifar10-vgg16-test INFO: Training Epoch: 165 [30976/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:30:06] R0-cifar10-vgg16-test INFO: Training Epoch: 165 [41216/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:30:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=165 Acc@1=92.3500 Acc@5=99.7600 Loss=0.3718
+[11/23 21:30:27] R0-cifar10-vgg16-test INFO: Training Epoch: 166 [256/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:30:28] R0-cifar10-vgg16-test INFO: Training Epoch: 166 [10496/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:30:28] R0-cifar10-vgg16-test INFO: Training Epoch: 166 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:30:29] R0-cifar10-vgg16-test INFO: Training Epoch: 166 [30976/50000]	Loss: 0.0013	LR: 0.002000
+[11/23 21:30:29] R0-cifar10-vgg16-test INFO: Training Epoch: 166 [41216/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:30:39] R0-cifar10-vgg16-test INFO: [Eval] Epoch=166 Acc@1=92.3800 Acc@5=99.7200 Loss=0.3723
+[11/23 21:30:50] R0-cifar10-vgg16-test INFO: Training Epoch: 167 [256/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:30:51] R0-cifar10-vgg16-test INFO: Training Epoch: 167 [10496/50000]	Loss: 0.0015	LR: 0.002000
+[11/23 21:30:52] R0-cifar10-vgg16-test INFO: Training Epoch: 167 [20736/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:30:52] R0-cifar10-vgg16-test INFO: Training Epoch: 167 [30976/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:30:53] R0-cifar10-vgg16-test INFO: Training Epoch: 167 [41216/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:31:02] R0-cifar10-vgg16-test INFO: [Eval] Epoch=167 Acc@1=92.3600 Acc@5=99.7500 Loss=0.3720
+[11/23 21:31:15] R0-cifar10-vgg16-test INFO: Training Epoch: 168 [256/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:31:15] R0-cifar10-vgg16-test INFO: Training Epoch: 168 [10496/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:31:16] R0-cifar10-vgg16-test INFO: Training Epoch: 168 [20736/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:31:16] R0-cifar10-vgg16-test INFO: Training Epoch: 168 [30976/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:31:17] R0-cifar10-vgg16-test INFO: Training Epoch: 168 [41216/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:31:26] R0-cifar10-vgg16-test INFO: [Eval] Epoch=168 Acc@1=92.3600 Acc@5=99.7800 Loss=0.3720
+[11/23 21:31:38] R0-cifar10-vgg16-test INFO: Training Epoch: 169 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:31:38] R0-cifar10-vgg16-test INFO: Training Epoch: 169 [10496/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:31:39] R0-cifar10-vgg16-test INFO: Training Epoch: 169 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:31:39] R0-cifar10-vgg16-test INFO: Training Epoch: 169 [30976/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:31:40] R0-cifar10-vgg16-test INFO: Training Epoch: 169 [41216/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:31:49] R0-cifar10-vgg16-test INFO: [Eval] Epoch=169 Acc@1=92.4000 Acc@5=99.7600 Loss=0.3715
+[11/23 21:32:01] R0-cifar10-vgg16-test INFO: Training Epoch: 170 [256/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:32:02] R0-cifar10-vgg16-test INFO: Training Epoch: 170 [10496/50000]	Loss: 0.0018	LR: 0.002000
+[11/23 21:32:02] R0-cifar10-vgg16-test INFO: Training Epoch: 170 [20736/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:32:03] R0-cifar10-vgg16-test INFO: Training Epoch: 170 [30976/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:32:03] R0-cifar10-vgg16-test INFO: Training Epoch: 170 [41216/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:32:13] R0-cifar10-vgg16-test INFO: [Eval] Epoch=170 Acc@1=92.4100 Acc@5=99.7500 Loss=0.3714
+[11/23 21:32:25] R0-cifar10-vgg16-test INFO: Training Epoch: 171 [256/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:32:25] R0-cifar10-vgg16-test INFO: Training Epoch: 171 [10496/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:32:26] R0-cifar10-vgg16-test INFO: Training Epoch: 171 [20736/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:32:26] R0-cifar10-vgg16-test INFO: Training Epoch: 171 [30976/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:32:27] R0-cifar10-vgg16-test INFO: Training Epoch: 171 [41216/50000]	Loss: 0.0016	LR: 0.002000
+[11/23 21:32:36] R0-cifar10-vgg16-test INFO: [Eval] Epoch=171 Acc@1=92.2900 Acc@5=99.7700 Loss=0.3722
+[11/23 21:32:48] R0-cifar10-vgg16-test INFO: Training Epoch: 172 [256/50000]	Loss: 0.0025	LR: 0.002000
+[11/23 21:32:48] R0-cifar10-vgg16-test INFO: Training Epoch: 172 [10496/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:32:49] R0-cifar10-vgg16-test INFO: Training Epoch: 172 [20736/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:32:49] R0-cifar10-vgg16-test INFO: Training Epoch: 172 [30976/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:32:50] R0-cifar10-vgg16-test INFO: Training Epoch: 172 [41216/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:33:00] R0-cifar10-vgg16-test INFO: [Eval] Epoch=172 Acc@1=92.3500 Acc@5=99.7500 Loss=0.3725
+[11/23 21:33:11] R0-cifar10-vgg16-test INFO: Training Epoch: 173 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:33:12] R0-cifar10-vgg16-test INFO: Training Epoch: 173 [10496/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:33:12] R0-cifar10-vgg16-test INFO: Training Epoch: 173 [20736/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:33:13] R0-cifar10-vgg16-test INFO: Training Epoch: 173 [30976/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:33:13] R0-cifar10-vgg16-test INFO: Training Epoch: 173 [41216/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:33:23] R0-cifar10-vgg16-test INFO: [Eval] Epoch=173 Acc@1=92.3700 Acc@5=99.7500 Loss=0.3714
+[11/23 21:33:34] R0-cifar10-vgg16-test INFO: Training Epoch: 174 [256/50000]	Loss: 0.0030	LR: 0.002000
+[11/23 21:33:35] R0-cifar10-vgg16-test INFO: Training Epoch: 174 [10496/50000]	Loss: 0.0009	LR: 0.002000
+[11/23 21:33:35] R0-cifar10-vgg16-test INFO: Training Epoch: 174 [20736/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:33:36] R0-cifar10-vgg16-test INFO: Training Epoch: 174 [30976/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:33:37] R0-cifar10-vgg16-test INFO: Training Epoch: 174 [41216/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:33:46] R0-cifar10-vgg16-test INFO: [Eval] Epoch=174 Acc@1=92.3100 Acc@5=99.7500 Loss=0.3715
+[11/23 21:33:57] R0-cifar10-vgg16-test INFO: Training Epoch: 175 [256/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:33:58] R0-cifar10-vgg16-test INFO: Training Epoch: 175 [10496/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:33:59] R0-cifar10-vgg16-test INFO: Training Epoch: 175 [20736/50000]	Loss: 0.0017	LR: 0.002000
+[11/23 21:33:59] R0-cifar10-vgg16-test INFO: Training Epoch: 175 [30976/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:34:00] R0-cifar10-vgg16-test INFO: Training Epoch: 175 [41216/50000]	Loss: 0.0014	LR: 0.002000
+[11/23 21:34:09] R0-cifar10-vgg16-test INFO: [Eval] Epoch=175 Acc@1=92.3400 Acc@5=99.7500 Loss=0.3722
+[11/23 21:34:21] R0-cifar10-vgg16-test INFO: Training Epoch: 176 [256/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:34:21] R0-cifar10-vgg16-test INFO: Training Epoch: 176 [10496/50000]	Loss: 0.0017	LR: 0.002000
+[11/23 21:34:22] R0-cifar10-vgg16-test INFO: Training Epoch: 176 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:34:22] R0-cifar10-vgg16-test INFO: Training Epoch: 176 [30976/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:34:23] R0-cifar10-vgg16-test INFO: Training Epoch: 176 [41216/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:34:32] R0-cifar10-vgg16-test INFO: [Eval] Epoch=176 Acc@1=92.3400 Acc@5=99.7600 Loss=0.3718
+[11/23 21:34:44] R0-cifar10-vgg16-test INFO: Training Epoch: 177 [256/50000]	Loss: 0.0018	LR: 0.002000
+[11/23 21:34:44] R0-cifar10-vgg16-test INFO: Training Epoch: 177 [10496/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:34:45] R0-cifar10-vgg16-test INFO: Training Epoch: 177 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:34:45] R0-cifar10-vgg16-test INFO: Training Epoch: 177 [30976/50000]	Loss: 0.0015	LR: 0.002000
+[11/23 21:34:46] R0-cifar10-vgg16-test INFO: Training Epoch: 177 [41216/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:34:56] R0-cifar10-vgg16-test INFO: [Eval] Epoch=177 Acc@1=92.3900 Acc@5=99.7400 Loss=0.3711
+[11/23 21:35:07] R0-cifar10-vgg16-test INFO: Training Epoch: 178 [256/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:35:07] R0-cifar10-vgg16-test INFO: Training Epoch: 178 [10496/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:35:08] R0-cifar10-vgg16-test INFO: Training Epoch: 178 [20736/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:35:09] R0-cifar10-vgg16-test INFO: Training Epoch: 178 [30976/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:35:09] R0-cifar10-vgg16-test INFO: Training Epoch: 178 [41216/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:35:19] R0-cifar10-vgg16-test INFO: [Eval] Epoch=178 Acc@1=92.3800 Acc@5=99.7500 Loss=0.3712
+[11/23 21:35:30] R0-cifar10-vgg16-test INFO: Training Epoch: 179 [256/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:35:31] R0-cifar10-vgg16-test INFO: Training Epoch: 179 [10496/50000]	Loss: 0.0021	LR: 0.002000
+[11/23 21:35:31] R0-cifar10-vgg16-test INFO: Training Epoch: 179 [20736/50000]	Loss: 0.0005	LR: 0.002000
+[11/23 21:35:32] R0-cifar10-vgg16-test INFO: Training Epoch: 179 [30976/50000]	Loss: 0.0004	LR: 0.002000
+[11/23 21:35:32] R0-cifar10-vgg16-test INFO: Training Epoch: 179 [41216/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:35:42] R0-cifar10-vgg16-test INFO: [Eval] Epoch=179 Acc@1=92.3300 Acc@5=99.7400 Loss=0.3720
+[11/23 21:35:53] R0-cifar10-vgg16-test INFO: Training Epoch: 180 [256/50000]	Loss: 0.0006	LR: 0.002000
+[11/23 21:35:54] R0-cifar10-vgg16-test INFO: Training Epoch: 180 [10496/50000]	Loss: 0.0030	LR: 0.002000
+[11/23 21:35:54] R0-cifar10-vgg16-test INFO: Training Epoch: 180 [20736/50000]	Loss: 0.0012	LR: 0.002000
+[11/23 21:35:55] R0-cifar10-vgg16-test INFO: Training Epoch: 180 [30976/50000]	Loss: 0.0013	LR: 0.002000
+[11/23 21:35:55] R0-cifar10-vgg16-test INFO: Training Epoch: 180 [41216/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:36:05] R0-cifar10-vgg16-test INFO: [Eval] Epoch=180 Acc@1=92.3600 Acc@5=99.7500 Loss=0.3716
+[11/23 21:36:17] R0-cifar10-vgg16-test INFO: Training Epoch: 181 [256/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:36:17] R0-cifar10-vgg16-test INFO: Training Epoch: 181 [10496/50000]	Loss: 0.0008	LR: 0.002000
+[11/23 21:36:18] R0-cifar10-vgg16-test INFO: Training Epoch: 181 [20736/50000]	Loss: 0.0010	LR: 0.002000
+[11/23 21:36:18] R0-cifar10-vgg16-test INFO: Training Epoch: 181 [30976/50000]	Loss: 0.0007	LR: 0.002000
+[11/23 21:36:19] R0-cifar10-vgg16-test INFO: Training Epoch: 181 [41216/50000]	Loss: 0.0003	LR: 0.002000
+[11/23 21:36:28] R0-cifar10-vgg16-test INFO: [Eval] Epoch=181 Acc@1=92.3500 Acc@5=99.7600 Loss=0.3709
+[11/23 21:36:40] R0-cifar10-vgg16-test INFO: Training Epoch: 182 [256/50000]	Loss: 0.0027	LR: 0.000200
+[11/23 21:36:40] R0-cifar10-vgg16-test INFO: Training Epoch: 182 [10496/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:36:41] R0-cifar10-vgg16-test INFO: Training Epoch: 182 [20736/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:36:41] R0-cifar10-vgg16-test INFO: Training Epoch: 182 [30976/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:36:42] R0-cifar10-vgg16-test INFO: Training Epoch: 182 [41216/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:36:52] R0-cifar10-vgg16-test INFO: [Eval] Epoch=182 Acc@1=92.3300 Acc@5=99.7500 Loss=0.3723
+[11/23 21:37:03] R0-cifar10-vgg16-test INFO: Training Epoch: 183 [256/50000]	Loss: 0.0009	LR: 0.000200
+[11/23 21:37:04] R0-cifar10-vgg16-test INFO: Training Epoch: 183 [10496/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:37:04] R0-cifar10-vgg16-test INFO: Training Epoch: 183 [20736/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:37:05] R0-cifar10-vgg16-test INFO: Training Epoch: 183 [30976/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:37:06] R0-cifar10-vgg16-test INFO: Training Epoch: 183 [41216/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:37:15] R0-cifar10-vgg16-test INFO: [Eval] Epoch=183 Acc@1=92.3200 Acc@5=99.7400 Loss=0.3713
+[11/23 21:37:26] R0-cifar10-vgg16-test INFO: Training Epoch: 184 [256/50000]	Loss: 0.0017	LR: 0.000200
+[11/23 21:37:27] R0-cifar10-vgg16-test INFO: Training Epoch: 184 [10496/50000]	Loss: 0.0012	LR: 0.000200
+[11/23 21:37:27] R0-cifar10-vgg16-test INFO: Training Epoch: 184 [20736/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:37:28] R0-cifar10-vgg16-test INFO: Training Epoch: 184 [30976/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:37:28] R0-cifar10-vgg16-test INFO: Training Epoch: 184 [41216/50000]	Loss: 0.0009	LR: 0.000200
+[11/23 21:37:38] R0-cifar10-vgg16-test INFO: [Eval] Epoch=184 Acc@1=92.3300 Acc@5=99.7600 Loss=0.3717
+[11/23 21:37:49] R0-cifar10-vgg16-test INFO: Training Epoch: 185 [256/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:37:50] R0-cifar10-vgg16-test INFO: Training Epoch: 185 [10496/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:37:50] R0-cifar10-vgg16-test INFO: Training Epoch: 185 [20736/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:37:51] R0-cifar10-vgg16-test INFO: Training Epoch: 185 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:37:51] R0-cifar10-vgg16-test INFO: Training Epoch: 185 [41216/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:38:01] R0-cifar10-vgg16-test INFO: [Eval] Epoch=185 Acc@1=92.3400 Acc@5=99.7300 Loss=0.3708
+[11/23 21:38:13] R0-cifar10-vgg16-test INFO: Training Epoch: 186 [256/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:38:13] R0-cifar10-vgg16-test INFO: Training Epoch: 186 [10496/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:38:14] R0-cifar10-vgg16-test INFO: Training Epoch: 186 [20736/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:38:14] R0-cifar10-vgg16-test INFO: Training Epoch: 186 [30976/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:38:15] R0-cifar10-vgg16-test INFO: Training Epoch: 186 [41216/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:38:24] R0-cifar10-vgg16-test INFO: [Eval] Epoch=186 Acc@1=92.3300 Acc@5=99.7400 Loss=0.3715
+[11/23 21:38:36] R0-cifar10-vgg16-test INFO: Training Epoch: 187 [256/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:38:36] R0-cifar10-vgg16-test INFO: Training Epoch: 187 [10496/50000]	Loss: 0.0002	LR: 0.000200
+[11/23 21:38:37] R0-cifar10-vgg16-test INFO: Training Epoch: 187 [20736/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:38:37] R0-cifar10-vgg16-test INFO: Training Epoch: 187 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:38:38] R0-cifar10-vgg16-test INFO: Training Epoch: 187 [41216/50000]	Loss: 0.0009	LR: 0.000200
+[11/23 21:38:48] R0-cifar10-vgg16-test INFO: [Eval] Epoch=187 Acc@1=92.3600 Acc@5=99.7400 Loss=0.3713
+[11/23 21:38:59] R0-cifar10-vgg16-test INFO: Training Epoch: 188 [256/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:39:00] R0-cifar10-vgg16-test INFO: Training Epoch: 188 [10496/50000]	Loss: 0.0009	LR: 0.000200
+[11/23 21:39:00] R0-cifar10-vgg16-test INFO: Training Epoch: 188 [20736/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:39:01] R0-cifar10-vgg16-test INFO: Training Epoch: 188 [30976/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:39:01] R0-cifar10-vgg16-test INFO: Training Epoch: 188 [41216/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:39:11] R0-cifar10-vgg16-test INFO: [Eval] Epoch=188 Acc@1=92.3600 Acc@5=99.7400 Loss=0.3726
+[11/23 21:39:22] R0-cifar10-vgg16-test INFO: Training Epoch: 189 [256/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:39:23] R0-cifar10-vgg16-test INFO: Training Epoch: 189 [10496/50000]	Loss: 0.0013	LR: 0.000200
+[11/23 21:39:23] R0-cifar10-vgg16-test INFO: Training Epoch: 189 [20736/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:39:24] R0-cifar10-vgg16-test INFO: Training Epoch: 189 [30976/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:39:24] R0-cifar10-vgg16-test INFO: Training Epoch: 189 [41216/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:39:34] R0-cifar10-vgg16-test INFO: [Eval] Epoch=189 Acc@1=92.3100 Acc@5=99.7400 Loss=0.3726
+[11/23 21:39:45] R0-cifar10-vgg16-test INFO: Training Epoch: 190 [256/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:39:46] R0-cifar10-vgg16-test INFO: Training Epoch: 190 [10496/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:39:46] R0-cifar10-vgg16-test INFO: Training Epoch: 190 [20736/50000]	Loss: 0.0012	LR: 0.000200
+[11/23 21:39:47] R0-cifar10-vgg16-test INFO: Training Epoch: 190 [30976/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:39:47] R0-cifar10-vgg16-test INFO: Training Epoch: 190 [41216/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:39:57] R0-cifar10-vgg16-test INFO: [Eval] Epoch=190 Acc@1=92.3300 Acc@5=99.7600 Loss=0.3710
+[11/23 21:40:09] R0-cifar10-vgg16-test INFO: Training Epoch: 191 [256/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:40:09] R0-cifar10-vgg16-test INFO: Training Epoch: 191 [10496/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:40:10] R0-cifar10-vgg16-test INFO: Training Epoch: 191 [20736/50000]	Loss: 0.0013	LR: 0.000200
+[11/23 21:40:10] R0-cifar10-vgg16-test INFO: Training Epoch: 191 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:40:11] R0-cifar10-vgg16-test INFO: Training Epoch: 191 [41216/50000]	Loss: 0.0018	LR: 0.000200
+[11/23 21:40:20] R0-cifar10-vgg16-test INFO: [Eval] Epoch=191 Acc@1=92.3200 Acc@5=99.7500 Loss=0.3718
+[11/23 21:40:32] R0-cifar10-vgg16-test INFO: Training Epoch: 192 [256/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:40:32] R0-cifar10-vgg16-test INFO: Training Epoch: 192 [10496/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:40:33] R0-cifar10-vgg16-test INFO: Training Epoch: 192 [20736/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:40:33] R0-cifar10-vgg16-test INFO: Training Epoch: 192 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:40:34] R0-cifar10-vgg16-test INFO: Training Epoch: 192 [41216/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:40:44] R0-cifar10-vgg16-test INFO: [Eval] Epoch=192 Acc@1=92.3400 Acc@5=99.7400 Loss=0.3715
+[11/23 21:40:55] R0-cifar10-vgg16-test INFO: Training Epoch: 193 [256/50000]	Loss: 0.0012	LR: 0.000200
+[11/23 21:40:56] R0-cifar10-vgg16-test INFO: Training Epoch: 193 [10496/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:40:56] R0-cifar10-vgg16-test INFO: Training Epoch: 193 [20736/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:40:57] R0-cifar10-vgg16-test INFO: Training Epoch: 193 [30976/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:40:57] R0-cifar10-vgg16-test INFO: Training Epoch: 193 [41216/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:41:07] R0-cifar10-vgg16-test INFO: [Eval] Epoch=193 Acc@1=92.2600 Acc@5=99.7400 Loss=0.3715
+[11/23 21:41:18] R0-cifar10-vgg16-test INFO: Training Epoch: 194 [256/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:41:19] R0-cifar10-vgg16-test INFO: Training Epoch: 194 [10496/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:41:19] R0-cifar10-vgg16-test INFO: Training Epoch: 194 [20736/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:41:20] R0-cifar10-vgg16-test INFO: Training Epoch: 194 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:41:20] R0-cifar10-vgg16-test INFO: Training Epoch: 194 [41216/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:41:30] R0-cifar10-vgg16-test INFO: [Eval] Epoch=194 Acc@1=92.3400 Acc@5=99.7300 Loss=0.3704
+[11/23 21:41:42] R0-cifar10-vgg16-test INFO: Training Epoch: 195 [256/50000]	Loss: 0.0008	LR: 0.000200
+[11/23 21:41:42] R0-cifar10-vgg16-test INFO: Training Epoch: 195 [10496/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:41:43] R0-cifar10-vgg16-test INFO: Training Epoch: 195 [20736/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:41:43] R0-cifar10-vgg16-test INFO: Training Epoch: 195 [30976/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:41:44] R0-cifar10-vgg16-test INFO: Training Epoch: 195 [41216/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:41:53] R0-cifar10-vgg16-test INFO: [Eval] Epoch=195 Acc@1=92.3300 Acc@5=99.7300 Loss=0.3720
+[11/23 21:42:05] R0-cifar10-vgg16-test INFO: Training Epoch: 196 [256/50000]	Loss: 0.0006	LR: 0.000200
+[11/23 21:42:05] R0-cifar10-vgg16-test INFO: Training Epoch: 196 [10496/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:42:06] R0-cifar10-vgg16-test INFO: Training Epoch: 196 [20736/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:42:06] R0-cifar10-vgg16-test INFO: Training Epoch: 196 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:42:07] R0-cifar10-vgg16-test INFO: Training Epoch: 196 [41216/50000]	Loss: 0.0010	LR: 0.000200
+[11/23 21:42:16] R0-cifar10-vgg16-test INFO: [Eval] Epoch=196 Acc@1=92.3500 Acc@5=99.7600 Loss=0.3717
+[11/23 21:42:28] R0-cifar10-vgg16-test INFO: Training Epoch: 197 [256/50000]	Loss: 0.0011	LR: 0.000200
+[11/23 21:42:29] R0-cifar10-vgg16-test INFO: Training Epoch: 197 [10496/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:42:29] R0-cifar10-vgg16-test INFO: Training Epoch: 197 [20736/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:42:30] R0-cifar10-vgg16-test INFO: Training Epoch: 197 [30976/50000]	Loss: 0.0014	LR: 0.000200
+[11/23 21:42:30] R0-cifar10-vgg16-test INFO: Training Epoch: 197 [41216/50000]	Loss: 0.0013	LR: 0.000200
+[11/23 21:42:40] R0-cifar10-vgg16-test INFO: [Eval] Epoch=197 Acc@1=92.3500 Acc@5=99.7300 Loss=0.3718
+[11/23 21:42:51] R0-cifar10-vgg16-test INFO: Training Epoch: 198 [256/50000]	Loss: 0.0009	LR: 0.000200
+[11/23 21:42:52] R0-cifar10-vgg16-test INFO: Training Epoch: 198 [10496/50000]	Loss: 0.0017	LR: 0.000200
+[11/23 21:42:52] R0-cifar10-vgg16-test INFO: Training Epoch: 198 [20736/50000]	Loss: 0.0022	LR: 0.000200
+[11/23 21:42:53] R0-cifar10-vgg16-test INFO: Training Epoch: 198 [30976/50000]	Loss: 0.0002	LR: 0.000200
+[11/23 21:42:53] R0-cifar10-vgg16-test INFO: Training Epoch: 198 [41216/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:43:03] R0-cifar10-vgg16-test INFO: [Eval] Epoch=198 Acc@1=92.4100 Acc@5=99.7200 Loss=0.3718
+[11/23 21:43:15] R0-cifar10-vgg16-test INFO: Training Epoch: 199 [256/50000]	Loss: 0.0022	LR: 0.000200
+[11/23 21:43:15] R0-cifar10-vgg16-test INFO: Training Epoch: 199 [10496/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:43:16] R0-cifar10-vgg16-test INFO: Training Epoch: 199 [20736/50000]	Loss: 0.0015	LR: 0.000200
+[11/23 21:43:16] R0-cifar10-vgg16-test INFO: Training Epoch: 199 [30976/50000]	Loss: 0.0004	LR: 0.000200
+[11/23 21:43:17] R0-cifar10-vgg16-test INFO: Training Epoch: 199 [41216/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:43:26] R0-cifar10-vgg16-test INFO: [Eval] Epoch=199 Acc@1=92.3600 Acc@5=99.7700 Loss=0.3716
+[11/23 21:43:38] R0-cifar10-vgg16-test INFO: Training Epoch: 200 [256/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:43:39] R0-cifar10-vgg16-test INFO: Training Epoch: 200 [10496/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:43:39] R0-cifar10-vgg16-test INFO: Training Epoch: 200 [20736/50000]	Loss: 0.0007	LR: 0.000200
+[11/23 21:43:40] R0-cifar10-vgg16-test INFO: Training Epoch: 200 [30976/50000]	Loss: 0.0005	LR: 0.000200
+[11/23 21:43:40] R0-cifar10-vgg16-test INFO: Training Epoch: 200 [41216/50000]	Loss: 0.0003	LR: 0.000200
+[11/23 21:43:50] R0-cifar10-vgg16-test INFO: [Eval] Epoch=200 Acc@1=92.3000 Acc@5=99.7400 Loss=0.3711

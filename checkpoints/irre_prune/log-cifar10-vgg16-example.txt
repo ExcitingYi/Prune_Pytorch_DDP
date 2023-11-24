@@ -1,0 +1,670 @@
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: data_root: data
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: model: vgg16
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: dataset: cifar10
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: seed: None
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: batch_size: 1024
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: epochs: 100
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: lr: 0.05
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: lr_decay_milestones: 40,70,90
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: resume: 
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: wd: 5e-05
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: print_freq: 10
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: pretrained: False
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: log_tag: -example
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: weight_file: ./checkpoints/scratch/cifar10_vgg16_scratch_ddp-test.pth
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: config_file: ./prune_config/vgg16_cifar10_irre.yaml
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: prune_type: irre_prune
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: prune_freq: 5
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: retrain_epoch: 50
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: ip: 127.0.0.33
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: port: 23456
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: local_rank: 0
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: nprocs: 4
+[11/23 22:17:39] R0-cifar10-vgg16-example INFO: logger: <Logger R0-cifar10-vgg16-example (DEBUG)>
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: data_root: data
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: model: vgg16
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: dataset: cifar10
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: seed: None
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: batch_size: 1024
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: epochs: 100
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: lr: 0.05
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: lr_decay_milestones: 40,70,90
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: resume: 
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: wd: 5e-05
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: print_freq: 10
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: pretrained: False
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: log_tag: -example
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: weight_file: ./checkpoints/scratch/cifar10_vgg16_scratch_ddp-test.pth
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: config_file: ./prune_config/vgg16_cifar10_irre.yaml
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: prune_type: irre_prune
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: prune_freq: 5
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: retrain_epoch: 50
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: ip: 127.0.0.33
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: port: 23456
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: local_rank: 0
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: nprocs: 4
+[11/23 22:19:39] R0-cifar10-vgg16-example INFO: logger: <Logger R0-cifar10-vgg16-example (DEBUG)>
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: data_root: data
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: model: vgg16
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: dataset: cifar10
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: seed: None
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: batch_size: 1024
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: epochs: 100
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: lr: 0.05
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: lr_decay_milestones: 40,70,90
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: resume: 
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: wd: 5e-05
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: print_freq: 10
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: pretrained: False
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: log_tag: -example
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: weight_file: ./checkpoints/scratch/cifar10_vgg16_scratch_ddp-test.pth
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: config_file: ./prune_config/vgg16_cifar10_irre.yaml
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: prune_type: irre_prune
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: prune_freq: 5
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: retrain_epoch: 50
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: ip: 127.0.0.33
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: port: 23456
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: local_rank: 0
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: nprocs: 4
+[11/23 22:23:22] R0-cifar10-vgg16-example INFO: logger: <Logger R0-cifar10-vgg16-example (DEBUG)>
+[11/23 22:23:42] R0-cifar10-vgg16-example INFO: [Eval] Epoch=0 Acc@1: 92.4300 -> 10.0000; Acc@5: 99.7700 -> 55.1800
+[11/23 22:23:54] R0-cifar10-vgg16-example INFO: Training Epoch: 1 [256/50000]	Loss: 0.0344	LR: 0.050000
+[11/23 22:23:54] R0-cifar10-vgg16-example INFO: Training Epoch: 1 [10496/50000]	Loss: 0.0157	LR: 0.050000
+[11/23 22:23:55] R0-cifar10-vgg16-example INFO: Training Epoch: 1 [20736/50000]	Loss: 0.0138	LR: 0.050000
+[11/23 22:23:55] R0-cifar10-vgg16-example INFO: Training Epoch: 1 [30976/50000]	Loss: 0.0189	LR: 0.050000
+[11/23 22:23:56] R0-cifar10-vgg16-example INFO: Training Epoch: 1 [41216/50000]	Loss: 0.0203	LR: 0.050000
+[11/23 22:24:06] R0-cifar10-vgg16-example INFO: [Eval] Epoch=1 Acc@1=91.3700 Acc@5=99.5900 Loss=0.3703
+[11/23 22:24:18] R0-cifar10-vgg16-example INFO: Training Epoch: 2 [256/50000]	Loss: 0.0126	LR: 0.050000
+[11/23 22:24:19] R0-cifar10-vgg16-example INFO: Training Epoch: 2 [10496/50000]	Loss: 0.0078	LR: 0.050000
+[11/23 22:24:19] R0-cifar10-vgg16-example INFO: Training Epoch: 2 [20736/50000]	Loss: 0.0142	LR: 0.050000
+[11/23 22:24:20] R0-cifar10-vgg16-example INFO: Training Epoch: 2 [30976/50000]	Loss: 0.0144	LR: 0.050000
+[11/23 22:24:20] R0-cifar10-vgg16-example INFO: Training Epoch: 2 [41216/50000]	Loss: 0.0168	LR: 0.050000
+[11/23 22:24:30] R0-cifar10-vgg16-example INFO: [Eval] Epoch=2 Acc@1=91.1600 Acc@5=99.5500 Loss=0.4071
+[11/23 22:24:41] R0-cifar10-vgg16-example INFO: Training Epoch: 3 [256/50000]	Loss: 0.0154	LR: 0.050000
+[11/23 22:24:42] R0-cifar10-vgg16-example INFO: Training Epoch: 3 [10496/50000]	Loss: 0.0169	LR: 0.050000
+[11/23 22:24:43] R0-cifar10-vgg16-example INFO: Training Epoch: 3 [20736/50000]	Loss: 0.0082	LR: 0.050000
+[11/23 22:24:43] R0-cifar10-vgg16-example INFO: Training Epoch: 3 [30976/50000]	Loss: 0.0124	LR: 0.050000
+[11/23 22:24:44] R0-cifar10-vgg16-example INFO: Training Epoch: 3 [41216/50000]	Loss: 0.0103	LR: 0.050000
+[11/23 22:24:53] R0-cifar10-vgg16-example INFO: [Eval] Epoch=3 Acc@1=91.1800 Acc@5=99.4900 Loss=0.4000
+[11/23 22:25:05] R0-cifar10-vgg16-example INFO: Training Epoch: 4 [256/50000]	Loss: 0.0196	LR: 0.050000
+[11/23 22:25:05] R0-cifar10-vgg16-example INFO: Training Epoch: 4 [10496/50000]	Loss: 0.0117	LR: 0.050000
+[11/23 22:25:06] R0-cifar10-vgg16-example INFO: Training Epoch: 4 [20736/50000]	Loss: 0.0101	LR: 0.050000
+[11/23 22:25:07] R0-cifar10-vgg16-example INFO: Training Epoch: 4 [30976/50000]	Loss: 0.0179	LR: 0.050000
+[11/23 22:25:07] R0-cifar10-vgg16-example INFO: Training Epoch: 4 [41216/50000]	Loss: 0.0185	LR: 0.050000
+[11/23 22:25:17] R0-cifar10-vgg16-example INFO: [Eval] Epoch=4 Acc@1=91.6100 Acc@5=99.5700 Loss=0.4052
+[11/23 22:25:29] R0-cifar10-vgg16-example INFO: Training Epoch: 5 [256/50000]	Loss: 0.0133	LR: 0.050000
+[11/23 22:25:29] R0-cifar10-vgg16-example INFO: Training Epoch: 5 [10496/50000]	Loss: 0.0125	LR: 0.050000
+[11/23 22:25:30] R0-cifar10-vgg16-example INFO: Training Epoch: 5 [20736/50000]	Loss: 0.0142	LR: 0.050000
+[11/23 22:25:31] R0-cifar10-vgg16-example INFO: Training Epoch: 5 [30976/50000]	Loss: 0.0107	LR: 0.050000
+[11/23 22:25:31] R0-cifar10-vgg16-example INFO: Training Epoch: 5 [41216/50000]	Loss: 0.0122	LR: 0.050000
+[11/23 22:25:41] R0-cifar10-vgg16-example INFO: [Eval] Epoch=5 Acc@1=91.3300 Acc@5=99.5500 Loss=0.4248
+[11/23 22:25:53] R0-cifar10-vgg16-example INFO: Training Epoch: 6 [256/50000]	Loss: 0.0160	LR: 0.050000
+[11/23 22:25:53] R0-cifar10-vgg16-example INFO: Training Epoch: 6 [10496/50000]	Loss: 0.0148	LR: 0.050000
+[11/23 22:25:54] R0-cifar10-vgg16-example INFO: Training Epoch: 6 [20736/50000]	Loss: 0.0182	LR: 0.050000
+[11/23 22:25:54] R0-cifar10-vgg16-example INFO: Training Epoch: 6 [30976/50000]	Loss: 0.0175	LR: 0.050000
+[11/23 22:25:55] R0-cifar10-vgg16-example INFO: Training Epoch: 6 [41216/50000]	Loss: 0.0103	LR: 0.050000
+[11/23 22:26:05] R0-cifar10-vgg16-example INFO: [Eval] Epoch=6 Acc@1=91.5100 Acc@5=99.5700 Loss=0.3774
+[11/23 22:26:16] R0-cifar10-vgg16-example INFO: Training Epoch: 7 [256/50000]	Loss: 0.0080	LR: 0.050000
+[11/23 22:26:17] R0-cifar10-vgg16-example INFO: Training Epoch: 7 [10496/50000]	Loss: 0.0150	LR: 0.050000
+[11/23 22:26:17] R0-cifar10-vgg16-example INFO: Training Epoch: 7 [20736/50000]	Loss: 0.0027	LR: 0.050000
+[11/23 22:26:18] R0-cifar10-vgg16-example INFO: Training Epoch: 7 [30976/50000]	Loss: 0.0088	LR: 0.050000
+[11/23 22:26:18] R0-cifar10-vgg16-example INFO: Training Epoch: 7 [41216/50000]	Loss: 0.0097	LR: 0.050000
+[11/23 22:26:28] R0-cifar10-vgg16-example INFO: [Eval] Epoch=7 Acc@1=91.2700 Acc@5=99.4600 Loss=0.4107
+[11/23 22:26:39] R0-cifar10-vgg16-example INFO: Training Epoch: 8 [256/50000]	Loss: 0.0045	LR: 0.050000
+[11/23 22:26:40] R0-cifar10-vgg16-example INFO: Training Epoch: 8 [10496/50000]	Loss: 0.0080	LR: 0.050000
+[11/23 22:26:40] R0-cifar10-vgg16-example INFO: Training Epoch: 8 [20736/50000]	Loss: 0.0116	LR: 0.050000
+[11/23 22:26:41] R0-cifar10-vgg16-example INFO: Training Epoch: 8 [30976/50000]	Loss: 0.0104	LR: 0.050000
+[11/23 22:26:42] R0-cifar10-vgg16-example INFO: Training Epoch: 8 [41216/50000]	Loss: 0.0059	LR: 0.050000
+[11/23 22:26:51] R0-cifar10-vgg16-example INFO: [Eval] Epoch=8 Acc@1=91.4500 Acc@5=99.4800 Loss=0.4214
+[11/23 22:27:03] R0-cifar10-vgg16-example INFO: Training Epoch: 9 [256/50000]	Loss: 0.0077	LR: 0.050000
+[11/23 22:27:03] R0-cifar10-vgg16-example INFO: Training Epoch: 9 [10496/50000]	Loss: 0.0089	LR: 0.050000
+[11/23 22:27:04] R0-cifar10-vgg16-example INFO: Training Epoch: 9 [20736/50000]	Loss: 0.0125	LR: 0.050000
+[11/23 22:27:04] R0-cifar10-vgg16-example INFO: Training Epoch: 9 [30976/50000]	Loss: 0.0136	LR: 0.050000
+[11/23 22:27:05] R0-cifar10-vgg16-example INFO: Training Epoch: 9 [41216/50000]	Loss: 0.0108	LR: 0.050000
+[11/23 22:27:14] R0-cifar10-vgg16-example INFO: [Eval] Epoch=9 Acc@1=91.5000 Acc@5=99.6100 Loss=0.4324
+[11/23 22:27:26] R0-cifar10-vgg16-example INFO: Training Epoch: 10 [256/50000]	Loss: 0.0060	LR: 0.050000
+[11/23 22:27:26] R0-cifar10-vgg16-example INFO: Training Epoch: 10 [10496/50000]	Loss: 0.0069	LR: 0.050000
+[11/23 22:27:27] R0-cifar10-vgg16-example INFO: Training Epoch: 10 [20736/50000]	Loss: 0.0047	LR: 0.050000
+[11/23 22:27:28] R0-cifar10-vgg16-example INFO: Training Epoch: 10 [30976/50000]	Loss: 0.0111	LR: 0.050000
+[11/23 22:27:28] R0-cifar10-vgg16-example INFO: Training Epoch: 10 [41216/50000]	Loss: 0.0026	LR: 0.050000
+[11/23 22:27:38] R0-cifar10-vgg16-example INFO: [Eval] Epoch=10 Acc@1=91.4400 Acc@5=99.6200 Loss=0.4272
+[11/23 22:27:50] R0-cifar10-vgg16-example INFO: Training Epoch: 11 [256/50000]	Loss: 0.0111	LR: 0.050000
+[11/23 22:27:50] R0-cifar10-vgg16-example INFO: Training Epoch: 11 [10496/50000]	Loss: 0.0082	LR: 0.050000
+[11/23 22:27:51] R0-cifar10-vgg16-example INFO: Training Epoch: 11 [20736/50000]	Loss: 0.0067	LR: 0.050000
+[11/23 22:27:51] R0-cifar10-vgg16-example INFO: Training Epoch: 11 [30976/50000]	Loss: 0.0069	LR: 0.050000
+[11/23 22:27:52] R0-cifar10-vgg16-example INFO: Training Epoch: 11 [41216/50000]	Loss: 0.0124	LR: 0.050000
+[11/23 22:28:02] R0-cifar10-vgg16-example INFO: [Eval] Epoch=11 Acc@1=91.6100 Acc@5=99.5700 Loss=0.3627
+[11/23 22:28:14] R0-cifar10-vgg16-example INFO: Training Epoch: 12 [256/50000]	Loss: 0.0082	LR: 0.050000
+[11/23 22:28:15] R0-cifar10-vgg16-example INFO: Training Epoch: 12 [10496/50000]	Loss: 0.0050	LR: 0.050000
+[11/23 22:28:15] R0-cifar10-vgg16-example INFO: Training Epoch: 12 [20736/50000]	Loss: 0.0072	LR: 0.050000
+[11/23 22:28:16] R0-cifar10-vgg16-example INFO: Training Epoch: 12 [30976/50000]	Loss: 0.0080	LR: 0.050000
+[11/23 22:28:16] R0-cifar10-vgg16-example INFO: Training Epoch: 12 [41216/50000]	Loss: 0.0132	LR: 0.050000
+[11/23 22:28:26] R0-cifar10-vgg16-example INFO: [Eval] Epoch=12 Acc@1=91.6800 Acc@5=99.6300 Loss=0.4062
+[11/23 22:28:38] R0-cifar10-vgg16-example INFO: Training Epoch: 13 [256/50000]	Loss: 0.0057	LR: 0.050000
+[11/23 22:28:39] R0-cifar10-vgg16-example INFO: Training Epoch: 13 [10496/50000]	Loss: 0.0066	LR: 0.050000
+[11/23 22:28:39] R0-cifar10-vgg16-example INFO: Training Epoch: 13 [20736/50000]	Loss: 0.0066	LR: 0.050000
+[11/23 22:28:40] R0-cifar10-vgg16-example INFO: Training Epoch: 13 [30976/50000]	Loss: 0.0087	LR: 0.050000
+[11/23 22:28:40] R0-cifar10-vgg16-example INFO: Training Epoch: 13 [41216/50000]	Loss: 0.0041	LR: 0.050000
+[11/23 22:28:50] R0-cifar10-vgg16-example INFO: [Eval] Epoch=13 Acc@1=91.4600 Acc@5=99.5500 Loss=0.4366
+[11/23 22:29:02] R0-cifar10-vgg16-example INFO: Training Epoch: 14 [256/50000]	Loss: 0.0028	LR: 0.050000
+[11/23 22:29:02] R0-cifar10-vgg16-example INFO: Training Epoch: 14 [10496/50000]	Loss: 0.0060	LR: 0.050000
+[11/23 22:29:03] R0-cifar10-vgg16-example INFO: Training Epoch: 14 [20736/50000]	Loss: 0.0094	LR: 0.050000
+[11/23 22:29:03] R0-cifar10-vgg16-example INFO: Training Epoch: 14 [30976/50000]	Loss: 0.0081	LR: 0.050000
+[11/23 22:29:04] R0-cifar10-vgg16-example INFO: Training Epoch: 14 [41216/50000]	Loss: 0.0035	LR: 0.050000
+[11/23 22:29:13] R0-cifar10-vgg16-example INFO: [Eval] Epoch=14 Acc@1=91.4100 Acc@5=99.6500 Loss=0.4423
+[11/23 22:29:25] R0-cifar10-vgg16-example INFO: Training Epoch: 15 [256/50000]	Loss: 0.0069	LR: 0.050000
+[11/23 22:29:26] R0-cifar10-vgg16-example INFO: Training Epoch: 15 [10496/50000]	Loss: 0.0133	LR: 0.050000
+[11/23 22:29:27] R0-cifar10-vgg16-example INFO: Training Epoch: 15 [20736/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:29:27] R0-cifar10-vgg16-example INFO: Training Epoch: 15 [30976/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:29:28] R0-cifar10-vgg16-example INFO: Training Epoch: 15 [41216/50000]	Loss: 0.0065	LR: 0.050000
+[11/23 22:29:37] R0-cifar10-vgg16-example INFO: [Eval] Epoch=15 Acc@1=91.4300 Acc@5=99.5600 Loss=0.4357
+[11/23 22:29:49] R0-cifar10-vgg16-example INFO: Training Epoch: 16 [256/50000]	Loss: 0.0080	LR: 0.050000
+[11/23 22:29:49] R0-cifar10-vgg16-example INFO: Training Epoch: 16 [10496/50000]	Loss: 0.0071	LR: 0.050000
+[11/23 22:29:50] R0-cifar10-vgg16-example INFO: Training Epoch: 16 [20736/50000]	Loss: 0.0061	LR: 0.050000
+[11/23 22:29:50] R0-cifar10-vgg16-example INFO: Training Epoch: 16 [30976/50000]	Loss: 0.0068	LR: 0.050000
+[11/23 22:29:51] R0-cifar10-vgg16-example INFO: Training Epoch: 16 [41216/50000]	Loss: 0.0023	LR: 0.050000
+[11/23 22:30:01] R0-cifar10-vgg16-example INFO: [Eval] Epoch=16 Acc@1=91.9600 Acc@5=99.6100 Loss=0.3541
+[11/23 22:30:12] R0-cifar10-vgg16-example INFO: Training Epoch: 17 [256/50000]	Loss: 0.0024	LR: 0.050000
+[11/23 22:30:13] R0-cifar10-vgg16-example INFO: Training Epoch: 17 [10496/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:30:13] R0-cifar10-vgg16-example INFO: Training Epoch: 17 [20736/50000]	Loss: 0.0053	LR: 0.050000
+[11/23 22:30:14] R0-cifar10-vgg16-example INFO: Training Epoch: 17 [30976/50000]	Loss: 0.0035	LR: 0.050000
+[11/23 22:30:14] R0-cifar10-vgg16-example INFO: Training Epoch: 17 [41216/50000]	Loss: 0.0043	LR: 0.050000
+[11/23 22:30:24] R0-cifar10-vgg16-example INFO: [Eval] Epoch=17 Acc@1=91.5400 Acc@5=99.5700 Loss=0.4092
+[11/23 22:30:35] R0-cifar10-vgg16-example INFO: Training Epoch: 18 [256/50000]	Loss: 0.0045	LR: 0.050000
+[11/23 22:30:36] R0-cifar10-vgg16-example INFO: Training Epoch: 18 [10496/50000]	Loss: 0.0052	LR: 0.050000
+[11/23 22:30:36] R0-cifar10-vgg16-example INFO: Training Epoch: 18 [20736/50000]	Loss: 0.0070	LR: 0.050000
+[11/23 22:30:37] R0-cifar10-vgg16-example INFO: Training Epoch: 18 [30976/50000]	Loss: 0.0023	LR: 0.050000
+[11/23 22:30:37] R0-cifar10-vgg16-example INFO: Training Epoch: 18 [41216/50000]	Loss: 0.0105	LR: 0.050000
+[11/23 22:30:47] R0-cifar10-vgg16-example INFO: [Eval] Epoch=18 Acc@1=91.5700 Acc@5=99.6700 Loss=0.4276
+[11/23 22:30:59] R0-cifar10-vgg16-example INFO: Training Epoch: 19 [256/50000]	Loss: 0.0021	LR: 0.050000
+[11/23 22:30:59] R0-cifar10-vgg16-example INFO: Training Epoch: 19 [10496/50000]	Loss: 0.0077	LR: 0.050000
+[11/23 22:31:00] R0-cifar10-vgg16-example INFO: Training Epoch: 19 [20736/50000]	Loss: 0.0041	LR: 0.050000
+[11/23 22:31:00] R0-cifar10-vgg16-example INFO: Training Epoch: 19 [30976/50000]	Loss: 0.0080	LR: 0.050000
+[11/23 22:31:01] R0-cifar10-vgg16-example INFO: Training Epoch: 19 [41216/50000]	Loss: 0.0039	LR: 0.050000
+[11/23 22:31:10] R0-cifar10-vgg16-example INFO: [Eval] Epoch=19 Acc@1=91.3600 Acc@5=99.5800 Loss=0.4498
+[11/23 22:31:22] R0-cifar10-vgg16-example INFO: Training Epoch: 20 [256/50000]	Loss: 0.0052	LR: 0.050000
+[11/23 22:31:23] R0-cifar10-vgg16-example INFO: Training Epoch: 20 [10496/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:31:23] R0-cifar10-vgg16-example INFO: Training Epoch: 20 [20736/50000]	Loss: 0.0052	LR: 0.050000
+[11/23 22:31:24] R0-cifar10-vgg16-example INFO: Training Epoch: 20 [30976/50000]	Loss: 0.0067	LR: 0.050000
+[11/23 22:31:24] R0-cifar10-vgg16-example INFO: Training Epoch: 20 [41216/50000]	Loss: 0.0070	LR: 0.050000
+[11/23 22:31:34] R0-cifar10-vgg16-example INFO: [Eval] Epoch=20 Acc@1=91.5800 Acc@5=99.6300 Loss=0.4522
+[11/23 22:31:45] R0-cifar10-vgg16-example INFO: Training Epoch: 21 [256/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:31:46] R0-cifar10-vgg16-example INFO: Training Epoch: 21 [10496/50000]	Loss: 0.0055	LR: 0.050000
+[11/23 22:31:46] R0-cifar10-vgg16-example INFO: Training Epoch: 21 [20736/50000]	Loss: 0.0045	LR: 0.050000
+[11/23 22:31:47] R0-cifar10-vgg16-example INFO: Training Epoch: 21 [30976/50000]	Loss: 0.0041	LR: 0.050000
+[11/23 22:31:47] R0-cifar10-vgg16-example INFO: Training Epoch: 21 [41216/50000]	Loss: 0.0065	LR: 0.050000
+[11/23 22:31:57] R0-cifar10-vgg16-example INFO: [Eval] Epoch=21 Acc@1=91.8200 Acc@5=99.6200 Loss=0.3680
+[11/23 22:32:09] R0-cifar10-vgg16-example INFO: Training Epoch: 22 [256/50000]	Loss: 0.0088	LR: 0.050000
+[11/23 22:32:09] R0-cifar10-vgg16-example INFO: Training Epoch: 22 [10496/50000]	Loss: 0.0061	LR: 0.050000
+[11/23 22:32:10] R0-cifar10-vgg16-example INFO: Training Epoch: 22 [20736/50000]	Loss: 0.0084	LR: 0.050000
+[11/23 22:32:10] R0-cifar10-vgg16-example INFO: Training Epoch: 22 [30976/50000]	Loss: 0.0057	LR: 0.050000
+[11/23 22:32:11] R0-cifar10-vgg16-example INFO: Training Epoch: 22 [41216/50000]	Loss: 0.0025	LR: 0.050000
+[11/23 22:32:20] R0-cifar10-vgg16-example INFO: [Eval] Epoch=22 Acc@1=91.7900 Acc@5=99.5800 Loss=0.4066
+[11/23 22:32:32] R0-cifar10-vgg16-example INFO: Training Epoch: 23 [256/50000]	Loss: 0.0034	LR: 0.050000
+[11/23 22:32:32] R0-cifar10-vgg16-example INFO: Training Epoch: 23 [10496/50000]	Loss: 0.0081	LR: 0.050000
+[11/23 22:32:33] R0-cifar10-vgg16-example INFO: Training Epoch: 23 [20736/50000]	Loss: 0.0039	LR: 0.050000
+[11/23 22:32:34] R0-cifar10-vgg16-example INFO: Training Epoch: 23 [30976/50000]	Loss: 0.0020	LR: 0.050000
+[11/23 22:32:34] R0-cifar10-vgg16-example INFO: Training Epoch: 23 [41216/50000]	Loss: 0.0035	LR: 0.050000
+[11/23 22:32:44] R0-cifar10-vgg16-example INFO: [Eval] Epoch=23 Acc@1=91.3300 Acc@5=99.5000 Loss=0.4276
+[11/23 22:32:55] R0-cifar10-vgg16-example INFO: Training Epoch: 24 [256/50000]	Loss: 0.0020	LR: 0.050000
+[11/23 22:32:56] R0-cifar10-vgg16-example INFO: Training Epoch: 24 [10496/50000]	Loss: 0.0094	LR: 0.050000
+[11/23 22:32:56] R0-cifar10-vgg16-example INFO: Training Epoch: 24 [20736/50000]	Loss: 0.0050	LR: 0.050000
+[11/23 22:32:57] R0-cifar10-vgg16-example INFO: Training Epoch: 24 [30976/50000]	Loss: 0.0104	LR: 0.050000
+[11/23 22:32:57] R0-cifar10-vgg16-example INFO: Training Epoch: 24 [41216/50000]	Loss: 0.0108	LR: 0.050000
+[11/23 22:33:07] R0-cifar10-vgg16-example INFO: [Eval] Epoch=24 Acc@1=91.4900 Acc@5=99.5700 Loss=0.4608
+[11/23 22:33:19] R0-cifar10-vgg16-example INFO: Training Epoch: 25 [256/50000]	Loss: 0.0105	LR: 0.050000
+[11/23 22:33:20] R0-cifar10-vgg16-example INFO: Training Epoch: 25 [10496/50000]	Loss: 0.0039	LR: 0.050000
+[11/23 22:33:20] R0-cifar10-vgg16-example INFO: Training Epoch: 25 [20736/50000]	Loss: 0.0032	LR: 0.050000
+[11/23 22:33:21] R0-cifar10-vgg16-example INFO: Training Epoch: 25 [30976/50000]	Loss: 0.0047	LR: 0.050000
+[11/23 22:33:21] R0-cifar10-vgg16-example INFO: Training Epoch: 25 [41216/50000]	Loss: 0.0056	LR: 0.050000
+[11/23 22:33:31] R0-cifar10-vgg16-example INFO: [Eval] Epoch=25 Acc@1=91.6100 Acc@5=99.5100 Loss=0.4377
+[11/23 22:33:42] R0-cifar10-vgg16-example INFO: Training Epoch: 26 [256/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:33:43] R0-cifar10-vgg16-example INFO: Training Epoch: 26 [10496/50000]	Loss: 0.0028	LR: 0.050000
+[11/23 22:33:43] R0-cifar10-vgg16-example INFO: Training Epoch: 26 [20736/50000]	Loss: 0.0023	LR: 0.050000
+[11/23 22:33:44] R0-cifar10-vgg16-example INFO: Training Epoch: 26 [30976/50000]	Loss: 0.0028	LR: 0.050000
+[11/23 22:33:44] R0-cifar10-vgg16-example INFO: Training Epoch: 26 [41216/50000]	Loss: 0.0060	LR: 0.050000
+[11/23 22:33:54] R0-cifar10-vgg16-example INFO: [Eval] Epoch=26 Acc@1=91.6800 Acc@5=99.5800 Loss=0.3625
+[11/23 22:34:06] R0-cifar10-vgg16-example INFO: Training Epoch: 27 [256/50000]	Loss: 0.0077	LR: 0.050000
+[11/23 22:34:06] R0-cifar10-vgg16-example INFO: Training Epoch: 27 [10496/50000]	Loss: 0.0034	LR: 0.050000
+[11/23 22:34:07] R0-cifar10-vgg16-example INFO: Training Epoch: 27 [20736/50000]	Loss: 0.0090	LR: 0.050000
+[11/23 22:34:07] R0-cifar10-vgg16-example INFO: Training Epoch: 27 [30976/50000]	Loss: 0.0024	LR: 0.050000
+[11/23 22:34:08] R0-cifar10-vgg16-example INFO: Training Epoch: 27 [41216/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:34:17] R0-cifar10-vgg16-example INFO: [Eval] Epoch=27 Acc@1=91.6400 Acc@5=99.6200 Loss=0.4052
+[11/23 22:34:29] R0-cifar10-vgg16-example INFO: Training Epoch: 28 [256/50000]	Loss: 0.0053	LR: 0.050000
+[11/23 22:34:29] R0-cifar10-vgg16-example INFO: Training Epoch: 28 [10496/50000]	Loss: 0.0022	LR: 0.050000
+[11/23 22:34:30] R0-cifar10-vgg16-example INFO: Training Epoch: 28 [20736/50000]	Loss: 0.0059	LR: 0.050000
+[11/23 22:34:30] R0-cifar10-vgg16-example INFO: Training Epoch: 28 [30976/50000]	Loss: 0.0090	LR: 0.050000
+[11/23 22:34:31] R0-cifar10-vgg16-example INFO: Training Epoch: 28 [41216/50000]	Loss: 0.0059	LR: 0.050000
+[11/23 22:34:41] R0-cifar10-vgg16-example INFO: [Eval] Epoch=28 Acc@1=91.6100 Acc@5=99.4500 Loss=0.4309
+[11/23 22:34:52] R0-cifar10-vgg16-example INFO: Training Epoch: 29 [256/50000]	Loss: 0.0046	LR: 0.050000
+[11/23 22:34:53] R0-cifar10-vgg16-example INFO: Training Epoch: 29 [10496/50000]	Loss: 0.0050	LR: 0.050000
+[11/23 22:34:53] R0-cifar10-vgg16-example INFO: Training Epoch: 29 [20736/50000]	Loss: 0.0032	LR: 0.050000
+[11/23 22:34:54] R0-cifar10-vgg16-example INFO: Training Epoch: 29 [30976/50000]	Loss: 0.0023	LR: 0.050000
+[11/23 22:34:54] R0-cifar10-vgg16-example INFO: Training Epoch: 29 [41216/50000]	Loss: 0.0043	LR: 0.050000
+[11/23 22:35:04] R0-cifar10-vgg16-example INFO: [Eval] Epoch=29 Acc@1=91.6600 Acc@5=99.5700 Loss=0.4392
+[11/23 22:35:16] R0-cifar10-vgg16-example INFO: Training Epoch: 30 [256/50000]	Loss: 0.0026	LR: 0.050000
+[11/23 22:35:16] R0-cifar10-vgg16-example INFO: Training Epoch: 30 [10496/50000]	Loss: 0.0033	LR: 0.050000
+[11/23 22:35:17] R0-cifar10-vgg16-example INFO: Training Epoch: 30 [20736/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:35:17] R0-cifar10-vgg16-example INFO: Training Epoch: 30 [30976/50000]	Loss: 0.0057	LR: 0.050000
+[11/23 22:35:18] R0-cifar10-vgg16-example INFO: Training Epoch: 30 [41216/50000]	Loss: 0.0114	LR: 0.050000
+[11/23 22:35:28] R0-cifar10-vgg16-example INFO: [Eval] Epoch=30 Acc@1=91.9100 Acc@5=99.5500 Loss=0.4447
+[11/23 22:35:39] R0-cifar10-vgg16-example INFO: Training Epoch: 31 [256/50000]	Loss: 0.0024	LR: 0.050000
+[11/23 22:35:40] R0-cifar10-vgg16-example INFO: Training Epoch: 31 [10496/50000]	Loss: 0.0029	LR: 0.050000
+[11/23 22:35:40] R0-cifar10-vgg16-example INFO: Training Epoch: 31 [20736/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:35:41] R0-cifar10-vgg16-example INFO: Training Epoch: 31 [30976/50000]	Loss: 0.0022	LR: 0.050000
+[11/23 22:35:42] R0-cifar10-vgg16-example INFO: Training Epoch: 31 [41216/50000]	Loss: 0.0073	LR: 0.050000
+[11/23 22:35:52] R0-cifar10-vgg16-example INFO: [Eval] Epoch=31 Acc@1=91.9500 Acc@5=99.6200 Loss=0.3674
+[11/23 22:36:03] R0-cifar10-vgg16-example INFO: Training Epoch: 32 [256/50000]	Loss: 0.0013	LR: 0.050000
+[11/23 22:36:04] R0-cifar10-vgg16-example INFO: Training Epoch: 32 [10496/50000]	Loss: 0.0039	LR: 0.050000
+[11/23 22:36:04] R0-cifar10-vgg16-example INFO: Training Epoch: 32 [20736/50000]	Loss: 0.0026	LR: 0.050000
+[11/23 22:36:05] R0-cifar10-vgg16-example INFO: Training Epoch: 32 [30976/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:36:05] R0-cifar10-vgg16-example INFO: Training Epoch: 32 [41216/50000]	Loss: 0.0052	LR: 0.050000
+[11/23 22:36:15] R0-cifar10-vgg16-example INFO: [Eval] Epoch=32 Acc@1=91.6900 Acc@5=99.5700 Loss=0.4120
+[11/23 22:36:26] R0-cifar10-vgg16-example INFO: Training Epoch: 33 [256/50000]	Loss: 0.0034	LR: 0.050000
+[11/23 22:36:27] R0-cifar10-vgg16-example INFO: Training Epoch: 33 [10496/50000]	Loss: 0.0042	LR: 0.050000
+[11/23 22:36:28] R0-cifar10-vgg16-example INFO: Training Epoch: 33 [20736/50000]	Loss: 0.0148	LR: 0.050000
+[11/23 22:36:28] R0-cifar10-vgg16-example INFO: Training Epoch: 33 [30976/50000]	Loss: 0.0038	LR: 0.050000
+[11/23 22:36:29] R0-cifar10-vgg16-example INFO: Training Epoch: 33 [41216/50000]	Loss: 0.0067	LR: 0.050000
+[11/23 22:36:38] R0-cifar10-vgg16-example INFO: [Eval] Epoch=33 Acc@1=91.7000 Acc@5=99.6700 Loss=0.4175
+[11/23 22:36:50] R0-cifar10-vgg16-example INFO: Training Epoch: 34 [256/50000]	Loss: 0.0049	LR: 0.050000
+[11/23 22:36:51] R0-cifar10-vgg16-example INFO: Training Epoch: 34 [10496/50000]	Loss: 0.0111	LR: 0.050000
+[11/23 22:36:51] R0-cifar10-vgg16-example INFO: Training Epoch: 34 [20736/50000]	Loss: 0.0057	LR: 0.050000
+[11/23 22:36:52] R0-cifar10-vgg16-example INFO: Training Epoch: 34 [30976/50000]	Loss: 0.0102	LR: 0.050000
+[11/23 22:36:52] R0-cifar10-vgg16-example INFO: Training Epoch: 34 [41216/50000]	Loss: 0.0097	LR: 0.050000
+[11/23 22:37:02] R0-cifar10-vgg16-example INFO: [Eval] Epoch=34 Acc@1=91.3900 Acc@5=99.5800 Loss=0.4472
+[11/23 22:37:13] R0-cifar10-vgg16-example INFO: Training Epoch: 35 [256/50000]	Loss: 0.0073	LR: 0.050000
+[11/23 22:37:14] R0-cifar10-vgg16-example INFO: Training Epoch: 35 [10496/50000]	Loss: 0.0048	LR: 0.050000
+[11/23 22:37:14] R0-cifar10-vgg16-example INFO: Training Epoch: 35 [20736/50000]	Loss: 0.0082	LR: 0.050000
+[11/23 22:37:15] R0-cifar10-vgg16-example INFO: Training Epoch: 35 [30976/50000]	Loss: 0.0034	LR: 0.050000
+[11/23 22:37:15] R0-cifar10-vgg16-example INFO: Training Epoch: 35 [41216/50000]	Loss: 0.0132	LR: 0.050000
+[11/23 22:37:25] R0-cifar10-vgg16-example INFO: [Eval] Epoch=35 Acc@1=91.2300 Acc@5=99.6100 Loss=0.4658
+[11/23 22:37:37] R0-cifar10-vgg16-example INFO: Training Epoch: 36 [256/50000]	Loss: 0.0031	LR: 0.050000
+[11/23 22:37:37] R0-cifar10-vgg16-example INFO: Training Epoch: 36 [10496/50000]	Loss: 0.0023	LR: 0.050000
+[11/23 22:37:38] R0-cifar10-vgg16-example INFO: Training Epoch: 36 [20736/50000]	Loss: 0.0019	LR: 0.050000
+[11/23 22:37:38] R0-cifar10-vgg16-example INFO: Training Epoch: 36 [30976/50000]	Loss: 0.0018	LR: 0.050000
+[11/23 22:37:39] R0-cifar10-vgg16-example INFO: Training Epoch: 36 [41216/50000]	Loss: 0.0061	LR: 0.050000
+[11/23 22:37:49] R0-cifar10-vgg16-example INFO: [Eval] Epoch=36 Acc@1=91.7800 Acc@5=99.6700 Loss=0.3723
+[11/23 22:38:00] R0-cifar10-vgg16-example INFO: Training Epoch: 37 [256/50000]	Loss: 0.0036	LR: 0.050000
+[11/23 22:38:01] R0-cifar10-vgg16-example INFO: Training Epoch: 37 [10496/50000]	Loss: 0.0029	LR: 0.050000
+[11/23 22:38:01] R0-cifar10-vgg16-example INFO: Training Epoch: 37 [20736/50000]	Loss: 0.0027	LR: 0.050000
+[11/23 22:38:02] R0-cifar10-vgg16-example INFO: Training Epoch: 37 [30976/50000]	Loss: 0.0019	LR: 0.050000
+[11/23 22:38:02] R0-cifar10-vgg16-example INFO: Training Epoch: 37 [41216/50000]	Loss: 0.0028	LR: 0.050000
+[11/23 22:38:12] R0-cifar10-vgg16-example INFO: [Eval] Epoch=37 Acc@1=91.7900 Acc@5=99.6300 Loss=0.3988
+[11/23 22:38:23] R0-cifar10-vgg16-example INFO: Training Epoch: 38 [256/50000]	Loss: 0.0054	LR: 0.050000
+[11/23 22:38:24] R0-cifar10-vgg16-example INFO: Training Epoch: 38 [10496/50000]	Loss: 0.0017	LR: 0.050000
+[11/23 22:38:24] R0-cifar10-vgg16-example INFO: Training Epoch: 38 [20736/50000]	Loss: 0.0024	LR: 0.050000
+[11/23 22:38:25] R0-cifar10-vgg16-example INFO: Training Epoch: 38 [30976/50000]	Loss: 0.0069	LR: 0.050000
+[11/23 22:38:25] R0-cifar10-vgg16-example INFO: Training Epoch: 38 [41216/50000]	Loss: 0.0058	LR: 0.050000
+[11/23 22:38:35] R0-cifar10-vgg16-example INFO: [Eval] Epoch=38 Acc@1=91.4400 Acc@5=99.5300 Loss=0.4485
+[11/23 22:38:47] R0-cifar10-vgg16-example INFO: Training Epoch: 39 [256/50000]	Loss: 0.0074	LR: 0.050000
+[11/23 22:38:47] R0-cifar10-vgg16-example INFO: Training Epoch: 39 [10496/50000]	Loss: 0.0060	LR: 0.050000
+[11/23 22:38:48] R0-cifar10-vgg16-example INFO: Training Epoch: 39 [20736/50000]	Loss: 0.0109	LR: 0.050000
+[11/23 22:38:48] R0-cifar10-vgg16-example INFO: Training Epoch: 39 [30976/50000]	Loss: 0.0030	LR: 0.050000
+[11/23 22:38:49] R0-cifar10-vgg16-example INFO: Training Epoch: 39 [41216/50000]	Loss: 0.0108	LR: 0.050000
+[11/23 22:38:59] R0-cifar10-vgg16-example INFO: [Eval] Epoch=39 Acc@1=91.6800 Acc@5=99.5700 Loss=0.4275
+[11/23 22:39:10] R0-cifar10-vgg16-example INFO: Training Epoch: 40 [256/50000]	Loss: 0.0045	LR: 0.050000
+[11/23 22:39:11] R0-cifar10-vgg16-example INFO: Training Epoch: 40 [10496/50000]	Loss: 0.0055	LR: 0.050000
+[11/23 22:39:11] R0-cifar10-vgg16-example INFO: Training Epoch: 40 [20736/50000]	Loss: 0.0054	LR: 0.050000
+[11/23 22:39:12] R0-cifar10-vgg16-example INFO: Training Epoch: 40 [30976/50000]	Loss: 0.0034	LR: 0.050000
+[11/23 22:39:12] R0-cifar10-vgg16-example INFO: Training Epoch: 40 [41216/50000]	Loss: 0.0069	LR: 0.050000
+[11/23 22:39:22] R0-cifar10-vgg16-example INFO: [Eval] Epoch=40 Acc@1=91.6100 Acc@5=99.6000 Loss=0.4473
+[11/23 22:39:33] R0-cifar10-vgg16-example INFO: Training Epoch: 41 [256/50000]	Loss: 0.0023	LR: 0.005000
+[11/23 22:39:34] R0-cifar10-vgg16-example INFO: Training Epoch: 41 [10496/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:39:35] R0-cifar10-vgg16-example INFO: Training Epoch: 41 [20736/50000]	Loss: 0.0024	LR: 0.005000
+[11/23 22:39:35] R0-cifar10-vgg16-example INFO: Training Epoch: 41 [30976/50000]	Loss: 0.0037	LR: 0.005000
+[11/23 22:39:36] R0-cifar10-vgg16-example INFO: Training Epoch: 41 [41216/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:39:45] R0-cifar10-vgg16-example INFO: [Eval] Epoch=41 Acc@1=92.3900 Acc@5=99.6700 Loss=0.3390
+[11/23 22:39:57] R0-cifar10-vgg16-example INFO: Training Epoch: 42 [256/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:39:58] R0-cifar10-vgg16-example INFO: Training Epoch: 42 [10496/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:39:59] R0-cifar10-vgg16-example INFO: Training Epoch: 42 [20736/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:39:59] R0-cifar10-vgg16-example INFO: Training Epoch: 42 [30976/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:40:00] R0-cifar10-vgg16-example INFO: Training Epoch: 42 [41216/50000]	Loss: 0.0021	LR: 0.005000
+[11/23 22:40:10] R0-cifar10-vgg16-example INFO: [Eval] Epoch=42 Acc@1=92.4300 Acc@5=99.6500 Loss=0.3403
+[11/23 22:40:21] R0-cifar10-vgg16-example INFO: Training Epoch: 43 [256/50000]	Loss: 0.0030	LR: 0.005000
+[11/23 22:40:22] R0-cifar10-vgg16-example INFO: Training Epoch: 43 [10496/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:40:23] R0-cifar10-vgg16-example INFO: Training Epoch: 43 [20736/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:40:23] R0-cifar10-vgg16-example INFO: Training Epoch: 43 [30976/50000]	Loss: 0.0050	LR: 0.005000
+[11/23 22:40:24] R0-cifar10-vgg16-example INFO: Training Epoch: 43 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:40:33] R0-cifar10-vgg16-example INFO: [Eval] Epoch=43 Acc@1=92.5300 Acc@5=99.6900 Loss=0.3435
+[11/23 22:40:45] R0-cifar10-vgg16-example INFO: Training Epoch: 44 [256/50000]	Loss: 0.0024	LR: 0.005000
+[11/23 22:40:45] R0-cifar10-vgg16-example INFO: Training Epoch: 44 [10496/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:40:46] R0-cifar10-vgg16-example INFO: Training Epoch: 44 [20736/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:40:47] R0-cifar10-vgg16-example INFO: Training Epoch: 44 [30976/50000]	Loss: 0.0023	LR: 0.005000
+[11/23 22:40:47] R0-cifar10-vgg16-example INFO: Training Epoch: 44 [41216/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:40:57] R0-cifar10-vgg16-example INFO: [Eval] Epoch=44 Acc@1=92.4400 Acc@5=99.6500 Loss=0.3440
+[11/23 22:41:08] R0-cifar10-vgg16-example INFO: Training Epoch: 45 [256/50000]	Loss: 0.0052	LR: 0.005000
+[11/23 22:41:09] R0-cifar10-vgg16-example INFO: Training Epoch: 45 [10496/50000]	Loss: 0.0023	LR: 0.005000
+[11/23 22:41:09] R0-cifar10-vgg16-example INFO: Training Epoch: 45 [20736/50000]	Loss: 0.0027	LR: 0.005000
+[11/23 22:41:10] R0-cifar10-vgg16-example INFO: Training Epoch: 45 [30976/50000]	Loss: 0.0009	LR: 0.005000
+[11/23 22:41:10] R0-cifar10-vgg16-example INFO: Training Epoch: 45 [41216/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:41:21] R0-cifar10-vgg16-example INFO: [Eval] Epoch=45 Acc@1=92.5500 Acc@5=99.6700 Loss=0.3471
+[11/23 22:41:33] R0-cifar10-vgg16-example INFO: Training Epoch: 46 [256/50000]	Loss: 0.0021	LR: 0.005000
+[11/23 22:41:33] R0-cifar10-vgg16-example INFO: Training Epoch: 46 [10496/50000]	Loss: 0.0021	LR: 0.005000
+[11/23 22:41:34] R0-cifar10-vgg16-example INFO: Training Epoch: 46 [20736/50000]	Loss: 0.0018	LR: 0.005000
+[11/23 22:41:34] R0-cifar10-vgg16-example INFO: Training Epoch: 46 [30976/50000]	Loss: 0.0017	LR: 0.005000
+[11/23 22:41:35] R0-cifar10-vgg16-example INFO: Training Epoch: 46 [41216/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:41:45] R0-cifar10-vgg16-example INFO: [Eval] Epoch=46 Acc@1=92.3800 Acc@5=99.6500 Loss=0.3395
+[11/23 22:41:56] R0-cifar10-vgg16-example INFO: Training Epoch: 47 [256/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:41:57] R0-cifar10-vgg16-example INFO: Training Epoch: 47 [10496/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:41:57] R0-cifar10-vgg16-example INFO: Training Epoch: 47 [20736/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:41:58] R0-cifar10-vgg16-example INFO: Training Epoch: 47 [30976/50000]	Loss: 0.0027	LR: 0.005000
+[11/23 22:41:59] R0-cifar10-vgg16-example INFO: Training Epoch: 47 [41216/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:42:08] R0-cifar10-vgg16-example INFO: [Eval] Epoch=47 Acc@1=92.4100 Acc@5=99.6500 Loss=0.3429
+[11/23 22:42:20] R0-cifar10-vgg16-example INFO: Training Epoch: 48 [256/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:42:20] R0-cifar10-vgg16-example INFO: Training Epoch: 48 [10496/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:42:21] R0-cifar10-vgg16-example INFO: Training Epoch: 48 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:42:21] R0-cifar10-vgg16-example INFO: Training Epoch: 48 [30976/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:42:22] R0-cifar10-vgg16-example INFO: Training Epoch: 48 [41216/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:42:32] R0-cifar10-vgg16-example INFO: [Eval] Epoch=48 Acc@1=92.4300 Acc@5=99.6300 Loss=0.3437
+[11/23 22:42:43] R0-cifar10-vgg16-example INFO: Training Epoch: 49 [256/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:42:44] R0-cifar10-vgg16-example INFO: Training Epoch: 49 [10496/50000]	Loss: 0.0020	LR: 0.005000
+[11/23 22:42:44] R0-cifar10-vgg16-example INFO: Training Epoch: 49 [20736/50000]	Loss: 0.0041	LR: 0.005000
+[11/23 22:42:45] R0-cifar10-vgg16-example INFO: Training Epoch: 49 [30976/50000]	Loss: 0.0029	LR: 0.005000
+[11/23 22:42:45] R0-cifar10-vgg16-example INFO: Training Epoch: 49 [41216/50000]	Loss: 0.0031	LR: 0.005000
+[11/23 22:42:55] R0-cifar10-vgg16-example INFO: [Eval] Epoch=49 Acc@1=92.4700 Acc@5=99.6400 Loss=0.3445
+[11/23 22:43:07] R0-cifar10-vgg16-example INFO: Training Epoch: 50 [256/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:43:08] R0-cifar10-vgg16-example INFO: Training Epoch: 50 [10496/50000]	Loss: 0.0007	LR: 0.005000
+[11/23 22:43:08] R0-cifar10-vgg16-example INFO: Training Epoch: 50 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:43:09] R0-cifar10-vgg16-example INFO: Training Epoch: 50 [30976/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:43:09] R0-cifar10-vgg16-example INFO: Training Epoch: 50 [41216/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:43:19] R0-cifar10-vgg16-example INFO: [Eval] Epoch=50 Acc@1=92.4200 Acc@5=99.6400 Loss=0.3472
+[11/23 22:43:31] R0-cifar10-vgg16-example INFO: Training Epoch: 51 [256/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:43:31] R0-cifar10-vgg16-example INFO: Training Epoch: 51 [10496/50000]	Loss: 0.0009	LR: 0.005000
+[11/23 22:43:32] R0-cifar10-vgg16-example INFO: Training Epoch: 51 [20736/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:43:32] R0-cifar10-vgg16-example INFO: Training Epoch: 51 [30976/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:43:33] R0-cifar10-vgg16-example INFO: Training Epoch: 51 [41216/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:43:42] R0-cifar10-vgg16-example INFO: [Eval] Epoch=51 Acc@1=92.3700 Acc@5=99.6600 Loss=0.3391
+[11/23 22:43:54] R0-cifar10-vgg16-example INFO: Training Epoch: 52 [256/50000]	Loss: 0.0024	LR: 0.005000
+[11/23 22:43:55] R0-cifar10-vgg16-example INFO: Training Epoch: 52 [10496/50000]	Loss: 0.0028	LR: 0.005000
+[11/23 22:43:55] R0-cifar10-vgg16-example INFO: Training Epoch: 52 [20736/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:43:56] R0-cifar10-vgg16-example INFO: Training Epoch: 52 [30976/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:43:56] R0-cifar10-vgg16-example INFO: Training Epoch: 52 [41216/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:44:06] R0-cifar10-vgg16-example INFO: [Eval] Epoch=52 Acc@1=92.4100 Acc@5=99.6700 Loss=0.3387
+[11/23 22:44:18] R0-cifar10-vgg16-example INFO: Training Epoch: 53 [256/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:44:18] R0-cifar10-vgg16-example INFO: Training Epoch: 53 [10496/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:44:19] R0-cifar10-vgg16-example INFO: Training Epoch: 53 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:44:19] R0-cifar10-vgg16-example INFO: Training Epoch: 53 [30976/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:44:20] R0-cifar10-vgg16-example INFO: Training Epoch: 53 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:44:29] R0-cifar10-vgg16-example INFO: [Eval] Epoch=53 Acc@1=92.4900 Acc@5=99.6500 Loss=0.3389
+[11/23 22:44:41] R0-cifar10-vgg16-example INFO: Training Epoch: 54 [256/50000]	Loss: 0.0017	LR: 0.005000
+[11/23 22:44:41] R0-cifar10-vgg16-example INFO: Training Epoch: 54 [10496/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:44:42] R0-cifar10-vgg16-example INFO: Training Epoch: 54 [20736/50000]	Loss: 0.0026	LR: 0.005000
+[11/23 22:44:43] R0-cifar10-vgg16-example INFO: Training Epoch: 54 [30976/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:44:43] R0-cifar10-vgg16-example INFO: Training Epoch: 54 [41216/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:44:53] R0-cifar10-vgg16-example INFO: [Eval] Epoch=54 Acc@1=92.4600 Acc@5=99.6600 Loss=0.3383
+[11/23 22:45:04] R0-cifar10-vgg16-example INFO: Training Epoch: 55 [256/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:45:05] R0-cifar10-vgg16-example INFO: Training Epoch: 55 [10496/50000]	Loss: 0.0018	LR: 0.005000
+[11/23 22:45:05] R0-cifar10-vgg16-example INFO: Training Epoch: 55 [20736/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:45:06] R0-cifar10-vgg16-example INFO: Training Epoch: 55 [30976/50000]	Loss: 0.0028	LR: 0.005000
+[11/23 22:45:06] R0-cifar10-vgg16-example INFO: Training Epoch: 55 [41216/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:45:16] R0-cifar10-vgg16-example INFO: [Eval] Epoch=55 Acc@1=92.5200 Acc@5=99.6400 Loss=0.3391
+[11/23 22:45:28] R0-cifar10-vgg16-example INFO: Training Epoch: 56 [256/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:45:29] R0-cifar10-vgg16-example INFO: Training Epoch: 56 [10496/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:45:29] R0-cifar10-vgg16-example INFO: Training Epoch: 56 [20736/50000]	Loss: 0.0017	LR: 0.005000
+[11/23 22:45:30] R0-cifar10-vgg16-example INFO: Training Epoch: 56 [30976/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:45:30] R0-cifar10-vgg16-example INFO: Training Epoch: 56 [41216/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:45:40] R0-cifar10-vgg16-example INFO: [Eval] Epoch=56 Acc@1=92.5000 Acc@5=99.6500 Loss=0.3387
+[11/23 22:45:51] R0-cifar10-vgg16-example INFO: Training Epoch: 57 [256/50000]	Loss: 0.0034	LR: 0.005000
+[11/23 22:45:52] R0-cifar10-vgg16-example INFO: Training Epoch: 57 [10496/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:45:52] R0-cifar10-vgg16-example INFO: Training Epoch: 57 [20736/50000]	Loss: 0.0026	LR: 0.005000
+[11/23 22:45:53] R0-cifar10-vgg16-example INFO: Training Epoch: 57 [30976/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:45:53] R0-cifar10-vgg16-example INFO: Training Epoch: 57 [41216/50000]	Loss: 0.0018	LR: 0.005000
+[11/23 22:46:03] R0-cifar10-vgg16-example INFO: [Eval] Epoch=57 Acc@1=92.4800 Acc@5=99.6500 Loss=0.3383
+[11/23 22:46:15] R0-cifar10-vgg16-example INFO: Training Epoch: 58 [256/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:46:15] R0-cifar10-vgg16-example INFO: Training Epoch: 58 [10496/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:46:16] R0-cifar10-vgg16-example INFO: Training Epoch: 58 [20736/50000]	Loss: 0.0018	LR: 0.005000
+[11/23 22:46:16] R0-cifar10-vgg16-example INFO: Training Epoch: 58 [30976/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:46:17] R0-cifar10-vgg16-example INFO: Training Epoch: 58 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:46:27] R0-cifar10-vgg16-example INFO: [Eval] Epoch=58 Acc@1=92.4300 Acc@5=99.6400 Loss=0.3394
+[11/23 22:46:38] R0-cifar10-vgg16-example INFO: Training Epoch: 59 [256/50000]	Loss: 0.0008	LR: 0.005000
+[11/23 22:46:39] R0-cifar10-vgg16-example INFO: Training Epoch: 59 [10496/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:46:39] R0-cifar10-vgg16-example INFO: Training Epoch: 59 [20736/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:46:40] R0-cifar10-vgg16-example INFO: Training Epoch: 59 [30976/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:46:40] R0-cifar10-vgg16-example INFO: Training Epoch: 59 [41216/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:46:50] R0-cifar10-vgg16-example INFO: [Eval] Epoch=59 Acc@1=92.5200 Acc@5=99.6500 Loss=0.3385
+[11/23 22:47:01] R0-cifar10-vgg16-example INFO: Training Epoch: 60 [256/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:47:02] R0-cifar10-vgg16-example INFO: Training Epoch: 60 [10496/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:47:02] R0-cifar10-vgg16-example INFO: Training Epoch: 60 [20736/50000]	Loss: 0.0017	LR: 0.005000
+[11/23 22:47:03] R0-cifar10-vgg16-example INFO: Training Epoch: 60 [30976/50000]	Loss: 0.0018	LR: 0.005000
+[11/23 22:47:04] R0-cifar10-vgg16-example INFO: Training Epoch: 60 [41216/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:47:13] R0-cifar10-vgg16-example INFO: [Eval] Epoch=60 Acc@1=92.4800 Acc@5=99.6500 Loss=0.3376
+[11/23 22:47:25] R0-cifar10-vgg16-example INFO: Training Epoch: 61 [256/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:47:25] R0-cifar10-vgg16-example INFO: Training Epoch: 61 [10496/50000]	Loss: 0.0007	LR: 0.005000
+[11/23 22:47:26] R0-cifar10-vgg16-example INFO: Training Epoch: 61 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:47:26] R0-cifar10-vgg16-example INFO: Training Epoch: 61 [30976/50000]	Loss: 0.0024	LR: 0.005000
+[11/23 22:47:27] R0-cifar10-vgg16-example INFO: Training Epoch: 61 [41216/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:47:37] R0-cifar10-vgg16-example INFO: [Eval] Epoch=61 Acc@1=92.4600 Acc@5=99.6300 Loss=0.3391
+[11/23 22:47:48] R0-cifar10-vgg16-example INFO: Training Epoch: 62 [256/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:47:48] R0-cifar10-vgg16-example INFO: Training Epoch: 62 [10496/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:47:49] R0-cifar10-vgg16-example INFO: Training Epoch: 62 [20736/50000]	Loss: 0.0009	LR: 0.005000
+[11/23 22:47:50] R0-cifar10-vgg16-example INFO: Training Epoch: 62 [30976/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:47:50] R0-cifar10-vgg16-example INFO: Training Epoch: 62 [41216/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:48:00] R0-cifar10-vgg16-example INFO: [Eval] Epoch=62 Acc@1=92.4800 Acc@5=99.6400 Loss=0.3394
+[11/23 22:48:11] R0-cifar10-vgg16-example INFO: Training Epoch: 63 [256/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:48:12] R0-cifar10-vgg16-example INFO: Training Epoch: 63 [10496/50000]	Loss: 0.0046	LR: 0.005000
+[11/23 22:48:12] R0-cifar10-vgg16-example INFO: Training Epoch: 63 [20736/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:48:13] R0-cifar10-vgg16-example INFO: Training Epoch: 63 [30976/50000]	Loss: 0.0032	LR: 0.005000
+[11/23 22:48:13] R0-cifar10-vgg16-example INFO: Training Epoch: 63 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:48:23] R0-cifar10-vgg16-example INFO: [Eval] Epoch=63 Acc@1=92.4900 Acc@5=99.6500 Loss=0.3399
+[11/23 22:48:35] R0-cifar10-vgg16-example INFO: Training Epoch: 64 [256/50000]	Loss: 0.0017	LR: 0.005000
+[11/23 22:48:35] R0-cifar10-vgg16-example INFO: Training Epoch: 64 [10496/50000]	Loss: 0.0020	LR: 0.005000
+[11/23 22:48:36] R0-cifar10-vgg16-example INFO: Training Epoch: 64 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:48:36] R0-cifar10-vgg16-example INFO: Training Epoch: 64 [30976/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:48:37] R0-cifar10-vgg16-example INFO: Training Epoch: 64 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:48:46] R0-cifar10-vgg16-example INFO: [Eval] Epoch=64 Acc@1=92.4800 Acc@5=99.6500 Loss=0.3397
+[11/23 22:48:58] R0-cifar10-vgg16-example INFO: Training Epoch: 65 [256/50000]	Loss: 0.0020	LR: 0.005000
+[11/23 22:48:58] R0-cifar10-vgg16-example INFO: Training Epoch: 65 [10496/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:48:59] R0-cifar10-vgg16-example INFO: Training Epoch: 65 [20736/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:48:59] R0-cifar10-vgg16-example INFO: Training Epoch: 65 [30976/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:49:00] R0-cifar10-vgg16-example INFO: Training Epoch: 65 [41216/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:49:10] R0-cifar10-vgg16-example INFO: [Eval] Epoch=65 Acc@1=92.4500 Acc@5=99.6400 Loss=0.3390
+[11/23 22:49:21] R0-cifar10-vgg16-example INFO: Training Epoch: 66 [256/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:49:22] R0-cifar10-vgg16-example INFO: Training Epoch: 66 [10496/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:49:22] R0-cifar10-vgg16-example INFO: Training Epoch: 66 [20736/50000]	Loss: 0.0009	LR: 0.005000
+[11/23 22:49:23] R0-cifar10-vgg16-example INFO: Training Epoch: 66 [30976/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:49:23] R0-cifar10-vgg16-example INFO: Training Epoch: 66 [41216/50000]	Loss: 0.0023	LR: 0.005000
+[11/23 22:49:33] R0-cifar10-vgg16-example INFO: [Eval] Epoch=66 Acc@1=92.4700 Acc@5=99.6500 Loss=0.3385
+[11/23 22:49:45] R0-cifar10-vgg16-example INFO: Training Epoch: 67 [256/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:49:45] R0-cifar10-vgg16-example INFO: Training Epoch: 67 [10496/50000]	Loss: 0.0007	LR: 0.005000
+[11/23 22:49:46] R0-cifar10-vgg16-example INFO: Training Epoch: 67 [20736/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:49:46] R0-cifar10-vgg16-example INFO: Training Epoch: 67 [30976/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:49:47] R0-cifar10-vgg16-example INFO: Training Epoch: 67 [41216/50000]	Loss: 0.0037	LR: 0.005000
+[11/23 22:49:56] R0-cifar10-vgg16-example INFO: [Eval] Epoch=67 Acc@1=92.4600 Acc@5=99.6600 Loss=0.3387
+[11/23 22:50:08] R0-cifar10-vgg16-example INFO: Training Epoch: 68 [256/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:50:08] R0-cifar10-vgg16-example INFO: Training Epoch: 68 [10496/50000]	Loss: 0.0019	LR: 0.005000
+[11/23 22:50:09] R0-cifar10-vgg16-example INFO: Training Epoch: 68 [20736/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:50:09] R0-cifar10-vgg16-example INFO: Training Epoch: 68 [30976/50000]	Loss: 0.0023	LR: 0.005000
+[11/23 22:50:10] R0-cifar10-vgg16-example INFO: Training Epoch: 68 [41216/50000]	Loss: 0.0010	LR: 0.005000
+[11/23 22:50:20] R0-cifar10-vgg16-example INFO: [Eval] Epoch=68 Acc@1=92.4800 Acc@5=99.6700 Loss=0.3392
+[11/23 22:50:32] R0-cifar10-vgg16-example INFO: Training Epoch: 69 [256/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:50:32] R0-cifar10-vgg16-example INFO: Training Epoch: 69 [10496/50000]	Loss: 0.0028	LR: 0.005000
+[11/23 22:50:33] R0-cifar10-vgg16-example INFO: Training Epoch: 69 [20736/50000]	Loss: 0.0015	LR: 0.005000
+[11/23 22:50:33] R0-cifar10-vgg16-example INFO: Training Epoch: 69 [30976/50000]	Loss: 0.0021	LR: 0.005000
+[11/23 22:50:34] R0-cifar10-vgg16-example INFO: Training Epoch: 69 [41216/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:50:43] R0-cifar10-vgg16-example INFO: [Eval] Epoch=69 Acc@1=92.5200 Acc@5=99.6600 Loss=0.3403
+[11/23 22:50:55] R0-cifar10-vgg16-example INFO: Training Epoch: 70 [256/50000]	Loss: 0.0012	LR: 0.005000
+[11/23 22:50:56] R0-cifar10-vgg16-example INFO: Training Epoch: 70 [10496/50000]	Loss: 0.0016	LR: 0.005000
+[11/23 22:50:56] R0-cifar10-vgg16-example INFO: Training Epoch: 70 [20736/50000]	Loss: 0.0014	LR: 0.005000
+[11/23 22:50:57] R0-cifar10-vgg16-example INFO: Training Epoch: 70 [30976/50000]	Loss: 0.0011	LR: 0.005000
+[11/23 22:50:57] R0-cifar10-vgg16-example INFO: Training Epoch: 70 [41216/50000]	Loss: 0.0013	LR: 0.005000
+[11/23 22:51:07] R0-cifar10-vgg16-example INFO: [Eval] Epoch=70 Acc@1=92.4900 Acc@5=99.6700 Loss=0.3405
+[11/23 22:51:19] R0-cifar10-vgg16-example INFO: Training Epoch: 71 [256/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:51:19] R0-cifar10-vgg16-example INFO: Training Epoch: 71 [10496/50000]	Loss: 0.0024	LR: 0.000500
+[11/23 22:51:20] R0-cifar10-vgg16-example INFO: Training Epoch: 71 [20736/50000]	Loss: 0.0032	LR: 0.000500
+[11/23 22:51:20] R0-cifar10-vgg16-example INFO: Training Epoch: 71 [30976/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:51:21] R0-cifar10-vgg16-example INFO: Training Epoch: 71 [41216/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:51:31] R0-cifar10-vgg16-example INFO: [Eval] Epoch=71 Acc@1=92.4600 Acc@5=99.6500 Loss=0.3406
+[11/23 22:51:42] R0-cifar10-vgg16-example INFO: Training Epoch: 72 [256/50000]	Loss: 0.0021	LR: 0.000500
+[11/23 22:51:43] R0-cifar10-vgg16-example INFO: Training Epoch: 72 [10496/50000]	Loss: 0.0024	LR: 0.000500
+[11/23 22:51:43] R0-cifar10-vgg16-example INFO: Training Epoch: 72 [20736/50000]	Loss: 0.0027	LR: 0.000500
+[11/23 22:51:44] R0-cifar10-vgg16-example INFO: Training Epoch: 72 [30976/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:51:44] R0-cifar10-vgg16-example INFO: Training Epoch: 72 [41216/50000]	Loss: 0.0021	LR: 0.000500
+[11/23 22:51:54] R0-cifar10-vgg16-example INFO: [Eval] Epoch=72 Acc@1=92.4800 Acc@5=99.6200 Loss=0.3394
+[11/23 22:52:05] R0-cifar10-vgg16-example INFO: Training Epoch: 73 [256/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:52:06] R0-cifar10-vgg16-example INFO: Training Epoch: 73 [10496/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:52:06] R0-cifar10-vgg16-example INFO: Training Epoch: 73 [20736/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:52:07] R0-cifar10-vgg16-example INFO: Training Epoch: 73 [30976/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:52:08] R0-cifar10-vgg16-example INFO: Training Epoch: 73 [41216/50000]	Loss: 0.0019	LR: 0.000500
+[11/23 22:52:18] R0-cifar10-vgg16-example INFO: [Eval] Epoch=73 Acc@1=92.4100 Acc@5=99.6600 Loss=0.3410
+[11/23 22:52:29] R0-cifar10-vgg16-example INFO: Training Epoch: 74 [256/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:52:30] R0-cifar10-vgg16-example INFO: Training Epoch: 74 [10496/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:52:30] R0-cifar10-vgg16-example INFO: Training Epoch: 74 [20736/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:52:31] R0-cifar10-vgg16-example INFO: Training Epoch: 74 [30976/50000]	Loss: 0.0008	LR: 0.000500
+[11/23 22:52:31] R0-cifar10-vgg16-example INFO: Training Epoch: 74 [41216/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:52:41] R0-cifar10-vgg16-example INFO: [Eval] Epoch=74 Acc@1=92.4400 Acc@5=99.6600 Loss=0.3395
+[11/23 22:52:52] R0-cifar10-vgg16-example INFO: Training Epoch: 75 [256/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:52:53] R0-cifar10-vgg16-example INFO: Training Epoch: 75 [10496/50000]	Loss: 0.0021	LR: 0.000500
+[11/23 22:52:54] R0-cifar10-vgg16-example INFO: Training Epoch: 75 [20736/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:52:54] R0-cifar10-vgg16-example INFO: Training Epoch: 75 [30976/50000]	Loss: 0.0017	LR: 0.000500
+[11/23 22:52:55] R0-cifar10-vgg16-example INFO: Training Epoch: 75 [41216/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:53:04] R0-cifar10-vgg16-example INFO: [Eval] Epoch=75 Acc@1=92.4200 Acc@5=99.6600 Loss=0.3418
+[11/23 22:53:16] R0-cifar10-vgg16-example INFO: Training Epoch: 76 [256/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:53:16] R0-cifar10-vgg16-example INFO: Training Epoch: 76 [10496/50000]	Loss: 0.0032	LR: 0.000500
+[11/23 22:53:17] R0-cifar10-vgg16-example INFO: Training Epoch: 76 [20736/50000]	Loss: 0.0036	LR: 0.000500
+[11/23 22:53:18] R0-cifar10-vgg16-example INFO: Training Epoch: 76 [30976/50000]	Loss: 0.0008	LR: 0.000500
+[11/23 22:53:18] R0-cifar10-vgg16-example INFO: Training Epoch: 76 [41216/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:53:28] R0-cifar10-vgg16-example INFO: [Eval] Epoch=76 Acc@1=92.4300 Acc@5=99.6600 Loss=0.3408
+[11/23 22:53:40] R0-cifar10-vgg16-example INFO: Training Epoch: 77 [256/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:53:40] R0-cifar10-vgg16-example INFO: Training Epoch: 77 [10496/50000]	Loss: 0.0008	LR: 0.000500
+[11/23 22:53:41] R0-cifar10-vgg16-example INFO: Training Epoch: 77 [20736/50000]	Loss: 0.0011	LR: 0.000500
+[11/23 22:53:41] R0-cifar10-vgg16-example INFO: Training Epoch: 77 [30976/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:53:42] R0-cifar10-vgg16-example INFO: Training Epoch: 77 [41216/50000]	Loss: 0.0012	LR: 0.000500
+[11/23 22:53:51] R0-cifar10-vgg16-example INFO: [Eval] Epoch=77 Acc@1=92.5200 Acc@5=99.6300 Loss=0.3404
+[11/23 22:54:03] R0-cifar10-vgg16-example INFO: Training Epoch: 78 [256/50000]	Loss: 0.0008	LR: 0.000500
+[11/23 22:54:03] R0-cifar10-vgg16-example INFO: Training Epoch: 78 [10496/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:54:04] R0-cifar10-vgg16-example INFO: Training Epoch: 78 [20736/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:54:05] R0-cifar10-vgg16-example INFO: Training Epoch: 78 [30976/50000]	Loss: 0.0036	LR: 0.000500
+[11/23 22:54:05] R0-cifar10-vgg16-example INFO: Training Epoch: 78 [41216/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:54:15] R0-cifar10-vgg16-example INFO: [Eval] Epoch=78 Acc@1=92.4900 Acc@5=99.6500 Loss=0.3394
+[11/23 22:54:26] R0-cifar10-vgg16-example INFO: Training Epoch: 79 [256/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:54:27] R0-cifar10-vgg16-example INFO: Training Epoch: 79 [10496/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:54:27] R0-cifar10-vgg16-example INFO: Training Epoch: 79 [20736/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:54:28] R0-cifar10-vgg16-example INFO: Training Epoch: 79 [30976/50000]	Loss: 0.0019	LR: 0.000500
+[11/23 22:54:29] R0-cifar10-vgg16-example INFO: Training Epoch: 79 [41216/50000]	Loss: 0.0017	LR: 0.000500
+[11/23 22:54:38] R0-cifar10-vgg16-example INFO: [Eval] Epoch=79 Acc@1=92.4400 Acc@5=99.6800 Loss=0.3392
+[11/23 22:54:50] R0-cifar10-vgg16-example INFO: Training Epoch: 80 [256/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:54:50] R0-cifar10-vgg16-example INFO: Training Epoch: 80 [10496/50000]	Loss: 0.0012	LR: 0.000500
+[11/23 22:54:51] R0-cifar10-vgg16-example INFO: Training Epoch: 80 [20736/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:54:51] R0-cifar10-vgg16-example INFO: Training Epoch: 80 [30976/50000]	Loss: 0.0011	LR: 0.000500
+[11/23 22:54:52] R0-cifar10-vgg16-example INFO: Training Epoch: 80 [41216/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:55:02] R0-cifar10-vgg16-example INFO: [Eval] Epoch=80 Acc@1=92.4600 Acc@5=99.6600 Loss=0.3394
+[11/23 22:55:13] R0-cifar10-vgg16-example INFO: Training Epoch: 81 [256/50000]	Loss: 0.0007	LR: 0.000500
+[11/23 22:55:14] R0-cifar10-vgg16-example INFO: Training Epoch: 81 [10496/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:55:14] R0-cifar10-vgg16-example INFO: Training Epoch: 81 [20736/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:55:15] R0-cifar10-vgg16-example INFO: Training Epoch: 81 [30976/50000]	Loss: 0.0011	LR: 0.000500
+[11/23 22:55:16] R0-cifar10-vgg16-example INFO: Training Epoch: 81 [41216/50000]	Loss: 0.0043	LR: 0.000500
+[11/23 22:55:25] R0-cifar10-vgg16-example INFO: [Eval] Epoch=81 Acc@1=92.4900 Acc@5=99.6600 Loss=0.3399
+[11/23 22:55:37] R0-cifar10-vgg16-example INFO: Training Epoch: 82 [256/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:55:37] R0-cifar10-vgg16-example INFO: Training Epoch: 82 [10496/50000]	Loss: 0.0018	LR: 0.000500
+[11/23 22:55:38] R0-cifar10-vgg16-example INFO: Training Epoch: 82 [20736/50000]	Loss: 0.0020	LR: 0.000500
+[11/23 22:55:38] R0-cifar10-vgg16-example INFO: Training Epoch: 82 [30976/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:55:39] R0-cifar10-vgg16-example INFO: Training Epoch: 82 [41216/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:55:49] R0-cifar10-vgg16-example INFO: [Eval] Epoch=82 Acc@1=92.5000 Acc@5=99.6700 Loss=0.3393
+[11/23 22:56:00] R0-cifar10-vgg16-example INFO: Training Epoch: 83 [256/50000]	Loss: 0.0024	LR: 0.000500
+[11/23 22:56:01] R0-cifar10-vgg16-example INFO: Training Epoch: 83 [10496/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:56:01] R0-cifar10-vgg16-example INFO: Training Epoch: 83 [20736/50000]	Loss: 0.0019	LR: 0.000500
+[11/23 22:56:02] R0-cifar10-vgg16-example INFO: Training Epoch: 83 [30976/50000]	Loss: 0.0007	LR: 0.000500
+[11/23 22:56:02] R0-cifar10-vgg16-example INFO: Training Epoch: 83 [41216/50000]	Loss: 0.0017	LR: 0.000500
+[11/23 22:56:12] R0-cifar10-vgg16-example INFO: [Eval] Epoch=83 Acc@1=92.4500 Acc@5=99.6600 Loss=0.3402
+[11/23 22:56:23] R0-cifar10-vgg16-example INFO: Training Epoch: 84 [256/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:56:24] R0-cifar10-vgg16-example INFO: Training Epoch: 84 [10496/50000]	Loss: 0.0007	LR: 0.000500
+[11/23 22:56:24] R0-cifar10-vgg16-example INFO: Training Epoch: 84 [20736/50000]	Loss: 0.0011	LR: 0.000500
+[11/23 22:56:25] R0-cifar10-vgg16-example INFO: Training Epoch: 84 [30976/50000]	Loss: 0.0018	LR: 0.000500
+[11/23 22:56:26] R0-cifar10-vgg16-example INFO: Training Epoch: 84 [41216/50000]	Loss: 0.0018	LR: 0.000500
+[11/23 22:56:35] R0-cifar10-vgg16-example INFO: [Eval] Epoch=84 Acc@1=92.4900 Acc@5=99.6400 Loss=0.3400
+[11/23 22:56:47] R0-cifar10-vgg16-example INFO: Training Epoch: 85 [256/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:56:47] R0-cifar10-vgg16-example INFO: Training Epoch: 85 [10496/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:56:48] R0-cifar10-vgg16-example INFO: Training Epoch: 85 [20736/50000]	Loss: 0.0011	LR: 0.000500
+[11/23 22:56:48] R0-cifar10-vgg16-example INFO: Training Epoch: 85 [30976/50000]	Loss: 0.0017	LR: 0.000500
+[11/23 22:56:49] R0-cifar10-vgg16-example INFO: Training Epoch: 85 [41216/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:56:59] R0-cifar10-vgg16-example INFO: [Eval] Epoch=85 Acc@1=92.4800 Acc@5=99.6600 Loss=0.3412
+[11/23 22:57:10] R0-cifar10-vgg16-example INFO: Training Epoch: 86 [256/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:57:11] R0-cifar10-vgg16-example INFO: Training Epoch: 86 [10496/50000]	Loss: 0.0012	LR: 0.000500
+[11/23 22:57:12] R0-cifar10-vgg16-example INFO: Training Epoch: 86 [20736/50000]	Loss: 0.0029	LR: 0.000500
+[11/23 22:57:12] R0-cifar10-vgg16-example INFO: Training Epoch: 86 [30976/50000]	Loss: 0.0014	LR: 0.000500
+[11/23 22:57:13] R0-cifar10-vgg16-example INFO: Training Epoch: 86 [41216/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:57:22] R0-cifar10-vgg16-example INFO: [Eval] Epoch=86 Acc@1=92.4500 Acc@5=99.6600 Loss=0.3399
+[11/23 22:57:34] R0-cifar10-vgg16-example INFO: Training Epoch: 87 [256/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:57:35] R0-cifar10-vgg16-example INFO: Training Epoch: 87 [10496/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:57:35] R0-cifar10-vgg16-example INFO: Training Epoch: 87 [20736/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:57:36] R0-cifar10-vgg16-example INFO: Training Epoch: 87 [30976/50000]	Loss: 0.0019	LR: 0.000500
+[11/23 22:57:36] R0-cifar10-vgg16-example INFO: Training Epoch: 87 [41216/50000]	Loss: 0.0028	LR: 0.000500
+[11/23 22:57:46] R0-cifar10-vgg16-example INFO: [Eval] Epoch=87 Acc@1=92.5200 Acc@5=99.6500 Loss=0.3408
+[11/23 22:57:58] R0-cifar10-vgg16-example INFO: Training Epoch: 88 [256/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:57:59] R0-cifar10-vgg16-example INFO: Training Epoch: 88 [10496/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:57:59] R0-cifar10-vgg16-example INFO: Training Epoch: 88 [20736/50000]	Loss: 0.0009	LR: 0.000500
+[11/23 22:58:00] R0-cifar10-vgg16-example INFO: Training Epoch: 88 [30976/50000]	Loss: 0.0016	LR: 0.000500
+[11/23 22:58:00] R0-cifar10-vgg16-example INFO: Training Epoch: 88 [41216/50000]	Loss: 0.0020	LR: 0.000500
+[11/23 22:58:10] R0-cifar10-vgg16-example INFO: [Eval] Epoch=88 Acc@1=92.4900 Acc@5=99.6800 Loss=0.3392
+[11/23 22:58:22] R0-cifar10-vgg16-example INFO: Training Epoch: 89 [256/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:58:22] R0-cifar10-vgg16-example INFO: Training Epoch: 89 [10496/50000]	Loss: 0.0012	LR: 0.000500
+[11/23 22:58:23] R0-cifar10-vgg16-example INFO: Training Epoch: 89 [20736/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:58:23] R0-cifar10-vgg16-example INFO: Training Epoch: 89 [30976/50000]	Loss: 0.0008	LR: 0.000500
+[11/23 22:58:24] R0-cifar10-vgg16-example INFO: Training Epoch: 89 [41216/50000]	Loss: 0.0013	LR: 0.000500
+[11/23 22:58:34] R0-cifar10-vgg16-example INFO: [Eval] Epoch=89 Acc@1=92.4900 Acc@5=99.6700 Loss=0.3399
+[11/23 22:58:45] R0-cifar10-vgg16-example INFO: Training Epoch: 90 [256/50000]	Loss: 0.0019	LR: 0.000500
+[11/23 22:58:46] R0-cifar10-vgg16-example INFO: Training Epoch: 90 [10496/50000]	Loss: 0.0012	LR: 0.000500
+[11/23 22:58:46] R0-cifar10-vgg16-example INFO: Training Epoch: 90 [20736/50000]	Loss: 0.0015	LR: 0.000500
+[11/23 22:58:47] R0-cifar10-vgg16-example INFO: Training Epoch: 90 [30976/50000]	Loss: 0.0026	LR: 0.000500
+[11/23 22:58:47] R0-cifar10-vgg16-example INFO: Training Epoch: 90 [41216/50000]	Loss: 0.0010	LR: 0.000500
+[11/23 22:58:57] R0-cifar10-vgg16-example INFO: [Eval] Epoch=90 Acc@1=92.4700 Acc@5=99.6600 Loss=0.3402
+[11/23 22:59:09] R0-cifar10-vgg16-example INFO: Training Epoch: 91 [256/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 22:59:09] R0-cifar10-vgg16-example INFO: Training Epoch: 91 [10496/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 22:59:10] R0-cifar10-vgg16-example INFO: Training Epoch: 91 [20736/50000]	Loss: 0.0018	LR: 0.000050
+[11/23 22:59:10] R0-cifar10-vgg16-example INFO: Training Epoch: 91 [30976/50000]	Loss: 0.0010	LR: 0.000050
+[11/23 22:59:11] R0-cifar10-vgg16-example INFO: Training Epoch: 91 [41216/50000]	Loss: 0.0008	LR: 0.000050
+[11/23 22:59:20] R0-cifar10-vgg16-example INFO: [Eval] Epoch=91 Acc@1=92.4700 Acc@5=99.6600 Loss=0.3411
+[11/23 22:59:32] R0-cifar10-vgg16-example INFO: Training Epoch: 92 [256/50000]	Loss: 0.0015	LR: 0.000050
+[11/23 22:59:33] R0-cifar10-vgg16-example INFO: Training Epoch: 92 [10496/50000]	Loss: 0.0019	LR: 0.000050
+[11/23 22:59:33] R0-cifar10-vgg16-example INFO: Training Epoch: 92 [20736/50000]	Loss: 0.0007	LR: 0.000050
+[11/23 22:59:34] R0-cifar10-vgg16-example INFO: Training Epoch: 92 [30976/50000]	Loss: 0.0025	LR: 0.000050
+[11/23 22:59:34] R0-cifar10-vgg16-example INFO: Training Epoch: 92 [41216/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 22:59:44] R0-cifar10-vgg16-example INFO: [Eval] Epoch=92 Acc@1=92.5400 Acc@5=99.6600 Loss=0.3400
+[11/23 22:59:55] R0-cifar10-vgg16-example INFO: Training Epoch: 93 [256/50000]	Loss: 0.0012	LR: 0.000050
+[11/23 22:59:56] R0-cifar10-vgg16-example INFO: Training Epoch: 93 [10496/50000]	Loss: 0.0006	LR: 0.000050
+[11/23 22:59:57] R0-cifar10-vgg16-example INFO: Training Epoch: 93 [20736/50000]	Loss: 0.0015	LR: 0.000050
+[11/23 22:59:57] R0-cifar10-vgg16-example INFO: Training Epoch: 93 [30976/50000]	Loss: 0.0018	LR: 0.000050
+[11/23 22:59:58] R0-cifar10-vgg16-example INFO: Training Epoch: 93 [41216/50000]	Loss: 0.0019	LR: 0.000050
+[11/23 23:00:08] R0-cifar10-vgg16-example INFO: [Eval] Epoch=93 Acc@1=92.4500 Acc@5=99.6700 Loss=0.3411
+[11/23 23:00:19] R0-cifar10-vgg16-example INFO: Training Epoch: 94 [256/50000]	Loss: 0.0012	LR: 0.000050
+[11/23 23:00:20] R0-cifar10-vgg16-example INFO: Training Epoch: 94 [10496/50000]	Loss: 0.0024	LR: 0.000050
+[11/23 23:00:20] R0-cifar10-vgg16-example INFO: Training Epoch: 94 [20736/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 23:00:21] R0-cifar10-vgg16-example INFO: Training Epoch: 94 [30976/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 23:00:21] R0-cifar10-vgg16-example INFO: Training Epoch: 94 [41216/50000]	Loss: 0.0009	LR: 0.000050
+[11/23 23:00:31] R0-cifar10-vgg16-example INFO: [Eval] Epoch=94 Acc@1=92.4900 Acc@5=99.6400 Loss=0.3410
+[11/23 23:00:43] R0-cifar10-vgg16-example INFO: Training Epoch: 95 [256/50000]	Loss: 0.0012	LR: 0.000050
+[11/23 23:00:43] R0-cifar10-vgg16-example INFO: Training Epoch: 95 [10496/50000]	Loss: 0.0012	LR: 0.000050
+[11/23 23:00:44] R0-cifar10-vgg16-example INFO: Training Epoch: 95 [20736/50000]	Loss: 0.0020	LR: 0.000050
+[11/23 23:00:44] R0-cifar10-vgg16-example INFO: Training Epoch: 95 [30976/50000]	Loss: 0.0022	LR: 0.000050
+[11/23 23:00:45] R0-cifar10-vgg16-example INFO: Training Epoch: 95 [41216/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 23:00:55] R0-cifar10-vgg16-example INFO: [Eval] Epoch=95 Acc@1=92.4500 Acc@5=99.6500 Loss=0.3404
+[11/23 23:01:07] R0-cifar10-vgg16-example INFO: Training Epoch: 96 [256/50000]	Loss: 0.0025	LR: 0.000050
+[11/23 23:01:07] R0-cifar10-vgg16-example INFO: Training Epoch: 96 [10496/50000]	Loss: 0.0010	LR: 0.000050
+[11/23 23:01:08] R0-cifar10-vgg16-example INFO: Training Epoch: 96 [20736/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 23:01:08] R0-cifar10-vgg16-example INFO: Training Epoch: 96 [30976/50000]	Loss: 0.0010	LR: 0.000050
+[11/23 23:01:09] R0-cifar10-vgg16-example INFO: Training Epoch: 96 [41216/50000]	Loss: 0.0020	LR: 0.000050
+[11/23 23:01:18] R0-cifar10-vgg16-example INFO: [Eval] Epoch=96 Acc@1=92.4600 Acc@5=99.6700 Loss=0.3420
+[11/23 23:01:30] R0-cifar10-vgg16-example INFO: Training Epoch: 97 [256/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 23:01:30] R0-cifar10-vgg16-example INFO: Training Epoch: 97 [10496/50000]	Loss: 0.0013	LR: 0.000050
+[11/23 23:01:31] R0-cifar10-vgg16-example INFO: Training Epoch: 97 [20736/50000]	Loss: 0.0011	LR: 0.000050
+[11/23 23:01:31] R0-cifar10-vgg16-example INFO: Training Epoch: 97 [30976/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 23:01:32] R0-cifar10-vgg16-example INFO: Training Epoch: 97 [41216/50000]	Loss: 0.0020	LR: 0.000050
+[11/23 23:01:42] R0-cifar10-vgg16-example INFO: [Eval] Epoch=97 Acc@1=92.5200 Acc@5=99.6300 Loss=0.3410
+[11/23 23:01:53] R0-cifar10-vgg16-example INFO: Training Epoch: 98 [256/50000]	Loss: 0.0029	LR: 0.000050
+[11/23 23:01:54] R0-cifar10-vgg16-example INFO: Training Epoch: 98 [10496/50000]	Loss: 0.0009	LR: 0.000050
+[11/23 23:01:54] R0-cifar10-vgg16-example INFO: Training Epoch: 98 [20736/50000]	Loss: 0.0019	LR: 0.000050
+[11/23 23:01:55] R0-cifar10-vgg16-example INFO: Training Epoch: 98 [30976/50000]	Loss: 0.0011	LR: 0.000050
+[11/23 23:01:55] R0-cifar10-vgg16-example INFO: Training Epoch: 98 [41216/50000]	Loss: 0.0024	LR: 0.000050
+[11/23 23:02:05] R0-cifar10-vgg16-example INFO: [Eval] Epoch=98 Acc@1=92.4900 Acc@5=99.6700 Loss=0.3396
+[11/23 23:02:17] R0-cifar10-vgg16-example INFO: Training Epoch: 99 [256/50000]	Loss: 0.0033	LR: 0.000050
+[11/23 23:02:17] R0-cifar10-vgg16-example INFO: Training Epoch: 99 [10496/50000]	Loss: 0.0010	LR: 0.000050
+[11/23 23:02:18] R0-cifar10-vgg16-example INFO: Training Epoch: 99 [20736/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 23:02:18] R0-cifar10-vgg16-example INFO: Training Epoch: 99 [30976/50000]	Loss: 0.0009	LR: 0.000050
+[11/23 23:02:19] R0-cifar10-vgg16-example INFO: Training Epoch: 99 [41216/50000]	Loss: 0.0011	LR: 0.000050
+[11/23 23:02:29] R0-cifar10-vgg16-example INFO: [Eval] Epoch=99 Acc@1=92.5300 Acc@5=99.6500 Loss=0.3403
+[11/23 23:02:40] R0-cifar10-vgg16-example INFO: Training Epoch: 100 [256/50000]	Loss: 0.0027	LR: 0.000050
+[11/23 23:02:41] R0-cifar10-vgg16-example INFO: Training Epoch: 100 [10496/50000]	Loss: 0.0009	LR: 0.000050
+[11/23 23:02:41] R0-cifar10-vgg16-example INFO: Training Epoch: 100 [20736/50000]	Loss: 0.0014	LR: 0.000050
+[11/23 23:02:42] R0-cifar10-vgg16-example INFO: Training Epoch: 100 [30976/50000]	Loss: 0.0010	LR: 0.000050
+[11/23 23:02:42] R0-cifar10-vgg16-example INFO: Training Epoch: 100 [41216/50000]	Loss: 0.0012	LR: 0.000050
+[11/23 23:02:52] R0-cifar10-vgg16-example INFO: [Eval] Epoch=100 Acc@1=92.4900 Acc@5=99.6700 Loss=0.3416

@@ -1,0 +1,5 @@
+data/
+checkpoints/*/*.pth
+__pycache__
+slurm_out_files
+scripts/sbash*

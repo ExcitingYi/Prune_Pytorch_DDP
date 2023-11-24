@@ -1,0 +1,27 @@
+prune_ratio:
+      module.block0.3.weight:
+            m4n2
+      module.block1.0.weight:
+            m4n2
+      module.block1.3.weight:
+            m4n2
+      module.block2.0.weight:
+            m4n2
+      module.block2.3.weight:
+            m4n2
+      module.block2.6.weight:
+            m4n1
+      module.block3.0.weight:
+            m4n1
+      module.block3.3.weight:
+            m4n1
+      module.block3.6.weight:
+            m8n1
+      module.block4.0.weight:
+            m8n1
+      module.block4.3.weight:
+            m8n1
+      module.block4.6.weight:
+            m8n1
+      module.classifier.weight:
+            m4n1

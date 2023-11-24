@@ -1,0 +1,25 @@
+prune_ratio:
+      module.block0.3.weight:
+            0.2
+      module.block1.0.weight:
+            0.3
+      module.block1.3.weight:
+            0.4
+      module.block2.0.weight:
+            0.4
+      module.block2.3.weight:
+            0.4
+      module.block2.6.weight:
+            0.5
+      module.block3.0.weight:
+            0.5
+      module.block3.3.weight:
+            0.5
+      module.block3.6.weight:
+            0.5
+      module.block4.0.weight:
+            0.6
+      module.block4.3.weight:
+            0.7
+      module.block4.6.weight:
+            0.7
