@@ -7,9 +7,9 @@ A naive implementation of DNN model prune. The project re-implemented some popul
 4. [M:N prune](https://proceedings.neurips.cc/paper/2021/hash/6e8404c3b93a9527c8db241a1846599a-Abstract.html)
 5. [irregular](https://arxiv.org/pdf/1510.00149.pdf)
 
-## Quik Start
+## 1. Quik Start
 
-### Training From Scratch
+### 1.1 Training From Scratch
 
 Train VGG-16 on CIFAR-10:
 ```
@@ -21,7 +21,7 @@ python train_scratch.py --data_root data --model vgg16 --dataset cifar10 --batch
 For single GPU Training, the batch_size and learning rate should be adjusted.  
 In this repo, various of models are provided, including wide-resnet, resnet for CIFAR, resnet for ImageNet, VGG, Inception-V3 and so on. 
 
-### Prune and Fine-tune
+### 1.2 Prune and Fine-tune
 Irregular prune on VGG-16, CIFAR-10
 ```
 python prune.py --data_root data --model vgg16 --dataset cifar10 \
@@ -36,7 +36,7 @@ The `--weight_file` is the pretrained VGG-16 model where you saved. But for CIFA
 
 More details could be found in the file [./scripts/](./scripts/)
 
-## Results
+## 2. Results
 Some results of VGG16 CIFAR-10 could be found in [./checkpoints](./checkpoints/). We list the performance of ResNet18 and VGG16 on the ImageNet dataset. 
 
 <table>
@@ -93,7 +93,7 @@ Some results of VGG16 CIFAR-10 could be found in [./checkpoints](./checkpoints/)
 
 The pruning ratio with star* is the conv_layer pruning ratio, excluding FC layer. As the pruning method could only be applied in conv layer. 
 
-## Pruning granularity
+## 3. Pruning granularity
 
 Generally, for the same training process, fine-grained pruning could get higher prune ratios and higher performance than course-grained pruning. 
 Here are the different prune granularity listed in [Pruning filter in fitler](https://proceedings.neurips.cc/paper/2020/hash/ccb1d45fb76f7c5a0bf619f979c6cf36-Abstract.html).
@@ -111,7 +111,7 @@ Note2. The pruned model in this repo cannot be accelerated by GPU directly. If y
 
 
 
-## References
+## 4. References
 
 Han S, Mao H, Dally W J. Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding[J]. arXiv preprint arXiv:1510.00149, 2015.
 
